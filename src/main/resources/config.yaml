@@ -1,0 +1,2 @@
+driverPath: ./src/test/resources/chromedriver.exe
+baseUrl: https://magento.softwaretestingboard.com/
