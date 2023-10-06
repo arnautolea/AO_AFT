@@ -1,4 +1,4 @@
-Feature: User Registration Positive Flow
+Feature: User Registration Flow and Login/Logout
 
   @Login @Smoke
   Scenario Outline: Login and logout with registered user
@@ -16,7 +16,7 @@ Feature: User Registration Positive Flow
     Examples:
       | Email | Password |
       |corey.toy@gmail.com|csbt11or8a7d!1Qw|
-    #  |rochell.crooks@yahoo.com|ygyg66o8rtz!1Qw|
+      |rochell.crooks@yahoo.com|ygyg66o8rtz!1Qw|
     #  |joaquin.gutkowski@hotmail.com|wro3lh8vyi2lfs6!1Qw|
 
   @Registration @Smoke
@@ -24,9 +24,9 @@ Feature: User Registration Positive Flow
 
     Given User is on the Home page
     When User click on Create An Account link
-    And User fills firstName
-    And User fills lastName
-    And User fills email
+    And User fills First Name
+    And User fills Last Name
+    And User fills Email
     And User fills password and confirmation password
     And User clicks on Create an Account Button
     Then User redirected on Account Page, 'My Account' inscription is displayed on the screen

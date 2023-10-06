@@ -7,8 +7,12 @@ public class Logs {
     private static final Logger logger = LogManager.getLogger(Logs.class);
 
     public static void main(String[] args) {
-        logger.info("This is an informational message.");
-        logger.error("This is an error message.");
+
+        logger.debug("My Debug Log");
+        logger.info("My Info Log");
+        logger.warn("My Warn Log");
+        logger.error("My error log");
+        logger.fatal("My fatal log");
     }
 }
 

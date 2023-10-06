@@ -8,43 +8,42 @@ public class GenerateFakeTestData {
     private String firstName;
     private String lastName;
     private String password;
+    Faker fakerObject = new Faker();
 
-    Faker fkobj = new Faker();
-
-    public String getEmail(String email) {
+    public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
-        fkobj.internet().emailAddress();
     }
-
-    public String getFirstName(String firstName) {
+    public void generateRandomEmail(){
+        setEmail(fakerObject.internet().emailAddress());
+    }
+    public String getFirstName() {
         return firstName;
     }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
-        fkobj.address().firstName();
     }
-
-    public String getLastName(String lastName) {
+    public void generateRandomFirstName(){
+        setFirstName(fakerObject.address().firstName());
+    }
+    public String getLastName() {
         return lastName;
     }
-
     public void setLastName(String lastName) {
         this.lastName = lastName;
-        fkobj.address().lastName();
     }
-
-    public String getPassword(String password) {
-        return password;
+    public void generateRandomLastName(){
+        setLastName(fakerObject.address().lastName());
     }
-
+    public String getPassword() {
+       return password;
+    }
     public void setPassword(String password) {
         this.password = password;
-        fkobj.internet().password();
     }
-
+    public void generateRandomPassword(){
+        setPassword(fakerObject.internet().password(10,16,true,true));
+    }
 }

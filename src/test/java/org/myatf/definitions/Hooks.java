@@ -7,7 +7,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
 public class Hooks {
-    private ScenarioContext scenarioContext;
+    private final ScenarioContext scenarioContext;
 
     public Hooks() {
         this.scenarioContext = ScenarioContext.getInstance();
@@ -23,12 +23,12 @@ public class Hooks {
     public void afterScenario(Scenario scenario) {
         boolean scenarioIsSuccessful = !scenario.isFailed();
         scenarioContext.setScenarioResults(scenario.getName(), scenarioIsSuccessful);
-     System.out.println(scenario.getName() + " Test finished\n" );
+     System.out.println(scenario.getName() + " Test finished with " + scenarioIsSuccessful +"\n" );
     }
 
     @AfterAll
     public static void tearDown() {
-        Helper.tearDown();
+       Helper.tearDown();
 
     }
 

@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 public class WebDriverFactory {
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();;
     static String driverPath = (String) config.get("driverPath");
@@ -53,7 +54,7 @@ public class WebDriverFactory {
         if (System.getProperty("webdriver.chrome.driver") != null) {
             System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
             Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
-        } else {
+         } else {
             System.err.println("WARNING: Cannot locate Chrome WebDriver!");
         }
     }

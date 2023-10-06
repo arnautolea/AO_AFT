@@ -9,10 +9,12 @@ import org.junit.platform.suite.api.*;
 @SelectClasspathResource("features")
 @IncludeTags({"Smoke"})
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME, value = "org.myatf.definitions")
-@CucumberOptions(plugin = {"pretty",
-       "html:target/cucumber-html-report",
-       "json:target/cucumber.json"
-    })
-
+@CucumberOptions(
+        plugin = {"pretty",
+                "json:target/cucumber-reports/Cucumber.json",
+                "html:target/cucumber-reports/Cucumber.html",
+        }
+)
 public class TestRunner {
+
 }

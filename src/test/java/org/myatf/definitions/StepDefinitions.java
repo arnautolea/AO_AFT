@@ -1,43 +1,28 @@
 package org.myatf.definitions;
 
-import com.github.javafaker.Faker;
 import org.myatf.enums.Browser;
 import org.myatf.config.WebDriverFactory;
 import org.myatf.utils.GenerateFakeTestData;
 import org.myatf.utils.Helper;
 import org.myatf.pages.RegistrationPage;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import static org.junit.Assert.*;
 
 public class StepDefinitions {
 
-    final static WebDriver driver = WebDriverFactory.getDriver(Browser.CHROME);;
+    final static WebDriver driver = WebDriverFactory.getDriver(Browser.CHROME);
     final RegistrationPage registrationPage = new RegistrationPage();
     private static final Logger logger = LogManager.getLogger(StepDefinitions.class);
-    Faker fkobj = new Faker();
-    GenerateFakeTestData tdobj= new GenerateFakeTestData();
+    GenerateFakeTestData fakerData = new GenerateFakeTestData();
 
-    private static final String CSV_FILE_PATH = "CreatedUser.csv";
-        @Before
-    public void setUp() {
-    }
-
-    @After
-    public void tearDown() {
-
-    }
-     @Given("User is on the Home page")
+    @Given("User is on the Home page")
     public void userIsOnHomePage() {
         try {
             Helper.openPage();
@@ -54,41 +39,41 @@ public class StepDefinitions {
         logger.info("Click on Create An Account");
     }
 
-    @And("User fills firstName")
+    @And("User fills First Name")
     public void userFillsFirstNameFirstName() {
-        String firstName =fkobj.address().firstName();
-        driver.findElement(registrationPage.getInputFirstName()).sendKeys(tdobj.getFirstName(firstName));
+        fakerData.generateRandomFirstName();
+        String firstName = fakerData.getFirstName();
+        driver.findElement(registrationPage.getInputFirstName()).sendKeys(firstName);
         logger.info("First Name completed: " + firstName);
     }
 
-    @And("User fills lastName")
+    @And("User fills Last Name")
     public void userFillsLastName() {
-        String lastName =fkobj.address().lastName();
-        driver.findElement(registrationPage.getInputLastName()).sendKeys(tdobj.getLastName(lastName));
+        fakerData.generateRandomLastName();
+        String lastName = fakerData.getLastName();
+        driver.findElement(registrationPage.getInputLastName()).sendKeys(lastName);
         logger.info("Last Name completed: " + lastName);
     }
 
-    @And("User fills email")
+    @And("User fills Email")
     public void userFillsEmail() {
-        String email =fkobj.internet().emailAddress();
-        driver.findElement(registrationPage.getInputEmail()).sendKeys (tdobj.getEmail(email));
+        fakerData.generateRandomEmail();
+        String email = fakerData.getEmail();
+        driver.findElement(registrationPage.getInputEmail()).sendKeys(email);
         logger.info("Email address: "+ email);
     }
 
     @And("User fills password and confirmation password")
     public void userFillsPasswordAndConfirmationPassword() {
-        String password = fkobj.internet().password();
-        driver.findElement(registrationPage.getInputPassword()).sendKeys(tdobj.getPassword(password) + "!1Qw");
-        driver.findElement(registrationPage.getInputConfirmPassword()).sendKeys(tdobj.getPassword(password) + "!1Qw");
-        logger.info("Password and confirmation password: " + password + "!1Qw");
+        fakerData.generateRandomPassword();
+        String password = fakerData.getPassword();
+        driver.findElement(registrationPage.getInputPassword()).sendKeys(password);
+        driver.findElement(registrationPage.getInputConfirmPassword()).sendKeys(password);
+        logger.info("Password and confirmation password: " + password);
     }
 
     @And("User clicks on Create an Account Button")
     public void userClicksOnCreateAnAccount() {
-        WebElement element = driver.findElement(registrationPage.getBtnCreateAnAccount());
-        Actions actions = new Actions(driver);
-        actions.moveToElement(element);
-        actions.perform();
         driver.findElement(registrationPage.getBtnCreateAnAccount()).click();
         logger.info("Click on Create an Account Button");
     }
@@ -96,7 +81,7 @@ public class StepDefinitions {
     public void inscriptionMyAccount() {
         String myAccount = driver.findElement(registrationPage.getInscriptionMyAccount()).getText();
         assertEquals("My Account", myAccount);
-        logger.info("\"My Account\" Page displayed");
+        logger.info("\"My Account\" Page displayed\n");
     }
 
     @And("User click on Sign In")
