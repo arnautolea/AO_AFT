@@ -11,10 +11,9 @@ import org.junit.platform.suite.api.*;
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME, value = "org.myatf.definitions")
 @CucumberOptions(
         plugin = {"pretty",
-                "json:target/cucumber-reports/Cucumber.json",
-                "html:target/cucumber-reports/Cucumber.html",
+                "json:target/cucumber-reports/Report1.json",
+                "html:target/cucumber-reports/Report1.html",
         }
 )
 public class TestRunner {
-
 }

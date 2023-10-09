@@ -17,7 +17,7 @@ Feature: User Registration Flow and Login/Logout
       | Email | Password |
       |corey.toy@gmail.com|csbt11or8a7d!1Qw|
       |rochell.crooks@yahoo.com|ygyg66o8rtz!1Qw|
-    #  |joaquin.gutkowski@hotmail.com|wro3lh8vyi2lfs6!1Qw|
+      |joaquin.gutkowski@hotmail.com|wro3lh8vyi2lfs6!1Qw|
 
   @Registration @Smoke
   Scenario: Registration of a new User

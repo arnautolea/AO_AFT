@@ -12,12 +12,10 @@ public class Helper {
 
     private static WebDriver driver;
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
-    static String baseUrl = (String) config.get("baseUrl");
-    private Helper() {
-        driver = WebDriverFactory.getDriver(Browser.CHROME);
+    public static String baseUrl = (String) config.get("baseUrl");
+    private Helper() {driver = WebDriverFactory.getDriver(Browser.CHROME);
     }
-    public static void openPage() {
-        driver.get(baseUrl);
+    public static void openPage() {driver.get(baseUrl);
     }
     public static void setUpDriver() {
 
@@ -32,7 +30,7 @@ public class Helper {
         }
     }
 
-    public static void tearDown() {
+        public static void tearDown() {
 
         if(driver != null) {
             driver.quit();

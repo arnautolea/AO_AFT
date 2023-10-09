@@ -144,3 +144,385 @@
 2023-10-06 17:02:05.738 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
 2023-10-06 17:02:05.812 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
 2023-10-06 17:02:06.067 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:10:26.137 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:10:26.887 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:10:26.951 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:10:27.041 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 17:10:27.097 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 17:10:28.404 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:10:28.414 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:10:28.569 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:10:29.660 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:10:29.717 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:10:30.437 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:10:31.228 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:10:31.284 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:10:31.352 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 17:10:31.401 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 17:10:32.780 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:10:32.807 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:10:32.892 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:10:35.327 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:10:35.343 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:10:35.951 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:10:36.708 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 17:10:36.842 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Willard
+2023-10-06 17:10:36.892 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Schmidt
+2023-10-06 17:10:36.990 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: candie.wolf@yahoo.com
+2023-10-06 17:10:37.111 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: L!AXrQ$@6Nj1l7
+2023-10-06 17:10:39.364 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-06 17:10:39.413 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-06 17:11:39.207 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:11:40.343 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:11:40.409 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:11:40.475 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 17:11:40.523 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 17:11:41.800 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:11:41.844 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:11:41.929 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:11:43.000 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:11:43.051 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:11:43.771 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:11:44.576 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:11:44.622 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:11:44.696 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 17:11:44.736 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 17:11:45.879 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:11:45.908 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:11:45.988 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:11:47.428 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:11:47.455 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:11:47.986 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:11:48.786 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 17:11:48.933 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Nola
+2023-10-06 17:11:48.982 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Hintz
+2023-10-06 17:11:49.087 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: enrique.ziemann@hotmail.com
+2023-10-06 17:11:49.196 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: mTLHTWb6$d
+2023-10-06 17:11:51.425 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-06 17:11:51.470 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-06 17:12:53.171 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:12:54.328 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:12:54.398 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:12:54.463 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 17:12:54.545 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 17:12:55.873 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:12:55.910 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:12:55.993 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:12:57.073 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:12:57.130 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:12:57.838 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:12:58.621 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:12:58.675 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:12:58.742 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 17:12:58.785 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 17:13:00.122 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:13:00.171 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:13:00.240 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:13:01.684 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:13:01.711 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:13:02.241 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:13:03.031 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 17:13:03.172 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Sylvester
+2023-10-06 17:13:03.219 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Mante
+2023-10-06 17:13:03.315 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: dannie.roberts@gmail.com
+2023-10-06 17:13:03.419 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 1$fHs#RF%!4
+2023-10-06 17:13:05.585 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-06 17:13:05.639 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-06 17:13:53.912 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:13:54.673 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:13:54.732 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:13:54.806 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 17:13:54.865 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 17:13:56.230 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:13:56.260 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:13:56.457 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:13:57.568 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:13:57.621 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:13:58.317 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:13:59.126 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:13:59.174 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:13:59.230 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 17:13:59.280 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 17:14:00.392 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:14:00.421 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:14:00.485 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:14:02.011 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:14:02.042 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:14:02.634 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:14:03.410 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 17:14:03.548 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Jasmin
+2023-10-06 17:14:03.588 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Koepp
+2023-10-06 17:14:03.710 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: booker.kris@yahoo.com
+2023-10-06 17:14:03.821 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: L%Z%#1w*AeC
+2023-10-06 17:14:06.149 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-06 17:14:06.188 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-06 17:16:11.337 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:16:12.527 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:16:12.591 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:16:12.655 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 17:16:12.704 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 17:16:14.061 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:16:14.102 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:16:14.187 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:16:15.235 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:16:15.285 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:16:15.988 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:16:16.761 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 17:16:16.811 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 17:16:16.879 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 17:16:16.924 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 17:16:18.068 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 17:16:18.098 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 17:16:18.186 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 17:16:19.643 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 17:16:19.675 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 17:16:20.230 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 17:16:21.625 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 18:22:21.440 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:22:22.594 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 18:22:22.672 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 18:22:22.739 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 18:22:22.791 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 18:22:24.204 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 18:22:24.243 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 18:22:24.391 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 18:22:25.494 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 18:22:25.562 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 18:22:26.309 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:22:27.095 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 18:22:27.150 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 18:22:27.215 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 18:22:27.258 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 18:22:28.416 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 18:22:28.447 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 18:22:28.523 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 18:22:29.994 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 18:22:30.029 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 18:22:30.556 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:22:31.339 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 18:22:31.460 [main] ERROR org.myatf.definitions.StepDefinitions - WebDriver couldn’t locate the element First Name
+2023-10-06 18:22:31.515 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Stoltenberg
+2023-10-06 18:22:31.631 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: jeff.cruickshank@gmail.com
+2023-10-06 18:22:31.757 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 477H1#ELKk3G$23
+2023-10-06 18:22:31.809 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-06 18:23:36.812 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:23:38.183 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 18:23:38.295 [main] ERROR org.myatf.definitions.StepDefinitions - WebDriver couldn’t locate the element First Name
+2023-10-06 18:23:38.374 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Jenkins
+2023-10-06 18:23:38.505 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: williams.douglas@hotmail.com
+2023-10-06 18:23:38.626 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 3Ap67wErx&&PY9w
+2023-10-06 18:23:38.705 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-06 18:24:36.486 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:24:37.278 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 18:24:37.436 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Adriana
+2023-10-06 18:24:37.486 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Kuphal
+2023-10-06 18:24:37.604 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: leonila.effertz@yahoo.com
+2023-10-06 18:24:37.792 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: rW$Hs%@6ARPhi
+2023-10-06 18:24:40.882 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-06 18:24:40.910 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-06 18:28:43.687 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:28:45.010 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-06 18:29:29.889 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:29:31.043 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 18:29:31.113 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 18:29:31.185 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 18:29:31.237 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 18:29:32.590 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 18:29:32.630 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 18:29:32.721 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 18:29:33.809 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 18:29:33.856 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 18:29:34.567 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:29:35.334 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 18:29:35.386 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 18:29:35.441 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 18:29:35.490 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 18:29:36.681 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 18:29:36.728 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 18:29:36.817 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 18:29:38.182 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 18:29:38.214 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-06 18:30:24.593 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:30:25.972 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 18:30:26.039 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 18:30:26.121 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-06 18:30:26.169 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-06 18:30:27.622 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 18:30:27.669 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 18:30:27.814 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 18:30:28.933 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-06 18:30:29.578 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-06 18:30:30.388 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-06 18:30:30.440 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-06 18:30:30.508 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-06 18:30:30.551 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-06 18:30:31.723 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-06 18:30:31.745 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-06 18:30:31.840 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-06 18:30:33.280 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 09:08:31.300 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 09:08:32.444 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-09 09:08:32.520 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-09 09:08:32.597 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-09 09:08:32.686 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-09 09:08:33.962 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-09 09:08:33.998 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-09 09:08:34.096 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-09 09:08:35.183 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 09:08:35.241 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-09 09:08:36.018 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 09:08:36.816 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-09 09:08:36.872 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-09 09:08:36.951 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-09 09:08:37.003 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-09 09:08:38.150 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-09 09:08:38.183 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-09 09:08:38.275 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-09 09:08:39.675 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 09:08:39.703 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-09 10:36:32.492 [main] INFO  org.myatf.definitions.StepDefinitions - Get main url
+2023-10-09 10:36:34.614 [main] INFO  org.myatf.definitions.StepDefinitions - Send request to search bar
+2023-10-09 10:36:34.625 [main] INFO  org.myatf.definitions.StepDefinitions - Status code is 200
+2023-10-09 10:36:34.633 [main] INFO  org.myatf.definitions.StepDefinitions - Response body contain " Tops"
+2023-10-09 10:38:49.537 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url
+2023-10-09 10:38:52.125 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:38:52.140 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:38:52.149 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:39:12.750 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url
+2023-10-09 10:39:15.156 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:39:15.167 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:39:15.172 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:40:00.483 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url
+2023-10-09 10:40:02.682 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:40:02.691 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:40:02.698 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:40:16.999 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url
+2023-10-09 10:40:18.922 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:40:18.930 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:40:18.936 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:46:58.773 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main page
+2023-10-09 10:47:00.616 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:47:00.630 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:47:00.637 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:47:29.117 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main page
+2023-10-09 10:47:31.062 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:47:31.076 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:47:31.082 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:52:39.619 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main page
+2023-10-09 10:52:41.865 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:52:41.874 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:52:41.882 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:59:14.756 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main page
+2023-10-09 10:59:17.393 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:59:17.406 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:59:17.413 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 10:59:43.108 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main page
+2023-10-09 10:59:45.591 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 10:59:45.601 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 10:59:45.610 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 11:00:02.840 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main page
+2023-10-09 11:00:05.775 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 11:00:05.795 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 11:00:05.801 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 11:00:30.654 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 11:00:31.486 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-09 11:00:31.559 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-09 11:00:31.664 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-09 11:00:31.757 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-09 11:00:33.172 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-09 11:00:33.239 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-09 11:00:33.341 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-09 11:00:34.468 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 11:00:34.532 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-09 11:08:42.231 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url
+2023-10-09 11:08:44.847 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 11:08:44.857 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 11:08:44.864 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 11:08:45.927 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 11:08:47.125 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-09 11:08:47.204 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-09 11:08:47.318 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-09 11:08:47.409 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-09 11:08:48.679 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-09 11:08:48.736 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-09 11:08:48.832 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-09 11:08:50.200 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 11:08:50.268 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-09 11:08:50.967 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 11:08:51.974 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-09 11:08:52.132 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Chet
+2023-10-09 11:08:52.195 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Gottlieb
+2023-10-09 11:08:52.302 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: leandro.abbott@yahoo.com
+2023-10-09 11:08:52.445 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 6%t$aN$D3v
+2023-10-09 11:08:55.900 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-09 11:08:55.922 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-09 11:09:24.868 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url
+2023-10-09 11:09:27.273 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar
+2023-10-09 11:09:27.284 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code is 200
+2023-10-09 11:09:27.292 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Response body contain "Tops"
+2023-10-09 11:09:28.780 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 11:09:29.934 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-09 11:09:30.007 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-09 11:09:30.102 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-09 11:09:30.209 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-09 11:09:31.547 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-09 11:09:31.599 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-09 11:09:31.703 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-09 11:09:32.745 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 11:09:32.817 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-09 11:09:33.509 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 11:09:34.310 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-09 11:09:34.370 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-09 11:09:34.462 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-09 11:09:34.527 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-09 11:09:35.627 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-09 11:09:35.662 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-09 11:09:35.759 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-09 11:09:37.148 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 11:09:37.190 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-09 11:09:37.770 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 11:09:38.578 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-09 11:09:38.658 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-09 11:09:38.761 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: joaquin.gutkowski@hotmail.com
+2023-10-09 11:09:38.841 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: wro3lh8vyi2lfs6!1Qw
+2023-10-09 11:09:40.036 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-09 11:09:40.080 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-09 11:09:40.163 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-09 11:09:41.213 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-09 11:09:41.288 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-09 11:09:41.815 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-09 11:09:43.023 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-09 11:09:43.189 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Kasie
+2023-10-09 11:09:43.249 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Lueilwitz
+2023-10-09 11:09:43.343 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: gricelda.conn@hotmail.com
+2023-10-09 11:09:43.509 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: tMD$Dl88A@%@
+2023-10-09 11:09:45.761 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-09 11:09:45.816 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+

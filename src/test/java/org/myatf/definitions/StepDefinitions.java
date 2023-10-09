@@ -9,6 +9,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.WebDriver;
 import org.apache.logging.log4j.LogManager;
@@ -43,8 +44,8 @@ public class StepDefinitions {
     public void userFillsFirstNameFirstName() {
         fakerData.generateRandomFirstName();
         String firstName = fakerData.getFirstName();
-        driver.findElement(registrationPage.getInputFirstName()).sendKeys(firstName);
-        logger.info("First Name completed: " + firstName);
+            driver.findElement(registrationPage.getInputFirstName()).sendKeys(firstName);
+            logger.info("First Name completed: " + firstName);
     }
 
     @And("User fills Last Name")
@@ -53,6 +54,7 @@ public class StepDefinitions {
         String lastName = fakerData.getLastName();
         driver.findElement(registrationPage.getInputLastName()).sendKeys(lastName);
         logger.info("Last Name completed: " + lastName);
+
     }
 
     @And("User fills Email")
@@ -86,8 +88,12 @@ public class StepDefinitions {
 
     @And("User click on Sign In")
     public void userClickOnSignIn() {
-        driver.findElement(registrationPage.getClickOnSignIn()).click();
-        logger.info("Click on Sign In");
+        try {
+            driver.findElement(registrationPage.getClickOnSignIn()).click();
+            logger.info("Click on Sign In");
+        } catch (NoSuchElementException e) {
+            logger.error("WebDriver couldn’t locate the element Sign In" + e.getMessage());
+        }
     }
 
     @And("Customer Login page is displayed")

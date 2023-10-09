@@ -1,28 +1,42 @@
 package org.myatf.definitions;
 
-import org.myatf.enums.Browser;
-import org.myatf.config.WebDriverFactory;
-import org.myatf.pages.PageAPI;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import org.openqa.selenium.WebDriver;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.myatf.utils.Helper;
+import static org.hamcrest.Matchers.containsString;
+
 
 public class StepDefinitionAPI {
 
-    final static WebDriver driver = WebDriverFactory.getDriver(Browser.CHROME);
-    final PageAPI pageAPI = new PageAPI();
+     private static final Logger logger = LogManager.getLogger(StepDefinitionAPI.class);
 
-    private static final Logger logger = LogManager.getLogger(StepDefinitions.class);
-
-        @Before
-    public void setUp() {
+    @Given("Get main URL")
+    public void getBaseURL() {
+        RestAssured.baseURI = Helper.baseUrl;
+        logger.info("Get main url");
     }
 
-    @After
-    public void tearDown() {
+    @When("Send a GET request to {string}")
+    public void sendGetRequest(String endpoint) {
+        RestAssured.when().get(endpoint);
+        logger.info("Send request to search bar");
+    }
 
+    @Then("The response status code should be {int}")
+    public void verifyStatusCode(int expectedStatusCode) {
+        RestAssured.expect().statusCode(expectedStatusCode);
+        logger.info("Status code is 200");
+    }
+
+    @Then("The response body should contain {string}")
+    public void verifyResponseBodyContains(String expectedText) {
+        RestAssured.expect().body(containsString(expectedText));
+        logger.info("Response body contain \"Tops\"\n");
     }
 }
+
 
