@@ -1,6 +1,6 @@
 Feature: User Registration Flow and Login/Logout
 
-  @Login @Smoke
+  @Login @UI @Smoke
   Scenario Outline: Login and logout with registered user
     Given User is on the Home page
     And User click on Sign In
@@ -19,7 +19,7 @@ Feature: User Registration Flow and Login/Logout
       |rochell.crooks@yahoo.com|ygyg66o8rtz!1Qw|
       |joaquin.gutkowski@hotmail.com|wro3lh8vyi2lfs6!1Qw|
 
-  @Registration @Smoke
+  @Registration @UI @Smoke
   Scenario: Registration of a new User
 
     Given User is on the Home page

@@ -1,35 +1,34 @@
 package org.myatf.definitions;
 
 import io.cucumber.java.AfterAll;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.myatf.utils.Helper;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 
 public class Hooks {
-    private final ScenarioContext scenarioContext;
+    private static final Logger logger = LogManager.getLogger(Hooks.class);
 
-    public Hooks() {
-        this.scenarioContext = ScenarioContext.getInstance();
-    }
-
-    @Before
+     @Before("@UI")
     public static void setUp() {
         Helper.setUpDriver();
-        System.out.println("Starting Browser" );
-    }
+        logger.info("Starting Browser" );
 
+    }
+    @Before("@API")
+    public static void setUpAPI() {
+        logger.info("\nStarting API test" );
+
+    }
     @After
-    public void afterScenario(Scenario scenario) {
-        boolean scenarioIsSuccessful = !scenario.isFailed();
-        scenarioContext.setScenarioResults(scenario.getName(), scenarioIsSuccessful);
-     System.out.println(scenario.getName() + " Test finished with " + scenarioIsSuccessful +"\n" );
+    public void afterScenario() {
+      logger.info("Test finished");
     }
 
     @AfterAll
     public static void tearDown() {
        Helper.tearDown();
-
     }
 
 }

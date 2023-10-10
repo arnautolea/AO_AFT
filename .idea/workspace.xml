@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="my second atf commit">
+    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="added atf test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logFile.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/PageAPI.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/GenerateFakeTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/GenerateFakeTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/api.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/registration.feature" afterDir="false" />
@@ -26,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +76,12 @@
       <recent name="org.myatf" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="ConfigurationLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.myatf.ConfigurationLoader" />
@@ -82,6 +89,26 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.myatf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check search result" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/api.feature" />
+      <option name="GLUE" value="org.myatf.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AO_AFT" />
+      <option name="NAME_FILTER" value="^Check search result$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check search result$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check search result" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,22 +127,6 @@
       <option name="PACKAGE_NAME" value="org.myatf" />
       <option name="MAIN_CLASS_NAME" value="org.myatf.AppTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AO_AFT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myatf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.myatf" />
-      <option name="MAIN_CLASS_NAME" value="org.myatf.AppTest" />
-      <option name="METHOD_NAME" value="testDriver" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Check search result" />
         <item itemvalue="Application.ConfigurationLoader" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testGoogleSearch" />
-        <item itemvalue="JUnit.AppTest.testDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696601071724</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added atf test">
+      <created>1696839394157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696839394157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first atf commit" />
     <MESSAGE value="my second atf commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="my second atf commit" />
+    <MESSAGE value="added atf test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added atf test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,6 +235,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

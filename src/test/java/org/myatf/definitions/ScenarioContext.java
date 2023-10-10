@@ -4,26 +4,25 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ScenarioContext {
+    private Map<String, Object> scenarioContext ;
 
-    private static ScenarioContext instance;
-
-    private Map<String, Boolean> scenarioResults;
-
-    private ScenarioContext() {
-        scenarioResults = new HashMap<>();
-    }
-    public static ScenarioContext getInstance() {
-        if (instance == null) {
-            instance = new ScenarioContext();
-        }
-        return instance;
-    }
-    public void setScenarioResults(String scenarioName, boolean isSuccess) {
-        scenarioResults.put(scenarioName, isSuccess);
+    public ScenarioContext() {
+        scenarioContext  = new HashMap<>();
     }
 
-    public Map<String, Boolean> getScenarioResults() {
-        return scenarioResults;
+    public void setContext(String key, Object value) {
+        scenarioContext .put(key, value);
     }
 
+    public Object getContext(String key) {
+        return scenarioContext.get(key);
+    }
+
+    public boolean contains(String key) {
+        return scenarioContext .containsKey(key);
+    }
+
+    public void clearContext() {
+        scenarioContext .clear();
+    }
 }

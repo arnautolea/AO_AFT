@@ -1,19 +1,19 @@
 package org.myatf.runner;
 
+import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import io.cucumber.junit.platform.engine.Constants;
-import org.junit.platform.suite.api.*;
+import org.junit.runner.RunWith;
 
-@Suite
-@IncludeEngines("cucumber")
-@SelectClasspathResource("features")
-@IncludeTags({"Smoke"})
-@ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME, value = "org.myatf.definitions")
+@RunWith(Cucumber.class)
 @CucumberOptions(
+        features = "src/test/resources/features",
+        //path of step definition file
+        glue = "org.myatf.definitions",
         plugin = {"pretty",
-                "json:target/cucumber-reports/Report1.json",
-                "html:target/cucumber-reports/Report1.html",
-        }
+                "json:target/cucumber-reports/report.json",
+                "html:target/cucumber-reports/report.html",
+        },
+        tags = ("@Smoke")
 )
 public class TestRunner {
 }
