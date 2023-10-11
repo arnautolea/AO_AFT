@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="added atf test">
+    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="added atf test. final version for now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logFile.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/api.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696839394157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added atf test. final version for now">
+      <created>1696932244872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696932244872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +229,8 @@
     <MESSAGE value="my first atf commit" />
     <MESSAGE value="my second atf commit" />
     <MESSAGE value="added atf test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added atf test" />
+    <MESSAGE value="added atf test. final version for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="added atf test. final version for now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

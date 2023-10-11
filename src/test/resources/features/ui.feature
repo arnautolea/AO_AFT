@@ -5,8 +5,8 @@ Feature: User Registration Flow and Login/Logout
     Given User is on the Home page
     And User click on Sign In
     And Customer Login page is displayed
-    And User fills email: <Email> of registered user
-    And User fills password: <Password> of registered user
+    And User fills email: <Email>
+    And User fills password: <Password>
     When User click on Sing In Button
     Then User is logged in and redirected on main page
     When User click on dropdown
@@ -18,6 +18,22 @@ Feature: User Registration Flow and Login/Logout
       |corey.toy@gmail.com|csbt11or8a7d!1Qw|
       |rochell.crooks@yahoo.com|ygyg66o8rtz!1Qw|
       |joaquin.gutkowski@hotmail.com|wro3lh8vyi2lfs6!1Qw|
+
+
+  @LoginNegative @UI @Smoke
+  Scenario Outline: Login attempt with not registered user
+    Given User is on the Home page
+    And User click on Sign In
+    And Customer Login page is displayed
+    And User fills email: <Email>
+    And User fills password: <Password>
+    When User click on Sing In Button
+    Then Error message that sign-in was incorrect is displayed
+    And User is still on "Customer login" page
+
+    Examples:
+      | Email | Password |
+      |some@gmail.com|csbt11or8a7d!1Qw|
 
   @Registration @UI @Smoke
   Scenario: Registration of a new User

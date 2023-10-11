@@ -13,11 +13,12 @@ public class Hooks {
      @Before("@UI")
     public static void setUp() {
         Helper.setUpDriver();
-        logger.info("Starting Browser" );
+        logger.info("\nStarting UI test" );
 
     }
     @Before("@API")
     public static void setUpAPI() {
+
         logger.info("\nStarting API test" );
 
     }

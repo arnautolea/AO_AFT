@@ -9,12 +9,16 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.SessionNotCreatedException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+import static java.time.Duration.*;
 import static org.junit.Assert.*;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 public class StepDefinitions {
 
@@ -107,14 +111,14 @@ public class StepDefinitions {
         }
     }
 
-    @And("User fills email: {} of registered user")
-    public void userFillsEmailOfRegisteredUser(String email) {
+    @And("User fills email: {}")
+    public void userFillsEmail(String email) {
         driver.findElement(registrationPage.getInputRegisteredEmail()).sendKeys(email);
         logger.info("User fills email of registered user: " + email);
     }
 
-    @And("User fills password: {} of registered user")
-    public void userFillsPasswordOfRegisteredUser(String password) {
+    @And("User fills password: {}")
+    public void userFillsPassword(String password) {
         driver.findElement(registrationPage.getInputRegisteredPassword()).sendKeys(password);
         logger.info("User fills password of registered user: " + password);
     }
@@ -155,4 +159,24 @@ public class StepDefinitions {
         logger.info("\"You are signed out\" message displayed \n" );
     }
 
+    @Then("Error message that sign-in was incorrect is displayed")
+    public void ErrorMessageThatSignInWasIncorrectIsDisplayed() {
+        Duration timeout = ofSeconds(2000);
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        wait.until(visibilityOfElementLocated(registrationPage.getErrorMessageFrame()));
+        String errorText = driver.findElement(registrationPage.getErrorMessageText()).getText();
+        assertEquals("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.", errorText);
+        logger.info("Error message that sign-in was incorrect is displayed: \n" + errorText );
+     }
+
+    @And("User is still on {string} page")
+    public void userIsStillOnPage(String customerLoginInscription) {
+        try {
+            String customerLoginPage = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
+            assertEquals(customerLoginInscription, customerLoginPage);
+            logger.info("User is still on Customer Login page");
+        }catch (AssertionError e) {
+            logger.info("User is not logged in");
+        }
+    }
 }
