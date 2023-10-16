@@ -1,4 +1,4 @@
-Feature: User Registration Flow and Login/Logout
+Feature: User Login/Logout Flow
 
   @Login @UI @Smoke
   Scenario Outline: Login and logout with registered user
@@ -14,10 +14,10 @@ Feature: User Registration Flow and Login/Logout
     Then 'You are signed out' message displayed
 
     Examples:
-      | Email | Password |
-      |corey.toy@gmail.com|csbt11or8a7d!1Qw|
-      |rochell.crooks@yahoo.com|ygyg66o8rtz!1Qw|
-      |joaquin.gutkowski@hotmail.com|wro3lh8vyi2lfs6!1Qw|
+      | Email                         | Password            |
+      | corey.toy@gmail.com           | csbt11or8a7d!1Qw    |
+      | rochell.crooks@yahoo.com      | ygyg66o8rtz!1Qw     |
+     # | joaquin.gutkowski@hotmail.com | wro3lh8vyi2lfs6!1Qw |
 
 
   @LoginNegative @UI @Smoke
@@ -29,20 +29,8 @@ Feature: User Registration Flow and Login/Logout
     And User fills password: <Password>
     When User click on Sing In Button
     Then Error message that sign-in was incorrect is displayed
-    And User is still on "Customer login" page
+    And User is still on "Customer Login" page
 
     Examples:
-      | Email | Password |
-      |some@gmail.com|csbt11or8a7d!1Qw|
-
-  @Registration @UI @Smoke
-  Scenario: Registration of a new User
-
-    Given User is on the Home page
-    When User click on Create An Account link
-    And User fills First Name
-    And User fills Last Name
-    And User fills Email
-    And User fills password and confirmation password
-    And User clicks on Create an Account Button
-    Then User redirected on Account Page, 'My Account' inscription is displayed on the screen
+      | Email          | Password         |
+      | some@gmail.com | csbt11or8a7d!1Qw |

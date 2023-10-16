@@ -1,6 +1,7 @@
 package org.myatf;
 
 import org.yaml.snakeyaml.Yaml;
+
 import java.io.InputStream;
 import java.util.Map;
 
@@ -20,7 +21,7 @@ public class ConfigurationLoader {
         String baseUrl = (String) config.get("baseUrl");
 
         // Use the configuration values in your test code
-        System.out.println("Driver Path: " + driverPath);
+        System.out.println("Driver Path Chrome: " + driverPath);
         System.out.println("Base URL: " + baseUrl);
     }
 }

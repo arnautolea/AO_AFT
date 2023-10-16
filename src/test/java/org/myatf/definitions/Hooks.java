@@ -10,30 +10,28 @@ import io.cucumber.java.Before;
 public class Hooks {
     private static final Logger logger = LogManager.getLogger(Hooks.class);
 
-     @Before("@UI")
+    @Before("@UI")
     public static void setUp() {
         Helper.setUpDriver();
-        logger.info("\nStarting UI test" );
+        logger.info("\nStarting UI test");
 
     }
+
     @Before("@API")
     public static void setUpAPI() {
 
-        logger.info("\nStarting API test" );
+        logger.info("\nStarting API test");
 
     }
+
     @After
     public void afterScenario() {
-      logger.info("Test finished");
+        logger.info("Test finished");
     }
 
     @AfterAll
     public static void tearDown() {
-       Helper.tearDown();
+        Helper.tearDown();
     }
 
 }
-
-
-
-

@@ -3,20 +3,20 @@ package org.myatf.pages;
 import org.openqa.selenium.*;
 public class RegistrationPage {
 
-    private By clickCreateAnAccount = By.xpath("//header/div[1]/div[1]/ul[1]/li[3]/a[1]");
+    private By clickCreateAnAccount = By.linkText("Create an Account");
     private By inputFirstName = By.xpath("//input[@id='firstname']");
     private By inputLastName = By.xpath("//input[@id='lastname']");
     private By inputEmail = By.xpath("//input[@id='email_address']");
     private By inputPassword = By.xpath("//input[@id='password']");
     private By inputConfirmPassword = By.xpath("//input[@id='password-confirmation']");
-    private By btnCreateAnAccount = By.xpath("//body[1]/div[2]/main[1]/div[3]/div[1]/form[1]/div[1]/div[1]/button[1]/span[1]");
+    private By btnCreateAnAccount = By.xpath("//*[@id=\"form-validate\"]/div/div[1]/button/span");
     private By inscriptionMyAccount = By.xpath("//span[contains(text(),'My Account')]");
     private By clickOnSignIn = By.xpath("//header/div[1]/div[1]/ul[1]/li[2]/a[1]");
     private By inscriptionCustomerLogin = By.xpath("//span[contains(text(),'Customer Login')]");
     private By inputRegisteredEmail = By.xpath("//input[@id='email']");
     private By inputRegisteredPassword = By.cssSelector("input#pass");
-    private By btnSingIn = By.xpath("//body[1]/div[2]/main[1]/div[3]/div[1]/div[2]/div[1]/div[2]/form[1]/fieldset[1]/div[4]/div[1]/button[1]/span[1]");
-    private By clickOnDropdown = By.xpath("/html[1]/body[1]/div[2]/header[1]/div[1]/div[1]/ul[1]/li[2]/span[1]/button[1]");
+    private By btnSingIn = By.xpath("//*[@id=\"send2\"]/span");
+    private By clickOnDropdown = By.cssSelector("li.customer-welcome > span > button");
     private By clickOnSignOutOption = By.xpath("//header/div[1]/div[1]/ul[1]/li[2]/div[1]/ul[1]/li[3]/a[1]");
     private By inscriptionYouAreSignedOut = By.xpath("//span[contains(text(),'You are signed out')]");
     private By errorMessageFrame = By.xpath("//body/div[2]/main[1]/div[2]/div[2]/div[1]");

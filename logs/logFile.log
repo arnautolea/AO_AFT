@@ -2006,3 +2006,1225 @@ Starting Browser
 
 2023-10-11 09:43:54.588 [main] INFO  org.myatf.definitions.Hooks - Test finished
 2023-10-11 09:43:54.777 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 10:25:16.185 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 10:25:16.189 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 10:25:18.058 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 10:25:19.414 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 10:25:19.590 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Robert
+2023-10-11 10:25:19.684 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Kerluke
+2023-10-11 10:25:19.785 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: ann.ondricka@yahoo.com
+2023-10-11 10:25:19.938 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: !m79PCtN4U1&3
+2023-10-11 10:25:22.179 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 10:25:22.260 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 10:25:22.261 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 10:25:22.501 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:20:50.124 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:26:30.372 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:26:30.374 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:26:32.562 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:26:33.875 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 11:26:34.081 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Neville
+2023-10-11 11:26:34.147 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Kohler
+2023-10-11 11:26:34.260 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: neville.luettgen@hotmail.com
+2023-10-11 11:26:34.426 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: VUqEqhiGqk0v@
+2023-10-11 11:26:36.986 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 11:26:37.047 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 11:26:37.047 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:26:37.281 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:34:00.944 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:34:00.947 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:34:03.283 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:34:04.778 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 11:34:04.952 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Abram
+2023-10-11 11:34:05.018 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Williamson
+2023-10-11 11:34:05.149 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: sabina.white@gmail.com
+2023-10-11 11:34:05.300 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 3fM29Yn#9x
+2023-10-11 11:34:08.350 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 11:34:08.421 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 11:34:08.422 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:34:08.856 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:37:22.206 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:37:22.209 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:37:24.110 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:37:25.663 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 11:37:25.873 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Dorian
+2023-10-11 11:37:25.945 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Ruecker
+2023-10-11 11:37:26.075 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: cedrick.bahringer@yahoo.com
+2023-10-11 11:37:26.230 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: J8L$L%OP^Am
+2023-10-11 11:37:27.370 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 11:37:27.418 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:37:27.668 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:39:28.728 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:39:28.730 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:39:30.537 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:39:31.903 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 11:39:32.133 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Alphonse
+2023-10-11 11:39:32.207 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Watsica
+2023-10-11 11:39:32.317 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: marquetta.altenwerth@gmail.com
+2023-10-11 11:39:32.489 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: kDGU^v*B#*&DN&
+2023-10-11 11:39:32.539 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 11:39:32.572 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:39:32.784 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:39:53.520 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:39:53.522 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:39:55.319 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:39:56.639 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 11:39:56.860 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Ying
+2023-10-11 11:39:56.930 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Cruickshank
+2023-10-11 11:39:57.062 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: merle.pfannerstill@hotmail.com
+2023-10-11 11:39:57.229 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: Af##e#KKw0$p
+2023-10-11 11:39:59.754 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 11:39:59.838 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 11:39:59.839 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:40:00.095 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:43:31.576 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:43:31.579 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:43:33.373 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:43:34.424 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 11:43:34.516 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 11:43:34.599 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 11:43:34.699 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 11:43:36.258 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 11:43:36.296 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 11:43:36.423 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 11:43:37.549 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 11:43:37.610 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 11:43:37.610 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:43:37.846 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:45:53.671 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:45:53.674 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:45:55.447 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:45:56.721 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 11:45:56.825 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 11:45:56.912 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 11:45:56.985 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 11:45:58.400 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 11:45:58.410 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 11:45:59.610 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:45:59.811 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:48:40.616 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:48:40.619 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:48:42.450 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:48:43.583 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 11:48:43.667 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 11:48:43.769 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 11:48:43.857 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 11:48:45.165 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 11:48:45.219 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 11:48:45.307 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 11:48:46.393 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 11:48:46.458 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 11:48:46.458 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:48:46.658 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 11:50:32.709 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 11:50:32.712 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 11:50:34.492 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 11:50:35.822 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 11:50:35.926 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 11:50:36.016 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 11:50:36.091 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 11:50:37.549 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 11:50:37.604 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 11:50:37.697 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 11:50:38.791 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 11:50:38.861 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 11:50:38.862 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 11:50:39.057 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 12:10:22.978 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 12:10:23.033 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 12:10:23.382 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 12:10:25.387 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 302
+2023-10-11 12:10:25.405 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 12:24:28.490 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 12:24:28.547 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 12:24:28.902 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 12:24:31.676 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 12:24:31.690 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 12:24:31.690 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:44:16.552 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:44:16.603 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:44:16.990 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:44:19.516 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 16:44:19.529 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 16:44:19.529 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:44:19.537 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:44:19.537 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:44:19.537 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:44:20.398 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 16:44:20.399 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 16:44:20.400 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:44:23.289 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 16:44:23.290 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:44:25.160 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:44:26.527 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:44:26.608 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:44:26.693 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 16:44:26.779 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:44:28.410 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:44:28.466 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 16:44:28.555 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 16:44:29.671 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 16:44:29.743 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 16:44:29.743 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:44:29.749 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:44:29.749 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:44:30.432 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:44:31.564 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:44:31.632 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:44:31.714 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 16:44:31.782 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:44:33.406 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:44:33.490 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:44:33.502 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:44:33.503 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:44:34.211 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:44:35.052 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 16:44:35.218 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Rashida
+2023-10-11 16:44:35.281 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Jast
+2023-10-11 16:44:35.399 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: dwight.weber@yahoo.com
+2023-10-11 16:44:35.566 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 8QudpLm3&6v4
+2023-10-11 16:44:37.738 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 16:44:37.807 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 16:44:37.808 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:44:38.028 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 16:49:28.659 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:49:28.720 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:49:29.070 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:49:31.605 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 16:49:31.618 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 16:49:31.619 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:49:31.627 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:49:31.628 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:49:31.628 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:49:32.105 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 16:49:32.106 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 16:49:32.107 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:49:34.772 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 16:49:34.772 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:49:36.532 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:49:37.630 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:49:37.732 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:49:37.846 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 16:49:37.928 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:49:39.198 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:49:39.253 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 16:49:39.383 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 16:49:40.432 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 16:49:40.504 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 16:49:40.504 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:49:40.511 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:49:40.511 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:49:41.151 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:49:41.943 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:49:42.012 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:49:42.094 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 16:49:42.183 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:49:43.639 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:49:43.722 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:49:43.736 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:49:43.736 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:49:44.394 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:49:45.170 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 16:49:45.334 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Benita
+2023-10-11 16:49:45.397 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Stehr
+2023-10-11 16:49:45.519 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: basil.wintheiser@yahoo.com
+2023-10-11 16:49:45.696 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: @h%bSWh^an48
+2023-10-11 16:49:47.786 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 16:49:47.854 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 16:49:47.855 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:49:48.038 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 16:50:53.400 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:50:53.456 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:50:53.778 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:51:06.931 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 16:51:06.947 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 16:51:06.948 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:06.955 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:51:06.956 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:51:06.956 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:51:08.728 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 16:51:08.729 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 16:51:08.729 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:11.390 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 16:51:11.390 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:51:14.540 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:51:15.697 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:51:15.791 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:51:15.927 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 16:51:16.017 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:51:17.443 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:51:17.492 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 16:51:17.587 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 16:51:21.829 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 16:51:21.875 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 16:51:21.876 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:21.880 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:51:21.881 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:51:23.844 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:51:25.086 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:51:25.162 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:51:25.235 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 16:51:25.307 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:51:27.046 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:51:27.164 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-11 16:51:27.182 [main] INFO  org.myatf.definitions.StepDefinitions - User is not logged in
+2023-10-11 16:51:27.182 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:27.188 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:51:27.189 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:51:29.767 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:51:34.770 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 16:51:34.929 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Dessie
+2023-10-11 16:51:35.002 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Rogahn
+2023-10-11 16:51:35.118 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: garret.feest@yahoo.com
+2023-10-11 16:51:35.303 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: g6WdS^&Qx$A7$i@
+2023-10-11 16:51:38.736 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 16:51:38.758 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 16:51:38.758 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:39.017 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 16:51:46.359 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:51:46.415 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:51:46.715 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:51:49.038 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 16:51:49.050 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 16:51:49.051 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:49.059 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 16:51:49.060 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 16:51:49.060 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 16:51:49.970 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 16:51:49.971 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 16:51:49.971 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:52.684 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 16:51:52.684 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:51:54.350 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:51:55.438 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:51:55.523 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:51:55.606 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 16:51:55.690 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:51:57.008 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:51:57.061 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 16:51:57.178 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 16:51:58.251 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 16:51:58.331 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 16:51:58.331 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:51:58.338 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:51:58.338 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:51:59.045 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:51:59.859 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 16:51:59.927 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 16:52:00.015 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 16:52:00.095 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 16:52:01.328 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 16:52:01.456 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-11 16:52:01.476 [main] INFO  org.myatf.definitions.StepDefinitions - User is not logged in
+2023-10-11 16:52:01.476 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:52:01.483 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 16:52:01.483 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 16:52:01.993 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 16:52:02.814 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 16:52:02.984 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Selma
+2023-10-11 16:52:03.048 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Erdman
+2023-10-11 16:52:03.160 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: sebastian.moore@yahoo.com
+2023-10-11 16:52:03.320 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: neN8%HWaL!
+2023-10-11 16:52:05.935 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 16:52:05.962 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 16:52:05.962 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 16:52:06.210 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:34:48.222 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:34:48.310 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:34:48.808 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:34:51.948 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 17:34:51.976 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 17:34:51.976 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:34:51.989 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:34:51.990 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:34:51.990 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:34:52.516 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 17:34:52.518 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 17:34:52.518 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:34:58.101 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:34:58.102 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:34:59.934 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:35:01.273 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:35:01.441 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:35:01.613 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 17:35:01.748 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:35:03.317 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:35:03.405 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 17:35:03.570 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 17:35:04.892 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 17:35:04.978 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 17:35:04.979 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:35:04.990 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:35:04.990 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:35:05.726 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:35:06.784 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:35:06.905 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:35:07.012 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 17:35:07.111 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:35:09.321 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:35:09.422 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-11 17:35:09.449 [main] INFO  org.myatf.definitions.StepDefinitions - User is not logged in
+2023-10-11 17:35:09.450 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:35:09.459 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:35:09.459 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:35:10.366 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:35:11.357 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 17:35:11.629 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Randy
+2023-10-11 17:35:11.748 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Nolan
+2023-10-11 17:35:11.921 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: lavenia.swaniawski@yahoo.com
+2023-10-11 17:35:12.171 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: oeU!K!XrCPV3
+2023-10-11 17:35:16.958 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 17:35:16.987 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 17:35:16.988 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:35:17.303 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:40:47.259 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:40:47.339 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:40:47.872 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:40:50.967 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 17:40:50.998 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 17:40:51.000 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:40:51.016 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:40:51.017 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:40:51.018 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:40:51.739 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 17:40:51.742 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 17:40:51.742 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:40:55.209 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:40:55.209 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:41:00.116 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:41:00.165 [main] ERROR org.myatf.definitions.StepDefinitions - WebDriver couldn’t locate the element Sign Inno such element: Unable to locate element: {"method":"xpath","selector":"//header/div[1]/div[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45bef692f12d9ba969d3d1eac58511cb, findElement {using=xpath, value=//header/div[1]/div[1]/ul[1]/li[2]/a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61749/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45bef692f12d9ba969d3d1eac58511cb
+2023-10-11 17:41:00.212 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:41:02.993 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:41:02.993 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:41:05.262 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:41:05.279 [main] ERROR org.myatf.definitions.StepDefinitions - WebDriver couldn’t locate the element Sign Inno such element: Unable to locate element: {"method":"xpath","selector":"//header/div[1]/div[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45bef692f12d9ba969d3d1eac58511cb, findElement {using=xpath, value=//header/div[1]/div[1]/ul[1]/li[2]/a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61749/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45bef692f12d9ba969d3d1eac58511cb
+2023-10-11 17:41:05.306 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:41:08.219 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:41:08.219 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:41:10.040 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:41:10.068 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:41:10.311 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:42:27.816 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:42:27.895 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:42:28.481 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:42:32.139 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 17:42:32.167 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 17:42:32.168 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:42:32.184 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:42:32.184 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:42:32.186 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:42:33.112 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 17:42:33.113 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 17:42:33.114 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:42:36.641 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:42:36.641 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:42:41.685 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:42:41.791 [main] ERROR org.myatf.definitions.StepDefinitions - WebDriver couldn’t locate the element Sign Inno such element: Unable to locate element: {"method":"xpath","selector":"//header/div[1]/div[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b12d5a40a1a12ce1c2a525aec2cf5f36, findElement {using=xpath, value=//header/div[1]/div[1]/ul[1]/li[2]/a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62292/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12d5a40a1a12ce1c2a525aec2cf5f36
+2023-10-11 17:42:41.841 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:42:44.728 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:42:44.728 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:42:47.638 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:42:47.655 [main] ERROR org.myatf.definitions.StepDefinitions - WebDriver couldn’t locate the element Sign Inno such element: Unable to locate element: {"method":"xpath","selector":"//header/div[1]/div[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b12d5a40a1a12ce1c2a525aec2cf5f36, findElement {using=xpath, value=//header/div[1]/div[1]/ul[1]/li[2]/a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62292/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12d5a40a1a12ce1c2a525aec2cf5f36
+2023-10-11 17:42:47.678 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:42:51.307 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:42:51.308 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:42:53.279 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:42:53.317 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:42:53.722 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:45:59.056 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:47:32.665 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:48:47.156 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:48:47.159 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:48:49.540 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:48:57.721 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:48:57.766 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:48:57.817 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 17:48:57.855 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:49:00.279 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:49:00.287 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 17:49:00.581 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 17:49:00.649 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:49:02.655 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:50:40.164 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:54:33.739 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:54:33.743 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:54:35.778 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:54:36.781 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:54:36.934 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:54:37.091 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 17:54:37.227 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:54:39.111 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:54:39.209 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 17:54:39.352 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 17:54:40.931 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 17:54:41.069 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 17:54:41.070 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:54:41.380 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:55:19.070 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:55:19.141 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:55:19.719 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:55:22.500 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 17:55:22.527 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 17:55:22.528 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:55:22.541 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:55:22.541 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:55:22.541 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:55:23.676 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 17:55:23.678 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 17:55:23.678 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:55:27.108 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:55:27.108 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:55:28.531 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:55:29.984 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:55:30.164 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:55:30.314 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 17:55:30.459 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:55:32.039 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:55:32.147 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 17:55:32.297 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 17:55:33.471 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 17:55:33.611 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 17:55:33.613 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:55:33.622 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:55:33.622 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:55:34.242 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:55:35.199 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:55:35.311 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:55:35.414 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 17:55:35.523 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:55:37.221 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:55:37.403 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:55:37.420 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:55:37.420 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:55:38.366 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:55:39.427 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 17:55:39.672 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Jacquelin
+2023-10-11 17:55:39.779 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Rutherford
+2023-10-11 17:55:39.973 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: jordan.balistreri@yahoo.com
+2023-10-11 17:55:40.230 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: %4*Vgo#^67$N
+2023-10-11 17:55:42.768 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 17:55:42.884 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 17:55:42.884 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:55:43.198 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:56:17.721 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:56:17.806 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:56:18.276 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:56:21.166 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 17:56:21.187 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 17:56:21.188 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:56:21.201 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:56:21.201 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:56:21.203 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:56:21.741 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 17:56:21.742 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 17:56:21.742 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:56:25.093 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:56:25.093 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:56:26.491 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:56:27.846 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:56:28.024 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:56:28.321 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 17:56:28.493 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:56:30.102 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:56:30.209 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 17:56:30.381 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 17:56:31.657 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 17:56:31.788 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 17:56:31.789 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:56:31.797 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:56:31.797 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:56:32.624 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:56:33.761 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:56:33.898 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:56:34.006 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 17:56:34.106 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:56:36.091 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:56:36.196 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-11 17:56:36.221 [main] INFO  org.myatf.definitions.StepDefinitions - User is not logged in
+2023-10-11 17:56:36.222 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:56:36.230 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:56:36.230 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:56:37.007 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:56:38.203 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 17:56:38.460 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Isreal
+2023-10-11 17:56:38.553 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Crooks
+2023-10-11 17:56:38.741 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: nathaniel.ward@hotmail.com
+2023-10-11 17:56:38.985 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: *e0%4QXg432EH7
+2023-10-11 17:56:41.793 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 17:56:41.918 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 17:56:41.919 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:56:42.378 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-11 17:57:46.445 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:57:46.524 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:57:47.012 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:57:49.962 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-11 17:57:49.990 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-11 17:57:49.991 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:57:50.004 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-11 17:57:50.005 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-11 17:57:50.005 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-11 17:57:50.533 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-11 17:57:50.535 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-11 17:57:50.535 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:57:54.884 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-11 17:57:54.884 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:57:56.938 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:57:58.256 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:57:58.442 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:57:58.580 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-11 17:57:58.695 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:58:00.161 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:58:00.277 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-11 17:58:00.426 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-11 17:58:01.788 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-11 17:58:01.929 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-11 17:58:01.930 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:58:01.940 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:58:01.940 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:58:02.762 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:58:03.718 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-11 17:58:03.844 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-11 17:58:03.962 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-11 17:58:04.069 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-11 17:58:05.619 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-11 17:58:05.829 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-11 17:58:05.859 [main] INFO  org.myatf.definitions.StepDefinitions - User is not logged in
+2023-10-11 17:58:05.860 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:58:05.869 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-11 17:58:05.869 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-11 17:58:06.461 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-11 17:58:08.160 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-11 17:58:08.360 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Dalton
+2023-10-11 17:58:08.455 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Wyman
+2023-10-11 17:58:08.622 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: clint.brakus@gmail.com
+2023-10-11 17:58:08.884 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 1fJZcvc*@7#
+2023-10-11 17:58:11.483 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-11 17:58:11.610 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-11 17:58:11.611 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-11 17:58:12.061 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-12 09:53:52.541 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-12 09:53:52.592 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 09:53:52.972 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-12 09:53:55.939 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-12 09:53:55.956 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-12 09:53:55.956 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 11:08:57.508 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-12 11:08:57.516 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-12 11:08:59.374 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-12 11:09:00.749 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-12 11:09:00.903 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-12 11:09:01.063 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-12 11:09:01.186 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-12 11:09:02.845 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-12 11:09:03.083 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-12 11:09:03.124 [main] ERROR org.myatf.definitions.StepDefinitions - User is not logged in
+2023-10-12 11:09:03.126 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 11:09:03.468 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-12 11:09:59.528 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-12 11:09:59.536 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-12 11:10:01.108 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-12 11:10:02.681 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-12 11:10:02.851 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-12 11:10:03.064 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-12 11:10:03.195 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-12 11:10:04.895 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-12 11:10:04.996 [main] ERROR org.myatf.definitions.StepDefinitions - Frame loading exceptionno such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'The account sign-in was incorrect or your account ')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92c0c8f203bb6beb7825846285240b91, findElement {using=xpath, value=//div[contains(text(),'The account sign-in was incorrect or your account ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65079}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65079/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92c0c8f203bb6beb7825846285240b91
+2023-10-12 11:10:05.079 [main] ERROR org.myatf.definitions.StepDefinitions - User is not logged in
+2023-10-12 11:10:05.080 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 11:10:05.365 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-12 11:43:34.608 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-12 11:43:34.610 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-12 11:43:38.077 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-12 11:43:38.963 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-12 11:43:39.050 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-12 11:43:39.158 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-12 11:43:39.233 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-12 11:43:40.730 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-12 11:43:40.799 [main] ERROR org.myatf.definitions.StepDefinitions - Frame loading exceptionno such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'The account sign-in was incorrect or your account ')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1125fb4a9d92a7a3dc37be565aa98a80, findElement {using=xpath, value=//div[contains(text(),'The account sign-in was incorrect or your account ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64950/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1125fb4a9d92a7a3dc37be565aa98a80
+2023-10-12 11:43:40.838 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 11:43:41.070 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-12 11:44:33.401 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-12 11:44:33.403 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-12 11:44:35.518 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-12 11:44:36.631 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-12 11:44:36.708 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-12 11:44:36.786 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-12 11:44:36.851 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-12 11:44:38.055 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-12 11:44:38.115 [main] ERROR org.myatf.definitions.StepDefinitions - Frame loading exceptionno such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'The account sign-in was incorrect or your account ')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddf4c29b2c8024f4477d1ffe7ebe878b, findElement {using=xpath, value=//div[contains(text(),'The account sign-in was incorrect or your account ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56956/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ddf4c29b2c8024f4477d1ffe7ebe878b
+2023-10-12 11:44:38.137 [main] INFO  org.myatf.definitions.StepDefinitions - User is still on Customer Login page
+2023-10-12 11:44:38.139 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 11:44:38.362 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-12 11:48:39.516 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-12 11:48:39.519 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-12 11:48:41.213 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-12 11:48:42.302 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-12 11:48:42.384 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-12 11:48:42.465 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-12 11:48:42.558 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-12 11:48:44.318 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-12 11:48:44.380 [main] ERROR org.myatf.definitions.StepDefinitions - Frame loading exceptionno such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'The account sign-in was incorrect or your account ')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2cac81b3783fe197a53b5bb561dad960, findElement {using=xpath, value=//div[contains(text(),'The account sign-in was incorrect or your account ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\oarnaut\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57892/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cac81b3783fe197a53b5bb561dad960
+2023-10-12 11:48:44.428 [main] INFO  org.myatf.definitions.StepDefinitions - User is still on Customer Login page
+2023-10-12 11:48:44.430 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 11:48:44.659 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-12 11:48:57.857 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-12 11:48:57.860 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-12 11:48:59.605 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-12 11:49:00.419 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-12 11:49:00.498 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-12 11:49:00.607 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-12 11:49:00.673 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-12 11:49:02.027 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-12 11:49:02.164 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-12 11:49:02.182 [main] INFO  org.myatf.definitions.StepDefinitions - User is still on Customer Login page
+2023-10-12 11:49:02.183 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 11:49:02.377 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-12 11:58:20.359 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-12 11:58:20.410 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 11:58:20.757 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-12 11:58:23.028 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/customer/account/create/
+Status code: 200
+2023-10-12 11:58:23.040 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-12 11:58:23.040 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 13:09:14.456 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-12 13:09:14.534 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 13:09:15.024 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 13:23:07.792 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-12 13:23:07.871 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 13:23:08.324 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 13:26:50.698 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-12 13:26:50.769 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 13:26:51.156 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 13:30:17.284 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-12 13:30:17.369 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 13:30:17.782 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 13:31:02.976 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 13:31:03.368 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:08:49.835 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:08:50.359 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:15:51.536 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:15:51.975 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:32:23.520 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:32:23.995 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:38:38.885 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:38:39.245 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:39:25.779 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:39:26.103 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:40:09.690 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:40:10.028 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:40:58.924 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:40:59.253 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-12 17:42:04.933 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-12 17:42:05.254 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 11:42:45.188 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 11:42:45.704 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 12:11:05.121 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 12:11:05.453 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 12:22:28.559 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 12:22:31.022 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 12:23:05.699 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 12:23:08.063 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 12:23:46.154 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 12:23:50.885 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 12:24:03.793 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 12:24:06.092 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 12:25:04.715 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 12:25:07.938 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 12:25:26.928 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 12:25:29.821 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 14:57:16.117 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 14:57:16.575 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 14:58:54.719 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 14:58:55.100 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:00:30.061 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:00:30.487 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:01:08.288 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:01:08.719 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:03:06.709 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:03:09.519 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user
+2023-10-13 15:03:09.551 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:07:44.322 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:07:47.078 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user
+2023-10-13 15:07:47.110 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:08:29.936 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:08:32.647 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user
+2023-10-13 15:08:32.678 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:15:38.394 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:15:40.866 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user
+2023-10-13 15:15:40.891 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:18:18.061 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:18:21.520 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user
+2023-10-13 15:18:22.639 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user
+2023-10-13 15:18:22.645 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:20:38.105 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:20:40.381 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user
+2023-10-13 15:20:41.309 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user
+2023-10-13 15:20:41.334 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:20:55.383 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:20:57.690 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user
+2023-10-13 15:20:58.606 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user
+2023-10-13 15:20:58.607 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:21:55.009 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:21:57.524 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: darrin.gutkowski@gmail.com
+2023-10-13 15:21:58.477 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user
+2023-10-13 15:21:58.478 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:24:21.571 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:24:23.879 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: coralie.parisian@gmail.com
+2023-10-13 15:24:24.840 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user
+2023-10-13 15:24:24.865 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:32:48.795 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:32:51.227 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: maybelle.jones@yahoo.com
+2023-10-13 15:32:52.192 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user
+2023-10-13 15:32:52.240 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:36:41.412 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:36:43.714 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: traci.bergstrom@gmail.com
+2023-10-13 15:36:44.628 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user302
+2023-10-13 15:36:44.672 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-13 15:38:19.676 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-13 15:38:22.332 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: warren.kunde@gmail.com
+2023-10-13 15:38:23.277 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-13 15:38:23.278 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:25:10.209 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 09:25:13.057 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: wanita.streich@gmail.com
+2023-10-16 09:25:13.740 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:25:29.200 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 09:25:31.318 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: blair.quitzon@hotmail.com
+2023-10-16 09:25:31.871 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 09:25:31.872 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:25:52.634 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 09:25:54.810 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: filiberto.johns@gmail.com
+2023-10-16 09:25:55.682 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 09:25:55.683 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:26:23.874 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 09:26:26.026 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: millicent.gorczany@gmail.com
+2023-10-16 09:26:26.920 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 09:26:26.962 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:29:40.296 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-16 09:29:40.301 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-16 09:29:41.759 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-16 09:29:42.744 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-16 09:29:42.835 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-16 09:29:42.923 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-16 09:29:43.003 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-16 09:29:44.493 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-16 09:29:44.637 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-16 09:29:44.660 [main] INFO  org.myatf.definitions.StepDefinitions - User is still on Customer Login page
+2023-10-16 09:29:44.661 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:29:44.941 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-16 09:35:01.257 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-16 09:35:01.260 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-16 09:35:02.753 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-16 09:35:03.886 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-16 09:35:04.002 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-16 09:35:04.123 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-16 09:35:04.208 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-16 09:35:05.501 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-16 09:35:05.631 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-16 09:35:05.648 [main] INFO  org.myatf.definitions.StepDefinitions - User is still on Customer Login page
+2023-10-16 09:35:05.649 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:35:05.851 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-16 09:35:21.036 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 09:35:23.805 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: keren.fahey@yahoo.com
+2023-10-16 09:35:24.357 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 09:35:24.362 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:40:01.466 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 09:40:03.758 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: augustine.sauer@hotmail.com
+2023-10-16 09:40:04.657 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 09:40:05.758 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Validate user name. Response status code: 200
+2023-10-16 09:40:05.758 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 09:40:46.637 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 09:41:02.059 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: arlie.price@hotmail.com
+2023-10-16 09:41:04.579 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 09:41:06.754 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Actual Status code: 200
+2023-10-16 09:41:06.758 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Validate user name. Response status code: 200
+2023-10-16 09:41:06.758 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 10:10:07.256 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 10:10:09.620 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: anisha.shanahan@yahoo.com
+2023-10-16 10:10:10.512 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 10:10:11.995 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 10:10:11.998 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 10:10:49.993 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 10:10:53.214 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 10:10:53.214 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 10:11:18.541 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 10:11:21.323 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:42:09.150 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 11:42:11.442 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: jamie.vonrueden@gmail.com
+2023-10-16 11:42:12.448 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 11:42:13.627 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 11:42:13.629 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:42:48.584 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 11:42:51.105 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: carolann.hansen@yahoo.com
+2023-10-16 11:42:52.297 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 11:42:53.505 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 11:42:53.508 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:43:51.039 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 11:43:53.224 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: brenna.schultz@gmail.com
+2023-10-16 11:43:54.100 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 11:43:55.229 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 11:43:55.231 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:44:18.230 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 11:44:20.458 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: orlando.sawayn@yahoo.com
+2023-10-16 11:44:21.390 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 11:44:22.927 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 11:44:22.929 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:45:56.873 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 11:45:59.048 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: yuko.christiansen@hotmail.com
+2023-10-16 11:45:59.959 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 11:46:01.480 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 11:46:01.482 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:53:11.576 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-16 11:53:11.578 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-16 11:53:13.330 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-16 11:53:14.447 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-16 11:53:14.526 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-16 11:53:14.610 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-16 11:53:14.703 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-16 11:53:15.973 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-16 11:53:16.021 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-16 11:53:16.123 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-16 11:53:17.197 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-16 11:53:17.257 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-16 11:53:17.258 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:53:17.269 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-16 11:53:17.269 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-16 11:53:18.017 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-16 11:53:18.819 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-16 11:53:18.878 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-16 11:53:18.962 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-16 11:53:19.018 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-16 11:53:20.345 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-16 11:53:20.357 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-16 11:53:20.476 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-16 11:53:21.957 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-16 11:53:21.990 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-16 11:53:21.991 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:53:22.241 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-16 11:58:13.875 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 11:58:16.508 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: corey.toy@gmail.com
+2023-10-16 11:58:17.379 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request to create user. Get status code: 302
+2023-10-16 11:58:18.907 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 11:58:18.910 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 11:59:46.743 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 11:59:49.117 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 11:59:50.009 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 11:59:51.221 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 11:59:51.224 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 12:00:48.404 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 12:00:50.583 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Q
+2023-10-16 12:00:51.476 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 12:00:53.055 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 12:00:53.058 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 12:03:51.538 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 12:03:54.185 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 12:03:54.744 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 12:03:56.287 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 12:03:56.289 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 12:09:08.723 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 12:09:10.924 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 12:09:11.841 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 12:09:13.007 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 12:09:13.010 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 12:15:21.385 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 12:15:21.455 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 12:15:23.834 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 12:15:24.737 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 12:15:26.188 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 12:15:26.188 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 12:37:21.118 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 12:37:21.193 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 12:37:23.420 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 12:37:24.313 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 12:37:25.788 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 12:37:25.789 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 12:37:51.862 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 12:37:51.927 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 12:37:53.911 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 12:37:54.851 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 12:37:56.302 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 12:37:56.303 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:18:59.500 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:18:59.570 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:19:02.003 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 13:19:03.042 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 13:19:04.481 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 13:19:04.482 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:20:40.364 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:20:40.438 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:20:42.735 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 13:20:43.331 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 13:20:44.970 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 13:20:44.970 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:28:52.364 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:28:52.432 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:29:05.892 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 13:29:18.722 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:30:49.603 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:30:49.671 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:31:03.906 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 13:31:19.619 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 13:31:47.593 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 13:31:47.593 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:32:40.733 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:32:40.803 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:32:55.916 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-16 13:33:09.722 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 13:33:38.563 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 13:33:38.564 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:33:44.926 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:33:45.005 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:33:58.836 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:34:19.145 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:34:19.215 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:34:32.086 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: amberly.kris@yahoo.com
+2023-10-16 13:34:43.688 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 13:35:07.663 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 13:35:07.664 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:41:37.344 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:41:37.413 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:41:50.081 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: lupe.parisian@gmail.com
+2023-10-16 13:42:01.706 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 13:43:49.910 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 13:43:49.977 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 13:43:53.064 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: caryl.labadie@yahoo.com
+2023-10-16 13:43:54.848 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 13:43:58.732 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 13:43:58.733 [main] INFO  org.myatf.definitions.Hooks - Test finished

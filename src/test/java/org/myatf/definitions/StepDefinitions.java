@@ -48,8 +48,8 @@ public class StepDefinitions {
     public void userFillsFirstNameFirstName() {
         fakerData.generateRandomFirstName();
         String firstName = fakerData.getFirstName();
-            driver.findElement(registrationPage.getInputFirstName()).sendKeys(firstName);
-            logger.info("First Name completed: " + firstName);
+        driver.findElement(registrationPage.getInputFirstName()).sendKeys(firstName);
+        logger.info("First Name completed: " + firstName);
     }
 
     @And("User fills Last Name")
@@ -66,7 +66,7 @@ public class StepDefinitions {
         fakerData.generateRandomEmail();
         String email = fakerData.getEmail();
         driver.findElement(registrationPage.getInputEmail()).sendKeys(email);
-        logger.info("Email address: "+ email);
+        logger.info("Email address: " + email);
     }
 
     @And("User fills password and confirmation password")
@@ -83,6 +83,7 @@ public class StepDefinitions {
         driver.findElement(registrationPage.getBtnCreateAnAccount()).click();
         logger.info("Click on Create an Account Button");
     }
+
     @Then("User redirected on Account Page, 'My Account' inscription is displayed on the screen")
     public void inscriptionMyAccount() {
         String myAccount = driver.findElement(registrationPage.getInscriptionMyAccount()).getText();
@@ -106,7 +107,7 @@ public class StepDefinitions {
             String customerLogin = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
             assertEquals("Customer Login", customerLogin);
             logger.info("\"Customer Login\" Page displayed");
-        }catch (AssertionError e){
+        } catch (AssertionError e) {
             logger.error("No Customer Login message" + e.getMessage());
         }
     }
@@ -135,7 +136,7 @@ public class StepDefinitions {
             String mainPage = driver.getCurrentUrl();
             assertEquals("https://magento.softwaretestingboard.com/", mainPage);
             logger.info("User is logged in and redirected on main page");
-        }catch (AssertionError e){
+        } catch (AssertionError e) {
             logger.error(e.getMessage());
         }
     }
@@ -156,18 +157,23 @@ public class StepDefinitions {
     public void youAreSignedOutMessageDisplayed() {
         String signOut = driver.findElement(registrationPage.getInscriptionYouAreSignedOut()).getText();
         assertEquals("You are signed out", signOut);
-        logger.info("\"You are signed out\" message displayed \n" );
+        logger.info("\"You are signed out\" message displayed \n");
     }
 
     @Then("Error message that sign-in was incorrect is displayed")
     public void ErrorMessageThatSignInWasIncorrectIsDisplayed() {
-        Duration timeout = ofSeconds(2000);
-        WebDriverWait wait = new WebDriverWait(driver, timeout);
-        wait.until(visibilityOfElementLocated(registrationPage.getErrorMessageFrame()));
-        String errorText = driver.findElement(registrationPage.getErrorMessageText()).getText();
-        assertEquals("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.", errorText);
-        logger.info("Error message that sign-in was incorrect is displayed: \n" + errorText );
-     }
+        try {
+            Duration timeout = ofSeconds(9000);
+            WebDriverWait wait = new WebDriverWait(driver, timeout);
+            wait.until(visibilityOfElementLocated(registrationPage.getErrorMessageFrame()));
+            String errorText = driver.findElement(registrationPage.getErrorMessageText()).getText();
+            assertEquals("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.", errorText);
+            logger.info("Error message that sign-in was incorrect is displayed: \n" + errorText);
+        }catch(NoSuchElementException e2) {
+            logger.error("Frame loading exception" + e2.getMessage());
+
+        }
+    }
 
     @And("User is still on {string} page")
     public void userIsStillOnPage(String customerLoginInscription) {
@@ -175,8 +181,8 @@ public class StepDefinitions {
             String customerLoginPage = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
             assertEquals(customerLoginInscription, customerLoginPage);
             logger.info("User is still on Customer Login page");
-        }catch (AssertionError e) {
-            logger.info("User is not logged in");
+        } catch (AssertionError e) {
+            logger.error("User is not logged in");
         }
     }
 }

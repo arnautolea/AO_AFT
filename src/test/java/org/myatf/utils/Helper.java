@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 
 import java.util.Map;
+
 public class Helper {
 
     private static Helper helperClass;
@@ -16,25 +17,30 @@ public class Helper {
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
     public static String baseUrl = (String) config.get("baseUrl");
     private static final Logger logger = LogManager.getLogger(Helper.class);
-    private Helper() {driver = WebDriverFactory.getDriver(Browser.CHROME);
+
+    private Helper() {
+        driver = WebDriverFactory.getDriver(Browser.CHROME);
     }
-    public static void openPage() {driver.get(baseUrl);
+
+    public static void openPage() {
+        driver.get(baseUrl);
     }
+
     public static void setUpDriver() {
 
-        if (helperClass==null) {
+        if (helperClass == null) {
 
             helperClass = new Helper();
             logger.info("set Up Driver");
-        }
-        else{
+        } else {
             helperClass = new Helper();
             logger.info("set Up Next Driver");
         }
     }
-        public static void tearDown() {
 
-        if(driver != null) {
+    public static void tearDown() {
+
+        if (driver != null) {
             driver.quit();
             logger.info("Closing browser");
         }

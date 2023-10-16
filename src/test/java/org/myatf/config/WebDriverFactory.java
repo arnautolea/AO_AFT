@@ -1,11 +1,13 @@
 package org.myatf.config;
 
+import org.apache.logging.log4j.LogManager;
 import org.myatf.ConfigurationLoader;
 import org.myatf.enums.Browser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
+
 
 import java.io.File;
 import java.util.Map;
@@ -14,7 +16,8 @@ import java.util.logging.Logger;
 
 
 public class WebDriverFactory {
-    private static final Map<String, Object> config = ConfigurationLoader.loadConfig();;
+    private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
+    private static final org.apache.logging.log4j.Logger logger = LogManager.getLogger(WebDriverFactory.class);
     static String driverPath = (String) config.get("driverPath");
     private static final String CHROMEDRIVER_PATH = driverPath;
     private static WebDriver driver;
@@ -29,7 +32,6 @@ public class WebDriverFactory {
             if (browser == currentBrowser) {
                 return driver;
             }
-            //driver.quit();
         }
 
         currentBrowser = browser;
@@ -54,7 +56,7 @@ public class WebDriverFactory {
         if (System.getProperty("webdriver.chrome.driver") != null) {
             System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
             Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
-         } else {
+        } else {
             System.err.println("WARNING: Cannot locate Chrome WebDriver!");
         }
     }
