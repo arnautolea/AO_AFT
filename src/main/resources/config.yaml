@@ -1,2 +1,3 @@
 driverPath: ./src/test/resources/chromedriver.exe/
 baseUrl: https://magento.softwaretestingboard.com
+baseUrlAPI: https://thinking-tester-contact-list.herokuapp.com

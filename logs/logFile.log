@@ -3228,3 +3228,1183 @@ Starting API test
 2023-10-16 13:43:54.848 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
 2023-10-16 13:43:58.732 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
 2023-10-16 13:43:58.733 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:10:30.570 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:10:30.679 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:10:34.415 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: chris.trantow@yahoo.com
+2023-10-16 14:10:35.201 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:13:20.910 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:13:21.006 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:13:25.326 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: roxy.macejkovic@yahoo.com
+2023-10-16 14:13:26.035 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:13:42.972 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:13:43.066 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:14:23.977 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: royce.bashirian@hotmail.com
+2023-10-16 14:14:25.756 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:14:28.631 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:14:28.631 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:17:27.744 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:17:27.839 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:17:30.691 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: palmira.marvin@gmail.com
+2023-10-16 14:17:31.806 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:17:56.568 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:17:56.662 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:18:01.044 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: shad.hamill@gmail.com
+2023-10-16 14:18:02.712 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:18:18.205 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:18:18.300 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:18:22.124 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: pamella.yundt@hotmail.com
+2023-10-16 14:18:23.067 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:18:24.687 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:18:24.687 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:20:12.553 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:20:12.631 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:20:13.243 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:21:17.868 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:21:17.962 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:22:30.094 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: letisha.hayes@gmail.com
+2023-10-16 14:23:03.592 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:23:11.812 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:23:46.811 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:23:46.889 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:23:51.204 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: marketta.pacocha@gmail.com
+2023-10-16 14:23:52.687 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:23:58.671 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:23:58.671 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:24:33.903 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:24:33.970 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:24:37.226 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: stefani.thiel@yahoo.com
+2023-10-16 14:24:39.589 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:24:47.647 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:24:47.647 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:25:30.297 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:25:30.392 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:25:35.075 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: rickie.kulas@gmail.com
+2023-10-16 14:25:36.624 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:25:44.696 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:25:44.696 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:35:35.069 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:35:35.163 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:35:39.318 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: calvin.kihn@gmail.com
+2023-10-16 14:35:39.365 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:50:13.695 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:50:13.791 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:50:20.102 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: ira.crona@yahoo.com
+2023-10-16 14:50:24.585 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:50:33.596 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:50:33.596 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:51:04.954 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:51:05.065 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:51:11.110 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: shawanda.ziemann@yahoo.com
+2023-10-16 14:51:14.687 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:51:23.564 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:51:23.564 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:55:54.431 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:55:54.526 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:56:02.154 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: dwight.schuster@hotmail.com
+2023-10-16 14:56:08.672 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:56:29.626 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:56:29.642 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 14:56:54.252 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 14:56:54.362 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 14:57:02.107 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: fausto.pacocha@yahoo.com
+2023-10-16 14:57:06.572 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 14:57:18.591 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 14:57:18.591 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:03:05.290 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:03:05.366 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:03:09.006 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: marco.gutmann@gmail.com
+2023-10-16 16:03:12.559 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 16:03:18.631 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 16:03:18.632 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:03:49.489 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:03:49.554 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:03:52.979 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: clement.west@gmail.com
+2023-10-16 16:03:55.617 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 16:04:00.590 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 16:04:00.590 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:06:41.022 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:06:41.089 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:06:44.102 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: dave.grant@hotmail.com
+2023-10-16 16:06:44.275 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:17:05.150 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:17:05.215 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:17:08.125 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: wilfredo.steuber@hotmail.com
+2023-10-16 16:17:09.637 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 16:17:15.536 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 16:17:15.537 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:17:46.950 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:17:47.028 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:17:49.781 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: jamel.abshire@hotmail.com
+2023-10-16 16:17:52.541 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 16:17:58.606 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 16:17:58.606 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:18:59.815 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:18:59.899 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:19:04.968 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: marquis.nader@hotmail.com
+2023-10-16 16:19:07.655 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 16:19:15.618 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 16:19:15.619 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:32:23.446 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:32:23.509 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:32:26.097 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: robin.zieme@hotmail.com
+2023-10-16 16:32:27.702 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 16:32:31.647 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 16:32:31.647 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 16:43:37.065 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-16 16:43:37.143 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 16:43:42.982 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: yi.veum@yahoo.com
+2023-10-16 16:43:45.616 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-16 16:43:50.644 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-16 16:43:50.645 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:22:42.131 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:22:42.140 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:24:59.697 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:24:59.704 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:26:19.989 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:26:19.996 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:33:33.920 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:33:33.930 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:35:16.323 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:35:16.333 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:37:47.310 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:37:47.318 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 17:37:47.738 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: william.dach@hotmail.com
+2023-10-16 17:37:47.762 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:38:48.742 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:38:48.749 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 17:38:49.170 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: haley.hyatt@hotmail.com
+2023-10-16 17:38:51.065 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 400
+2023-10-16 17:38:51.080 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:39:42.034 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:39:42.042 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 17:39:42.417 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: darcey.hauck@hotmail.com
+2023-10-16 17:39:44.219 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 400
+2023-10-16 17:39:44.235 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:40:10.591 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:40:10.598 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 17:40:10.987 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: cruz.flatley@yahoo.com
+2023-10-16 17:40:12.952 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-16 17:40:12.968 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 17:42:37.657 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 17:42:37.664 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 17:42:38.052 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: shizuko.metz@yahoo.com
+2023-10-16 17:42:40.033 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-16 17:42:40.050 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-16 17:42:40.054 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 18:04:54.114 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:04:54.122 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:05:26.141 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-16 18:05:26.156 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 18:06:02.327 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:06:02.335 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:06:34.363 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-16 18:06:34.385 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 18:08:01.631 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:08:01.637 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:08:02.026 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: melissia.morar@hotmail.com
+2023-10-16 18:08:03.877 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-16 18:08:03.887 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-16 18:08:03.889 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 18:10:07.631 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:10:07.638 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:10:39.642 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-16 18:10:39.659 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 18:11:19.288 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:11:19.294 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:11:56.280 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:11:56.286 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:12:28.234 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-16 18:12:28.251 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 18:14:48.510 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:14:48.516 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:15:20.525 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-16 18:15:20.540 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-16 18:18:02.889 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-16 18:18:02.896 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-16 18:18:34.906 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-16 18:18:34.923 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 10:35:35.158 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 10:35:35.164 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 10:36:07.377 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-17 10:36:07.394 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 11:02:17.555 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 11:02:17.562 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 11:02:49.705 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 503
+2023-10-17 11:02:49.718 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 503 Status code actual: 503
+2023-10-17 11:02:49.722 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 11:54:28.704 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 11:54:28.711 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 11:54:29.767 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 11:55:53.147 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 11:55:53.153 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 11:55:54.976 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 12:01:37.978 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 12:01:37.982 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 12:02:09.856 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 12:02:28.693 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 12:02:28.699 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 12:03:00.465 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 12:10:08.683 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 12:10:08.732 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 12:10:08.735 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 12:10:08.990 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 12:10:40.476 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 12:26:57.155 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 12:26:57.230 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 12:26:57.234 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 12:26:57.575 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 12:26:59.141 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 12:27:26.710 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 12:27:26.761 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 12:27:26.763 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 12:27:27.021 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 12:27:28.591 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 13:04:33.166 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 13:04:33.455 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get authentication endpoint
+2023-10-17 13:04:53.814 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 13:04:54.104 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get authentication endpoint
+2023-10-17 13:05:25.652 [main] INFO  org.myatf.definitions.StepsThinkingTester - Provide credentials
+2023-10-17 13:05:25.732 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 13:45:19.257 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 13:45:19.605 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get the authentication endpoint
+2023-10-17 13:45:51.249 [main] INFO  org.myatf.definitions.StepsThinkingTester - Provide credentials
+2023-10-17 13:45:51.309 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 13:46:53.645 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 13:46:53.940 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get the authentication endpoint
+2023-10-17 13:47:25.350 [main] INFO  org.myatf.definitions.StepsThinkingTester - Provide credentials
+2023-10-17 13:47:25.359 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get auth token: null
+2023-10-17 13:47:25.386 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 13:47:25.386 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 13:47:56.066 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 13:49:36.055 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 13:49:36.345 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get the authentication endpoint
+2023-10-17 13:50:07.851 [main] INFO  org.myatf.definitions.StepsThinkingTester - Provide credentials
+2023-10-17 13:50:07.861 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get auth token: null
+2023-10-17 13:50:07.886 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 13:50:07.886 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 13:50:56.262 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 13:50:56.539 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get the authentication endpoint
+2023-10-17 13:51:27.995 [main] INFO  org.myatf.definitions.StepsThinkingTester - Provide credentials
+2023-10-17 13:51:28.005 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get auth token: null
+2023-10-17 13:51:28.028 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 13:51:28.028 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 13:51:58.763 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 13:56:12.325 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 13:56:12.625 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get the authentication endpoint
+2023-10-17 13:56:44.097 [main] INFO  org.myatf.definitions.StepsThinkingTester - Provide credentials
+2023-10-17 13:56:44.105 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get auth token: null
+2023-10-17 13:56:44.131 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 13:56:44.131 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 13:57:14.886 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 15:49:47.578 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 15:49:47.656 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 15:49:47.660 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 15:49:47.950 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 15:50:25.319 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 15:50:25.378 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 15:50:25.381 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 15:50:25.637 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 15:50:57.163 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 15:51:39.355 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 15:51:39.420 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 15:51:39.424 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 15:51:39.706 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 15:54:54.851 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 15:54:54.915 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 15:54:54.918 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 15:54:55.176 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 15:55:26.725 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 15:57:40.775 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 15:57:40.846 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 15:57:40.849 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 15:57:41.110 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 15:58:12.604 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 15:58:50.760 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 15:58:50.825 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 15:58:50.828 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 15:58:51.118 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 15:59:22.730 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 15:59:22.737 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 15:59:56.426 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 15:59:56.486 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 15:59:56.489 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 15:59:56.759 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:00:28.216 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:00:28.221 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:01:15.592 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:01:15.654 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:01:15.658 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:01:15.909 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:01:47.375 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:01:47.376 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 503 Status code actual: 503
+2023-10-17 16:01:47.377 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:14:39.449 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:14:39.517 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:14:39.521 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:14:39.811 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:15:11.418 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:15:11.421 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 503 Status code actual: 503
+2023-10-17 16:15:11.421 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:22:44.184 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:22:44.245 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:22:44.247 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:22:44.532 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:22:44.536 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:23:45.054 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:23:45.131 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:23:45.134 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:23:45.397 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:23:45.400 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:24:15.731 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:24:15.783 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:24:15.786 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:24:16.055 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:24:16.405 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:24:57.257 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:24:57.316 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:24:57.319 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:24:57.589 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:24:59.371 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:24:59.378 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:25:24.520 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:25:24.580 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:25:24.584 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:25:24.845 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:25:26.436 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:25:26.438 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 16:25:26.438 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:28:35.370 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:28:35.424 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:28:35.427 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:28:35.680 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:29:07.287 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:29:07.295 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:30:42.996 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:30:43.049 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:30:43.053 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:30:43.306 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:30:44.929 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:30:44.931 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 16:30:44.931 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:40:06.659 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:40:06.720 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:40:06.724 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:40:07.042 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:40:08.838 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:40:08.840 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 16:40:08.841 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:57:06.289 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:57:06.362 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:57:06.365 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:57:06.655 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:57:08.442 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:57:08.445 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 16:57:08.445 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 16:58:18.279 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 16:58:18.334 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 16:58:18.337 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 16:58:18.605 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 16:58:20.173 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 16:58:20.175 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 16:58:20.175 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:12:19.349 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:12:19.419 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:12:19.422 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:12:19.716 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:12:21.837 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:12:21.842 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:13:29.967 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:13:30.041 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:13:30.045 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:13:30.303 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:13:31.899 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:13:31.900 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:13:31.900 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:14:40.288 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:14:40.371 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:14:40.375 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:14:40.640 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:14:42.279 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:14:42.279 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:14:42.280 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:16:04.250 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:16:04.309 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:16:04.312 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:16:04.568 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:16:06.200 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:16:06.201 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:16:06.201 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:25:22.664 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:25:22.729 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:25:22.732 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:25:23.069 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: deandre.hermiston@yahoo.com
+2023-10-17 17:25:24.764 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 17:25:24.773 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:25:24.774 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:26:57.328 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:26:57.401 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:26:57.405 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:26:57.741 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: marva.schultz@yahoo.com
+2023-10-17 17:26:59.549 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 17:26:59.557 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:26:59.558 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:27:49.412 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:27:49.477 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:27:49.480 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:27:49.807 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: shaunta.morissette@yahoo.com
+2023-10-17 17:27:51.567 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 17:27:51.577 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:27:51.578 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:28:04.613 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:28:04.697 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:28:04.700 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:28:04.960 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:28:06.498 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:28:06.512 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:29:28.854 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:29:28.923 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:29:28.927 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:29:29.259 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: pierre.heaney@gmail.com
+2023-10-17 17:29:30.913 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 17:29:30.922 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:29:30.922 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:29:40.118 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:29:40.191 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:29:40.196 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:29:40.460 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:29:42.027 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:29:42.041 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:32:04.914 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:32:04.977 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:32:04.980 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:32:05.254 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:32:06.809 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:32:06.810 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:32:06.810 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:33:53.778 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:33:53.832 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:33:53.835 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:33:54.098 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:33:55.740 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:33:55.743 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:33:55.743 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:34:53.490 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:34:53.543 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:34:53.546 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:34:53.802 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:34:55.587 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:34:55.591 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:34:55.591 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:35:23.437 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:35:23.494 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:35:23.498 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:35:23.763 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:35:25.444 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 17:35:25.446 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 17:35:25.446 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:40:43.632 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:40:43.699 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:40:43.702 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:40:43.954 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:40:43.957 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:41:01.451 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:41:01.519 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:41:01.523 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:41:01.783 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:41:01.786 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:41:37.966 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:41:38.021 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:41:38.024 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:41:38.280 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:41:39.795 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:43:58.988 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:43:59.067 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:43:59.070 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:43:59.377 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:44:01.108 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:46:49.819 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:46:49.881 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:46:49.884 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:46:50.147 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:46:51.704 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:51:33.397 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:51:33.454 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:51:33.457 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:51:33.723 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:51:36.004 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:54:29.730 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:54:29.806 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:54:29.810 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:54:30.082 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:54:32.273 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 17:59:19.483 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 17:59:19.551 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 17:59:19.555 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 17:59:19.813 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 17:59:21.963 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:02:09.340 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:02:09.408 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:02:09.411 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:02:09.681 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:02:11.842 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:05:22.505 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:05:22.560 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:05:22.562 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:05:22.812 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:05:24.998 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:07:58.602 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:07:58.677 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:07:58.680 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:07:58.938 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:08:01.076 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:08:30.929 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:08:31.001 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:08:31.005 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:08:31.267 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:08:33.474 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:13:23.835 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:13:23.909 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:13:23.912 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:13:24.193 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:13:26.861 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:13:48.875 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:13:48.949 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:13:48.952 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:13:49.252 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:13:51.983 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:19:07.699 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:19:07.788 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:19:07.791 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:19:08.116 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:19:10.823 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:21:06.943 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:21:07.014 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:21:07.022 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:21:07.334 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:21:10.122 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:22:21.884 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:22:21.958 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:22:21.966 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:22:22.265 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:22:24.982 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:22:45.684 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:22:45.754 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:22:45.757 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:22:46.064 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:22:49.036 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 18:22:49.037 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:26:26.960 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:26:27.067 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:26:27.072 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:26:27.411 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:26:30.462 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 18:26:30.463 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:26:55.317 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:26:55.430 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:26:55.435 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:26:55.777 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:26:58.891 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 18:26:58.892 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:28:55.908 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:28:56.054 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:28:56.060 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:28:56.533 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:28:59.568 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 401 Status code actual: 401
+2023-10-17 18:28:59.569 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:29:52.657 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:29:52.735 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:29:52.742 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:29:53.153 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:29:55.615 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:30:32.673 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:30:32.755 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:30:32.760 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:30:33.162 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:30:35.530 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 200 Status code actual: 200
+2023-10-17 18:30:35.531 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:38:10.473 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:38:10.572 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:38:10.579 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:38:11.031 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:38:13.384 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 200 Status code actual: 200
+2023-10-17 18:38:13.384 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:40:44.406 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:40:44.480 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:40:44.484 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:40:44.910 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:40:47.671 [main] INFO  org.myatf.definitions.StepsThinkingTester - {
+  "_id" : "652ea007fde4e500139b9c67",
+  "firstName" : "Check",
+  "lastName" : "Get",
+  "birthdate" : "1970-01-01",
+  "email" : "checker@hotmail.com",
+  "phone" : "8005555555",
+  "street1" : "1 Main St.",
+  "street2" : "Apartment B",
+  "city" : "Kiwington",
+  "stateProvince" : "KS",
+  "postalCode" : "2001",
+  "country" : "MDA",
+  "owner" : "652d51d35377bb00131f4537",
+  "__v" : 0
+}
+2023-10-17 18:40:47.687 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 200 Status code actual: 200
+2023-10-17 18:40:47.688 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:21.471 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:44:21.559 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:44:21.950 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-17 18:44:25.148 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-17 18:44:25.167 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-17 18:44:25.168 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:25.179 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:44:25.180 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:44:25.181 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-17 18:44:26.443 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-17 18:44:26.445 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-17 18:44:26.446 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:26.472 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:44:26.473 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:44:26.476 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:44:26.601 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: velia.prohaska@hotmail.com
+2023-10-17 18:44:28.080 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 18:44:28.083 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 18:44:28.083 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:28.092 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:44:28.094 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:44:28.095 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:44:28.095 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:44:29.099 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 18:44:29.101 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 18:44:29.102 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:29.109 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:44:29.110 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:44:29.111 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:44:29.112 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:44:29.930 [main] INFO  org.myatf.definitions.StepsThinkingTester - {
+  "_id" : "652ea007fde4e500139b9c67",
+  "firstName" : "Check",
+  "lastName" : "Get",
+  "birthdate" : "1970-01-01",
+  "email" : "checker@hotmail.com",
+  "phone" : "8005555555",
+  "street1" : "1 Main St.",
+  "street2" : "Apartment B",
+  "city" : "Kiwington",
+  "stateProvince" : "KS",
+  "postalCode" : "2001",
+  "country" : "MDA",
+  "owner" : "652d51d35377bb00131f4537",
+  "__v" : 0
+}
+2023-10-17 18:44:29.931 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 200 Status code actual: 200
+2023-10-17 18:44:29.932 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:33.542 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-17 18:44:33.543 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:44:35.310 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:44:36.627 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:44:36.746 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 18:44:36.869 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-17 18:44:37.049 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-17 18:44:38.596 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 18:44:38.697 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 18:44:38.846 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 18:44:40.167 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 18:44:40.294 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 18:44:40.294 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:40.302 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:44:40.302 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:44:41.076 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:44:42.005 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:44:42.148 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 18:44:42.331 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-17 18:44:42.545 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-17 18:44:44.514 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 18:44:44.547 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 18:44:44.646 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 18:44:45.972 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 18:44:46.060 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 18:44:46.061 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:46.070 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:44:46.071 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:44:46.701 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:44:48.296 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:44:48.411 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:48.430 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:44:48.430 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:44:48.999 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:44:50.797 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:44:50.841 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:50.851 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:44:50.851 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:44:51.457 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:44:53.070 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-17 18:44:53.246 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:44:53.578 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-17 18:45:11.207 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:45:11.289 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:45:11.715 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-17 18:45:16.297 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-17 18:45:16.376 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-17 18:45:16.377 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:16.399 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:45:16.401 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:45:16.401 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-17 18:45:17.538 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-17 18:45:17.539 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-17 18:45:17.540 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:17.563 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:45:17.565 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:45:17.569 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:45:17.748 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: dominque.jacobi@yahoo.com
+2023-10-17 18:45:19.278 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 18:45:19.280 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 18:45:19.280 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:19.290 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:45:19.291 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:45:19.292 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:45:19.293 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:45:20.165 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 18:45:20.166 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 18:45:20.166 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:20.174 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:45:20.176 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:45:20.176 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:45:20.177 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 18:45:21.158 [main] INFO  org.myatf.definitions.StepsThinkingTester - {
+  "_id" : "652ea007fde4e500139b9c67",
+  "firstName" : "Check",
+  "lastName" : "Get",
+  "birthdate" : "1970-01-01",
+  "email" : "checker@hotmail.com",
+  "phone" : "8005555555",
+  "street1" : "1 Main St.",
+  "street2" : "Apartment B",
+  "city" : "Kiwington",
+  "stateProvince" : "KS",
+  "postalCode" : "2001",
+  "country" : "MDA",
+  "owner" : "652d51d35377bb00131f4537",
+  "__v" : 0
+}
+2023-10-17 18:45:21.159 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 200 Status code actual: 200
+2023-10-17 18:45:21.159 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:24.488 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-17 18:45:24.488 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:45:26.348 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:45:27.318 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:45:27.569 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 18:45:27.780 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-17 18:45:27.890 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-17 18:45:29.578 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 18:45:29.684 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 18:45:29.826 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 18:45:31.294 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 18:45:31.542 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 18:45:31.544 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:31.554 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:45:31.554 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:45:32.499 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:45:33.844 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:45:34.070 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 18:45:34.316 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-17 18:45:34.439 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-17 18:45:36.574 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 18:45:36.597 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 18:45:36.754 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 18:45:38.227 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 18:45:38.380 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 18:45:38.380 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:38.388 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:45:38.388 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:45:39.193 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:45:40.352 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:45:40.490 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 18:45:40.715 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: joaquin.gutkowski@hotmail.com
+2023-10-17 18:45:40.840 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: wro3lh8vyi2lfs6!1Qw
+2023-10-17 18:45:42.446 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 18:45:42.499 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 18:45:42.590 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 18:45:44.006 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 18:45:44.106 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 18:45:44.107 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:44.112 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:45:44.112 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:45:44.806 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:45:45.925 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 18:45:46.046 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 18:45:46.156 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-17 18:45:46.256 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-17 18:45:48.089 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 18:45:48.269 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-17 18:45:48.306 [main] INFO  org.myatf.definitions.StepDefinitions - User is still on Customer Login page
+2023-10-17 18:45:48.306 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:48.314 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 18:45:48.314 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 18:45:49.005 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 18:45:50.120 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-17 18:45:50.416 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Nathan
+2023-10-17 18:45:50.505 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: McKenzie
+2023-10-17 18:45:50.634 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: lynn.hyatt@gmail.com
+2023-10-17 18:45:50.875 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: Bhm!8^hT2%k$
+2023-10-17 18:45:53.849 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-17 18:45:53.930 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-17 18:45:53.930 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:45:54.260 [main] INFO  org.myatf.utils.Helper - Closing browser
+2023-10-17 18:47:37.496 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:47:41.207 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: gerry.brakus@yahoo.com
+2023-10-17 18:47:42.343 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 18:47:43.869 [main] INFO  org.myatf.definitions.StepDefinitionAPI - GET My account page Status code: 200
+2023-10-17 18:47:43.870 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:51:03.496 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:51:03.613 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:51:06.987 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: birdie.berge@hotmail.com
+2023-10-17 18:51:08.057 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 18:51:08.062 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:51:08.100 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:52:38.619 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:52:38.753 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:52:42.089 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: stormy.mayert@yahoo.com
+2023-10-17 18:52:43.193 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 18:52:43.197 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:52:43.224 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:53:10.585 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:53:10.715 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:53:13.621 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: keila.kub@yahoo.com
+2023-10-17 18:53:14.726 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 18:53:14.732 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:53:14.753 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:57:55.746 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:57:55.867 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:57:55.872 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:57:56.439 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: beverley.hyatt@hotmail.com
+2023-10-17 18:57:59.022 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 18:57:59.044 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 18:57:59.045 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 18:59:34.912 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 18:59:35.096 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 18:59:39.333 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: fletcher.olson@yahoo.com
+2023-10-17 18:59:40.695 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 18:59:40.698 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 18:59:40.731 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:03:49.034 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:03:52.245 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-17 19:03:53.412 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 19:03:53.435 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:04:20.236 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:04:20.364 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:04:20.368 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 19:04:20.750 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 19:04:23.213 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 19:04:23.214 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 19:04:23.215 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:04:36.963 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:04:37.089 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:04:37.094 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 19:04:37.510 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 19:04:40.110 [main] INFO  org.myatf.definitions.StepsThinkingTester - {
+  "_id" : "652ea007fde4e500139b9c67",
+  "firstName" : "Check",
+  "lastName" : "Get",
+  "birthdate" : "1970-01-01",
+  "email" : "checker@hotmail.com",
+  "phone" : "8005555555",
+  "street1" : "1 Main St.",
+  "street2" : "Apartment B",
+  "city" : "Kiwington",
+  "stateProvince" : "KS",
+  "postalCode" : "2001",
+  "country" : "MDA",
+  "owner" : "652d51d35377bb00131f4537",
+  "__v" : 0
+}
+2023-10-17 19:04:40.132 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-17 19:04:40.133 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:09:14.579 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:09:14.670 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:09:18.042 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: august.mann@yahoo.com
+2023-10-17 19:09:18.928 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 19:09:18.948 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 302 Status code actual: 302
+2023-10-17 19:09:18.949 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:09:38.996 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:09:42.062 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-17 19:09:43.197 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 19:09:43.217 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 302 Status code actual: 302
+2023-10-17 19:09:43.218 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:24.487 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:10:24.561 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:10:27.832 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to create user with email: merle.rosenbaum@gmail.com
+2023-10-17 19:10:29.174 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 19:10:29.206 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 302 Status code actual: 302
+2023-10-17 19:10:29.207 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:29.218 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:10:29.219 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:10:30.305 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Post endpoint with payload to login using email: corey.toy@gmail.comand password: csbt11or8a7d!1Qw
+2023-10-17 19:10:30.870 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Send post request. Get status code: 302
+2023-10-17 19:10:30.871 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 302 Status code actual: 302
+2023-10-17 19:10:30.873 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:30.887 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:10:30.888 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:10:30.888 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-17 19:10:32.027 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result/?q=Tops
+Status code: 200
+2023-10-17 19:10:32.029 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-17 19:10:32.030 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:32.038 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:10:32.040 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:10:32.041 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get main url https://magento.softwaretestingboard.com
+2023-10-17 19:10:32.653 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Get request to search bar.
+Endpoint:/catalogsearch/result123/?q=Tops
+Status code: 404
+2023-10-17 19:10:32.655 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 404 Status code actual: 404
+2023-10-17 19:10:32.656 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:32.672 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:10:32.673 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:10:32.686 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 19:10:32.790 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post endpoint with payload to create user with email: cherryl.kihn@yahoo.com
+2023-10-17 19:10:33.755 [main] INFO  org.myatf.definitions.StepsThinkingTester - Send post request. Get status code: 201
+2023-10-17 19:10:33.756 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 201 Status code actual: 201
+2023-10-17 19:10:33.756 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:33.767 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:10:33.768 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:10:33.769 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 19:10:33.769 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 19:10:34.443 [main] INFO  org.myatf.definitions.StepsThinkingTester - Post Contact details
+2023-10-17 19:10:34.443 [main] INFO  org.myatf.definitions.StepsThinkingTester - Status code expected: 201 Status code actual: 201
+2023-10-17 19:10:34.444 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:34.448 [main] INFO  org.myatf.definitions.Hooks - 
+Starting API test
+2023-10-17 19:10:34.449 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Initialize the Scenario Context
+2023-10-17 19:10:34.449 [main] INFO  org.myatf.definitions.StepsThinkingTester - Initialize the Scenario Context
+2023-10-17 19:10:34.449 [main] INFO  org.myatf.definitions.StepsThinkingTester - Get Contacts endpoint
+2023-10-17 19:10:35.207 [main] INFO  org.myatf.definitions.StepsThinkingTester - {
+  "_id" : "652ea007fde4e500139b9c67",
+  "firstName" : "Check",
+  "lastName" : "Get",
+  "birthdate" : "1970-01-01",
+  "email" : "checker@hotmail.com",
+  "phone" : "8005555555",
+  "street1" : "1 Main St.",
+  "street2" : "Apartment B",
+  "city" : "Kiwington",
+  "stateProvince" : "KS",
+  "postalCode" : "2001",
+  "country" : "MDA",
+  "owner" : "652d51d35377bb00131f4537",
+  "__v" : 0
+}
+2023-10-17 19:10:35.208 [main] INFO  org.myatf.definitions.StepDefinitionAPI - Status code expected: 200 Status code actual: 200
+2023-10-17 19:10:35.209 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:38.330 [main] INFO  org.myatf.utils.Helper - set Up Driver
+2023-10-17 19:10:38.330 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 19:10:40.121 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 19:10:41.054 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 19:10:41.174 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 19:10:41.275 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: corey.toy@gmail.com
+2023-10-17 19:10:41.399 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-17 19:10:42.928 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 19:10:43.011 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 19:10:43.176 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 19:10:44.572 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 19:10:44.712 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 19:10:44.713 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:44.720 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 19:10:44.721 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 19:10:45.401 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 19:10:46.376 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 19:10:46.500 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 19:10:46.589 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: rochell.crooks@yahoo.com
+2023-10-17 19:10:46.718 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: ygyg66o8rtz!1Qw
+2023-10-17 19:10:48.719 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 19:10:48.758 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 19:10:48.855 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 19:10:50.137 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 19:10:50.228 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 19:10:50.229 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:50.234 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 19:10:50.234 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 19:10:50.852 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 19:10:51.866 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 19:10:52.002 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 19:10:52.114 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: joaquin.gutkowski@hotmail.com
+2023-10-17 19:10:52.247 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: wro3lh8vyi2lfs6!1Qw
+2023-10-17 19:10:53.742 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 19:10:53.828 [main] INFO  org.myatf.definitions.StepDefinitions - User is logged in and redirected on main page
+2023-10-17 19:10:53.951 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Dropdown
+2023-10-17 19:10:55.489 [main] INFO  org.myatf.definitions.StepDefinitions - Select Sign Out option
+2023-10-17 19:10:55.581 [main] INFO  org.myatf.definitions.StepDefinitions - "You are signed out" message displayed 
+
+2023-10-17 19:10:55.582 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:55.590 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 19:10:55.590 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 19:10:56.238 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 19:10:57.259 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In
+2023-10-17 19:10:57.390 [main] INFO  org.myatf.definitions.StepDefinitions - "Customer Login" Page displayed
+2023-10-17 19:10:57.544 [main] INFO  org.myatf.definitions.StepDefinitions - User fills email of registered user: some@gmail.com
+2023-10-17 19:10:57.687 [main] INFO  org.myatf.definitions.StepDefinitions - User fills password of registered user: csbt11or8a7d!1Qw
+2023-10-17 19:10:59.295 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Sign In Button
+2023-10-17 19:10:59.453 [main] INFO  org.myatf.definitions.StepDefinitions - Error message that sign-in was incorrect is displayed: 
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+2023-10-17 19:10:59.475 [main] INFO  org.myatf.definitions.StepDefinitions - User is still on Customer Login page
+2023-10-17 19:10:59.475 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:10:59.484 [main] INFO  org.myatf.utils.Helper - set Up Next Driver
+2023-10-17 19:10:59.484 [main] INFO  org.myatf.definitions.Hooks - 
+Starting UI test
+2023-10-17 19:11:00.062 [main] INFO  org.myatf.definitions.StepDefinitions - User is on Home Page.
+2023-10-17 19:11:01.090 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create An Account
+2023-10-17 19:11:01.301 [main] INFO  org.myatf.definitions.StepDefinitions - First Name completed: Lara
+2023-10-17 19:11:01.387 [main] INFO  org.myatf.definitions.StepDefinitions - Last Name completed: Schuster
+2023-10-17 19:11:01.499 [main] INFO  org.myatf.definitions.StepDefinitions - Email address: pasquale.mann@yahoo.com
+2023-10-17 19:11:01.704 [main] INFO  org.myatf.definitions.StepDefinitions - Password and confirmation password: 8$n$#q@xILg
+2023-10-17 19:11:04.533 [main] INFO  org.myatf.definitions.StepDefinitions - Click on Create an Account Button
+2023-10-17 19:11:04.623 [main] INFO  org.myatf.definitions.StepDefinitions - "My Account" Page displayed
+
+2023-10-17 19:11:04.624 [main] INFO  org.myatf.definitions.Hooks - Test finished
+2023-10-17 19:11:04.930 [main] INFO  org.myatf.utils.Helper - Closing browser

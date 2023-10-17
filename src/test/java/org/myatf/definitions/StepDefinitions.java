@@ -5,7 +5,6 @@ import org.myatf.config.WebDriverFactory;
 import org.myatf.utils.GenerateFakeTestData;
 import org.myatf.utils.Helper;
 import org.myatf.pages.RegistrationPage;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -44,7 +43,7 @@ public class StepDefinitions {
         logger.info("Click on Create An Account");
     }
 
-    @And("User fills First Name")
+    @When("User fills First Name")
     public void userFillsFirstNameFirstName() {
         fakerData.generateRandomFirstName();
         String firstName = fakerData.getFirstName();
@@ -52,7 +51,7 @@ public class StepDefinitions {
         logger.info("First Name completed: " + firstName);
     }
 
-    @And("User fills Last Name")
+    @When("User fills Last Name")
     public void userFillsLastName() {
         fakerData.generateRandomLastName();
         String lastName = fakerData.getLastName();
@@ -61,7 +60,7 @@ public class StepDefinitions {
 
     }
 
-    @And("User fills Email")
+    @When("User fills Email")
     public void userFillsEmail() {
         fakerData.generateRandomEmail();
         String email = fakerData.getEmail();
@@ -69,7 +68,7 @@ public class StepDefinitions {
         logger.info("Email address: " + email);
     }
 
-    @And("User fills password and confirmation password")
+    @When("User fills password and confirmation password")
     public void userFillsPasswordAndConfirmationPassword() {
         fakerData.generateRandomPassword();
         String password = fakerData.getPassword();
@@ -78,7 +77,7 @@ public class StepDefinitions {
         logger.info("Password and confirmation password: " + password);
     }
 
-    @And("User clicks on Create an Account Button")
+    @When("User clicks on Create an Account Button")
     public void userClicksOnCreateAnAccount() {
         driver.findElement(registrationPage.getBtnCreateAnAccount()).click();
         logger.info("Click on Create an Account Button");
@@ -91,7 +90,7 @@ public class StepDefinitions {
         logger.info("\"My Account\" Page displayed\n");
     }
 
-    @And("User click on Sign In")
+    @When("User click on Sign In")
     public void userClickOnSignIn() {
         try {
             driver.findElement(registrationPage.getClickOnSignIn()).click();
@@ -101,7 +100,7 @@ public class StepDefinitions {
         }
     }
 
-    @And("Customer Login page is displayed")
+    @Then("Customer Login page is displayed")
     public void customerLoginPageIsDisplayed() {
         try {
             String customerLogin = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
@@ -112,13 +111,13 @@ public class StepDefinitions {
         }
     }
 
-    @And("User fills email: {}")
+    @When("User fills email: {}")
     public void userFillsEmail(String email) {
         driver.findElement(registrationPage.getInputRegisteredEmail()).sendKeys(email);
         logger.info("User fills email of registered user: " + email);
     }
 
-    @And("User fills password: {}")
+    @When("User fills password: {}")
     public void userFillsPassword(String password) {
         driver.findElement(registrationPage.getInputRegisteredPassword()).sendKeys(password);
         logger.info("User fills password of registered user: " + password);
@@ -147,7 +146,7 @@ public class StepDefinitions {
         logger.info("Click on Dropdown");
     }
 
-    @And("User click on Sign Out option")
+    @When("User click on Sign Out option")
     public void userClickOnSignOut() {
         driver.findElement(registrationPage.getClickOnSignOutOption()).click();
         logger.info("Select Sign Out option");
@@ -175,7 +174,7 @@ public class StepDefinitions {
         }
     }
 
-    @And("User is still on {string} page")
+    @Then("User is still on {string} page")
     public void userIsStillOnPage(String customerLoginInscription) {
         try {
             String customerLoginPage = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();

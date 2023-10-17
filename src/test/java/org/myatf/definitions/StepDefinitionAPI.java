@@ -1,6 +1,7 @@
 package org.myatf.definitions;
 
-import io.cucumber.java.en.And;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -64,7 +65,7 @@ public class StepDefinitionAPI {
     @Given("Valid endpoint with payload to create user {} {} {}")
     public void setupEndpointAndPostData(String firstName, String lastName, String password) {
         RestAssured.baseURI=baseUrl;
-        Response response = RestAssured.get("/customer/account/createpost/");
+        Response response = RestAssured.get("/customer/account/create/");
         fakerData.generateRandomEmail();
         String email = fakerData.getEmail();
 
@@ -85,36 +86,32 @@ public class StepDefinitionAPI {
         formData.put("password_confirmation", password);
         logger.info("Post endpoint with payload to create user with email: " + email);
         System.out.println(formData);
+
         }
-    @And("Request is sent to the server")
-    public void requestIsSendToTheServer() {
+    @When("Request is sent to the server")
+    public void requestIsSendToTheServer() throws JsonProcessingException {
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        String jsonPayload = objectMapper.writeValueAsString(formData);
+        System.out.println(jsonPayload);
+
         response = given()
             .contentType("text/html; charset=UTF-8")
-            .formParams(formData)
+            .body(jsonPayload)
             .when()
             .post()
             .then()
-            .statusCode(302)
             .extract()
             .response();
-        int statusCode = response.getStatusCode();
 
+        int statusCode = response.getStatusCode();
+        scenarioContext.setContext("statusCode", statusCode);
         logger.info("Send post request. Get status code: " + statusCode);
         String contentType = response.getContentType();
         System.out.println("Content Type: " + contentType);
-        System.out.println("!!!!Response headers: " + response.headers());
     }
 
-    @Then("User get on My account page")
-    public void userGetOnMyAccountPage() {
-        RestAssured.baseURI=baseUrl;
-        Response response = RestAssured.get("/customer/account/");
-        int statusCode = response.getStatusCode();
-        Assert.assertEquals(200, statusCode);
-        logger.info("GET My account page Status code: " +statusCode);
-
-    }
-    @Given("Valid endpoint with payload to login user {} {}")
+    @Given("Valid endpoint with payload to log in user {} {}")
     public void setupEndpointAndPostData(String email, String password) {
         RestAssured.baseURI=baseUrl;
         Response response = RestAssured.get("/customer/account/loginPost/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dC8%2C/");

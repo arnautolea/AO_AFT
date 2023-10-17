@@ -1,6 +1,5 @@
 package org.myatf.config;
 
-import org.apache.logging.log4j.LogManager;
 import org.myatf.ConfigurationLoader;
 import org.myatf.enums.Browser;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +16,6 @@ import java.util.logging.Logger;
 
 public class WebDriverFactory {
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
-    private static final org.apache.logging.log4j.Logger logger = LogManager.getLogger(WebDriverFactory.class);
     static String driverPath = (String) config.get("driverPath");
     private static final String CHROMEDRIVER_PATH = driverPath;
     private static WebDriver driver;

@@ -1,4 +1,4 @@
-Feature: Search functionality
+Feature: Register and login functionality
 
   Background: reset the test context
     Given test context is reset
@@ -7,8 +7,8 @@ Feature: Search functionality
   Scenario Outline: Check Registration flow with API POST
 
     Given Valid endpoint with payload to create user <firstName> <lastName> <password>
-    And Request is sent to the server
-    Then User get on My account page
+    When Request is sent to the server
+    Then The response status code should be 302
 
     Examples:
       | firstName | lastName | password   |
@@ -18,9 +18,9 @@ Feature: Search functionality
   @LoginAPI @API @Smoke
   Scenario Outline: Check login flow with API POST
 
-    Given Valid endpoint with payload to login user <email> <password>
-    And Request is sent to the server
-    Then User get on My account page
+    Given Valid endpoint with payload to log in user <email> <password>
+    When Request is sent to the server
+    Then The response status code should be 302
 
     Examples:
       | email               | password         |
