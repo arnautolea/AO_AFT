@@ -12,7 +12,7 @@ Feature: Register and login functionality
 
     Examples:
       | firstName   | lastName    | password   |
-      | NoName     | Neuvillette | Qwerty123! |
+      | NoName      | Neuvillette | Qwerty123! |
       | Wriothesley | Lord        | 123!!QWE   |
 
 

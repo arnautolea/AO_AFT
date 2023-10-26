@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="refactored + BNM">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/PageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
-    </list>
+    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698312500575</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1698316222286</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698316222286</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +274,8 @@
     <MESSAGE value="final version for now + Post" />
     <MESSAGE value="+ Post on ThinkingTester" />
     <MESSAGE value="refactored + BNM" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored + BNM" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
