@@ -1,37 +1,33 @@
 package org.myatf.definitions;
 
-import io.cucumber.java.AfterAll;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.myatf.utils.Helper;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
 
 public class Hooks {
     private static final Logger logger = LogManager.getLogger(Hooks.class);
+    private static String currentScenarioName;
 
     @Before("@UI")
-    public static void setUp() {
+    public static void setUp(Scenario scenario) {
         Helper.setUpDriver();
-        logger.info("\nStarting UI test");
+        currentScenarioName = scenario.getName();
+        logger.info("\nStarting UI test " + currentScenarioName);
 
     }
 
     @Before("@API")
-    public static void setUpAPI() {
-
-        logger.info("\nStarting API test");
+    public static void setUpAPI(Scenario scenario) {
+        currentScenarioName = scenario.getName();
+        logger.info("\nStarting API test " + currentScenarioName);
 
     }
-
-    @After
-    public void afterScenario() {
-        logger.info("Test finished");
-    }
-
-    @AfterAll
-    public static void tearDown() {
-        Helper.tearDown();
+    @After("@UI")
+    public static void afterScenario() {
+       Helper.tearDown();
     }
 
 }

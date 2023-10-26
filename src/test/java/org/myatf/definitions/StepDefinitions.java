@@ -1,7 +1,6 @@
 package org.myatf.definitions;
 
-import org.myatf.enums.Browser;
-import org.myatf.config.WebDriverFactory;
+import org.myatf.ConfigurationLoader;
 import org.myatf.utils.GenerateFakeTestData;
 import org.myatf.utils.Helper;
 import org.myatf.pages.RegistrationPage;
@@ -14,6 +13,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.Map;
 
 import static java.time.Duration.*;
 import static org.junit.Assert.*;
@@ -21,15 +21,16 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 
 public class StepDefinitions {
 
-    final static WebDriver driver = WebDriverFactory.getDriver(Browser.CHROME);
+    private final WebDriver driver = Helper.getDriver();
     final RegistrationPage registrationPage = new RegistrationPage();
     private static final Logger logger = LogManager.getLogger(StepDefinitions.class);
     GenerateFakeTestData fakerData = new GenerateFakeTestData();
-
+    private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
+    public static String baseUrl = (String) config.get("baseUrl");
     @Given("User is on the Home page")
     public void userIsOnHomePage() {
         try {
-            Helper.openPage();
+            driver.get(baseUrl);
             logger.info("User is on Home Page.");
         } catch (NullPointerException e) {
             // Handle the SessionNotCreatedException and log the error
@@ -129,36 +130,23 @@ public class StepDefinitions {
         logger.info("Click on Sign In Button");
     }
 
-    @Then("User is logged in and redirected on main page")
-    public void userIsLoggedInAndRedirectedOnMainPage() {
-        try {
-            String mainPage = driver.getCurrentUrl();
-            assertEquals("https://magento.softwaretestingboard.com/", mainPage);
-            logger.info("User is logged in and redirected on main page");
-        } catch (AssertionError e) {
-            logger.error(e.getMessage());
-        }
-    }
-
     @When("User click on dropdown")
     public void userClickOnDropdown() {
         driver.findElement(registrationPage.getClickOnDropdown()).click();
         logger.info("Click on Dropdown");
     }
 
-    @When("User click on Sign Out option")
+    @When("User click on My Account option")
     public void userClickOnSignOut() {
-        driver.findElement(registrationPage.getClickOnSignOutOption()).click();
-        logger.info("Select Sign Out option");
+        driver.findElement(registrationPage.getClickOnMyAccountOption()).click();
+        logger.info("Select My Account option");
     }
-
-    @Then("'You are signed out' message displayed")
-    public void youAreSignedOutMessageDisplayed() {
-        String signOut = driver.findElement(registrationPage.getInscriptionYouAreSignedOut()).getText();
-        assertEquals("You are signed out", signOut);
-        logger.info("\"You are signed out\" message displayed \n");
+    @Then("User is logged in with Contact Information name and email")
+    public void userIsLoggedInWithContactInformationName(String expectedName) {
+        String actualName = driver.findElement(registrationPage.getContactInformationName()).getText();
+        assertEquals(expectedName, actualName);
+        logger.info("User name and email are displayed in Contact information");
     }
-
     @Then("Error message that sign-in was incorrect is displayed")
     public void ErrorMessageThatSignInWasIncorrectIsDisplayed() {
         try {
@@ -184,4 +172,6 @@ public class StepDefinitions {
             logger.error("User is not logged in");
         }
     }
+
+
 }

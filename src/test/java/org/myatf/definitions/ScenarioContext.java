@@ -1,26 +1,29 @@
 package org.myatf.definitions;
 
+import org.myatf.enums.Context;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class ScenarioContext {
+public enum ScenarioContext {
+    INSTANCE;
+
     private final Map<String, Object> scenarioContext;
 
-    public ScenarioContext() {
+    ScenarioContext() {
         scenarioContext = new HashMap<>();
     }
 
-    public void setContext(String key, Object value) {
-        scenarioContext.put(key, value);
+    public void setContext(Context key, Object value) {
+        scenarioContext.put(key.name(), value);
     }
 
-    public Object getContext(String key) {
-        return scenarioContext.get(key);
+    public Object getContext(Context key) {
+        return scenarioContext.get(key.name());
     }
-
-    //public boolean contains(String key) {return scenarioContext.containsKey(key);}
 
     public void clearContext() {
         scenarioContext.clear();
     }
+
 }

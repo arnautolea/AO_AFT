@@ -11,10 +11,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.junit.Assert;
 import org.myatf.ConfigurationLoader;
+import org.myatf.DataObjects.Contact;
+import org.myatf.enums.Context;
 import org.myatf.utils.GenerateFakeTestData;
 
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,12 +27,7 @@ public class StepsThinkingTester {
     GenerateFakeTestData fakerData = new GenerateFakeTestData();
     Response response;
     public HashMap<String, String> formData = new HashMap<>();
-    final ScenarioContext scenarioContext;
-
-    public StepsThinkingTester(ScenarioContext scenarioContext) {
-        this.scenarioContext = scenarioContext;
-        logger.info("Initialize the Scenario Context");
-    }
+    private Contact contact;
 
     @Given("Valid endpoint with payload to add user {} {} {}")
     public void valid_endpoint_with_payload(String firstName, String lastName, String password) {
@@ -55,44 +52,47 @@ public class StepsThinkingTester {
                 .body(formData)
                 .post();
         int statusCode = response.getStatusCode();
-        scenarioContext.setContext("statusCode", statusCode);
+        ScenarioContext.INSTANCE.setContext(Context.STATUS_CODE, statusCode);
         logger.info("Send post request. Get status code: " + statusCode);
-        String contentType = response.getContentType();
-        System.out.println("Content Type: " + contentType);
+    }
+
+    @When("User is logged in")
+    public void userIsLoggedIn() {
+        RestAssured.baseURI = baseUrlAPI;
+        RestAssured.basePath = ("users/login");
+        formData.put("email", "melissia.morar@hotmail.com");
+        formData.put("password", "Qwerty123!");
+        response = RestAssured.given()
+                .contentType("application/json")
+                .body(formData)
+                .post();
     }
 
     @Given("the API endpoint is {string}")
     public void theAPIEndpointIs(String endpoint) {
         RestAssured.baseURI = baseUrlAPI;
         RestAssured.basePath = (endpoint);
-        logger.info("Get Contacts endpoint");
+        logger.info("Login and Get Contacts endpoint");
     }
 
-    @When("I send a POST request with the following JSON data and Authorization header")
-    public void i_send_a_post_request_with_the_following_json_data_and_authorization_header() {
-        String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJkNTFkMzUzNzdiYjAwMTMxZjQ1MzciLCJpYXQiOjE2OTc1NTA5NTZ9.8Q2j6FbdfBNxsVOPVvJ2PJZ9ywQUP1jOqyzCzEKjL6o";
+    @When("I send a POST request with the following JSON data and Authorization header: {string}")
+    public void i_send_a_post_request_with_the_following_json_data_and_authorization_header(String jsonFileName) {
+        String tokenCookie = response.getCookie("token");
+        try {
+// Read the JSON data from the file and convert it to a Contact object using Jackson.
+            ObjectMapper objectMapper = new ObjectMapper();
+            InputStream inputStream = ClassLoader.getSystemResourceAsStream(jsonFileName);
+            contact = objectMapper.readValue(inputStream, Contact.class);
 
-        formData.put("firstName", "Hello");
-        formData.put("lastName", "World");
-        formData.put("birthdate", "1970-01-01");
-        formData.put("email", "privet@hotmail.com");
-        formData.put("phone", "8005555555");
-        formData.put("street1", "1 Main St.");
-        formData.put("street2", "Apartment A");
-        formData.put("city", "Anytown");
-        formData.put("stateProvince", "KS");
-        formData.put("postalCode", "12343");
-        formData.put("country", "MDA");
-
-        response = RestAssured.given()
-                .contentType(ContentType.JSON)
-                .header("Authorization", "Bearer " + token)
-                .body(formData)
-                .post();
-        logger.info("Post Contact details");
-        String contentType = response.getContentType();
-        System.out.println("Content Type: " + contentType);
-        System.out.println("formData: " + formData);
+            response = RestAssured.given()
+                    .contentType(ContentType.JSON)
+                    .header("Authorization", "Bearer " + tokenCookie)
+                    .body(contact)
+                    .post();
+            logger.info("Posted Contact details successfully");
+        } catch (Exception e) {
+            logger.error("Contact is not created " + e.getMessage());
+        }
     }
 
     @Then("the response status code should be {int}")
@@ -104,13 +104,13 @@ public class StepsThinkingTester {
 
     @When("Get Contact List details")
     public void get_contact_list_details() {
-        String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJkNTFkMzUzNzdiYjAwMTMxZjQ1MzciLCJpYXQiOjE2OTc1NTA5NTZ9.8Q2j6FbdfBNxsVOPVvJ2PJZ9ywQUP1jOqyzCzEKjL6o";
+        String tokenCookie = response.getCookie("token");
         response = RestAssured.given()
-                .header("Authorization", "Bearer " + token)
+                .header("Authorization", "Bearer " + tokenCookie)
                 .get();
 
         int statusCode = response.getStatusCode();
-        scenarioContext.setContext("statusCode", statusCode);
+        ScenarioContext.INSTANCE.setContext(Context.STATUS_CODE, statusCode);
         String responseString = response.getBody().asString();
 
         try {
@@ -132,5 +132,7 @@ public class StepsThinkingTester {
         }
 
     }
+
+
 }
 

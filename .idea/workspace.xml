@@ -4,18 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="final version for now + Post">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" afterDir="false" />
+    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="+ Post on ThinkingTester">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/DataObjects/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BNMdates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ContactDetails.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logFile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/logFile.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/config/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/config/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/config/WebDriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Browser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +94,19 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn install" />
       <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Scenario: Check Registration flow with API POST (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: uiLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" />
       <option name="GLUE" value="org.myatf.definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AO_AFT" />
-      <option name="NAME_FILTER" value="^Check Registration flow with API POST$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check Registration flow with API POST$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check Registration flow with API POST" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: uiLogin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -101,15 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check login flow with API POST" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check how much you gain till now" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" />
       <option name="GLUE" value="org.myatf.definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AO_AFT" />
-      <option name="NAME_FILTER" value="^Check login flow with API POST$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login flow with API POST$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check login flow with API POST" />
+      <option name="NAME_FILTER" value="^Check how much you gain till now$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check how much you gain till now$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check how much you gain till now" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,15 +158,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify user able to list out contact based on id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Validate login with registered user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" />
       <option name="GLUE" value="org.myatf.definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AO_AFT" />
-      <option name="NAME_FILTER" value="^Verify user able to list out contact based on id$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify user able to list out contact based on id$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify user able to list out contact based on id" />
+      <option name="NAME_FILTER" value="^Validate login with registered user$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate login with registered user$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate login with registered user" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -179,10 +196,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Check login flow with API POST" />
-        <item itemvalue="Cucumber Java.Scenario: Verify user able to list out contact based on id" />
+        <item itemvalue="Cucumber Java.Scenario: Check how much you gain till now" />
+        <item itemvalue="Cucumber Java.Scenario: Validate login with registered user" />
+        <item itemvalue="Cucumber Java.Feature: uiLogin" />
         <item itemvalue="Cucumber Java.Scenario: Sending a POST request with JSON data" />
-        <item itemvalue="Cucumber Java.Scenario: Check Registration flow with API POST (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697453557853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="+ Post on ThinkingTester">
+      <created>1697559148822</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697559148822</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +289,8 @@
     <MESSAGE value="added atf test. final version for now" />
     <MESSAGE value="final version for now" />
     <MESSAGE value="final version for now + Post" />
-    <option name="LAST_COMMIT_MESSAGE" value="final version for now + Post" />
+    <MESSAGE value="+ Post on ThinkingTester" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Post on ThinkingTester" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,6 +305,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="jsonFileName" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

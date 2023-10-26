@@ -4,10 +4,10 @@ Feature: User Registration Flow
   Scenario: Registration of a new User
 
     Given User is on the Home page
-    When User click on Create An Account link
+    And User click on Create An Account link
     And User fills First Name
     And User fills Last Name
     And User fills Email
     And User fills password and confirmation password
-    And User clicks on Create an Account Button
+    When User clicks on Create an Account Button
     Then User redirected on Account Page, 'My Account' inscription is displayed on the screen

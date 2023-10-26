@@ -17,8 +17,8 @@ public class RegistrationPage {
     private By inputRegisteredPassword = By.cssSelector("input#pass");
     private By btnSingIn = By.xpath("//*[@id=\"send2\"]/span");
     private By clickOnDropdown = By.cssSelector("li.customer-welcome > span > button");
-    private By clickOnSignOutOption = By.xpath("//header/div[1]/div[1]/ul[1]/li[2]/div[1]/ul[1]/li[3]/a[1]");
-    private By inscriptionYouAreSignedOut = By.xpath("//span[contains(text(),'You are signed out')]");
+    private By clickOnMyAccountOption = By.xpath("//header/div[1]/div/ul/li[2]/div/ul/li[1]/a");
+    private By contactInformationName = By.xpath("//body[1]/div[2]/main[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/p[1]");
     private By errorMessageFrame = By.xpath("//body/div[2]/main[1]/div[2]/div[2]/div[1]");
     private By errorMessageText = By.xpath("//div[contains(text(),'The account sign-in was incorrect or your account ')]");
     public By getClickCreateAnAccount() { return clickCreateAnAccount; }
@@ -49,8 +49,8 @@ public class RegistrationPage {
     }
     public By getBtnSingIn() {return btnSingIn;}
     public By getClickOnDropdown() {return clickOnDropdown;}
-    public By getClickOnSignOutOption() { return clickOnSignOutOption; }
-    public By getInscriptionYouAreSignedOut() { return inscriptionYouAreSignedOut; }
+    public By getClickOnMyAccountOption() { return clickOnMyAccountOption; }
+    public By getContactInformationName() { return contactInformationName; }
     public By getErrorMessageFrame() {return errorMessageFrame;}
     public By getErrorMessageText() {return errorMessageText;}
 }

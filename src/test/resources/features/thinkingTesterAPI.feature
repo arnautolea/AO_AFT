@@ -1,25 +1,23 @@
-Feature: Add User functionality
+Feature: Add User functionality, post/get contact list
 
-  Background: reset the test context
+  Background: reset the test context and login
     Given test context is reset
+    And User is logged in
+
 
   @PostAddUser @API @Smoke
-  Scenario Outline: Check Add User flow with API POST
+  Scenario: Check Add User flow with API POST
 
-    Given Valid endpoint with payload to add user <firstName> <lastName> <password>
+    Given Valid endpoint with payload to add user Some Name Qwerty123!
     When Post request is sent to the server
     Then The response status code should be 201
-
-    Examples:
-      | firstName | lastName | password   |
-      | Vasea     | Pupkin   | Qwerty123! |
 
 
   @PostContactDetails @API @Smoke
   Scenario: Sending a POST request with JSON data
 
     Given the API endpoint is "/contacts"
-    When I send a POST request with the following JSON data and Authorization header
+    When I send a POST request with the following JSON data and Authorization header: "ContactDetails.json"
     Then the response status code should be 201
 
   @GetContactList @API @Smoke
