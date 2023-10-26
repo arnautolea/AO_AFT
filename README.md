@@ -9,7 +9,7 @@ system under test XML response: https://bnm.md/en/official_exchange_rates?get_xm
 
 Java, Maven, Cucumber, Selenium WebDriver, Restassured;
 
-log4j.properties, config.yaml;
+log4j2.properties, config.yaml;
 
 javafaker; 
 
