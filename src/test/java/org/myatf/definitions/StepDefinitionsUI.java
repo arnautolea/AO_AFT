@@ -3,7 +3,7 @@ package org.myatf.definitions;
 import org.myatf.ConfigurationLoader;
 import org.myatf.utils.GenerateFakeTestData;
 import org.myatf.utils.Helper;
-import org.myatf.pages.RegistrationPage;
+import org.myatf.pages.PageFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,11 +19,11 @@ import static java.time.Duration.*;
 import static org.junit.Assert.*;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
-public class StepDefinitions {
+public class StepDefinitionsUI {
 
     private final WebDriver driver = Helper.getDriver();
-    final RegistrationPage registrationPage = new RegistrationPage();
-    private static final Logger logger = LogManager.getLogger(StepDefinitions.class);
+    final PageFactory pageFactory = new PageFactory();
+    private static final Logger logger = LogManager.getLogger(StepDefinitionsUI.class);
     GenerateFakeTestData fakerData = new GenerateFakeTestData();
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
     public static String baseUrl = (String) config.get("baseUrl");
@@ -40,7 +40,7 @@ public class StepDefinitions {
 
     @When("User click on Create An Account link")
     public void userClicksOnCreateAnAccountLink() {
-        driver.findElement(registrationPage.getClickCreateAnAccount()).click();
+        driver.findElement(pageFactory.getClickCreateAnAccount()).click();
         logger.info("Click on Create An Account");
     }
 
@@ -48,7 +48,7 @@ public class StepDefinitions {
     public void userFillsFirstNameFirstName() {
         fakerData.generateRandomFirstName();
         String firstName = fakerData.getFirstName();
-        driver.findElement(registrationPage.getInputFirstName()).sendKeys(firstName);
+        driver.findElement(pageFactory.getInputFirstName()).sendKeys(firstName);
         logger.info("First Name completed: " + firstName);
     }
 
@@ -56,7 +56,7 @@ public class StepDefinitions {
     public void userFillsLastName() {
         fakerData.generateRandomLastName();
         String lastName = fakerData.getLastName();
-        driver.findElement(registrationPage.getInputLastName()).sendKeys(lastName);
+        driver.findElement(pageFactory.getInputLastName()).sendKeys(lastName);
         logger.info("Last Name completed: " + lastName);
 
     }
@@ -65,7 +65,7 @@ public class StepDefinitions {
     public void userFillsEmail() {
         fakerData.generateRandomEmail();
         String email = fakerData.getEmail();
-        driver.findElement(registrationPage.getInputEmail()).sendKeys(email);
+        driver.findElement(pageFactory.getInputEmail()).sendKeys(email);
         logger.info("Email address: " + email);
     }
 
@@ -73,20 +73,20 @@ public class StepDefinitions {
     public void userFillsPasswordAndConfirmationPassword() {
         fakerData.generateRandomPassword();
         String password = fakerData.getPassword();
-        driver.findElement(registrationPage.getInputPassword()).sendKeys(password);
-        driver.findElement(registrationPage.getInputConfirmPassword()).sendKeys(password);
+        driver.findElement(pageFactory.getInputPassword()).sendKeys(password);
+        driver.findElement(pageFactory.getInputConfirmPassword()).sendKeys(password);
         logger.info("Password and confirmation password: " + password);
     }
 
     @When("User clicks on Create an Account Button")
     public void userClicksOnCreateAnAccount() {
-        driver.findElement(registrationPage.getBtnCreateAnAccount()).click();
+        driver.findElement(pageFactory.getBtnCreateAnAccount()).click();
         logger.info("Click on Create an Account Button");
     }
 
     @Then("User redirected on Account Page, 'My Account' inscription is displayed on the screen")
     public void inscriptionMyAccount() {
-        String myAccount = driver.findElement(registrationPage.getInscriptionMyAccount()).getText();
+        String myAccount = driver.findElement(pageFactory.getInscriptionMyAccount()).getText();
         assertEquals("My Account", myAccount);
         logger.info("\"My Account\" Page displayed\n");
     }
@@ -94,7 +94,7 @@ public class StepDefinitions {
     @When("User click on Sign In")
     public void userClickOnSignIn() {
         try {
-            driver.findElement(registrationPage.getClickOnSignIn()).click();
+            driver.findElement(pageFactory.getClickOnSignIn()).click();
             logger.info("Click on Sign In");
         } catch (NoSuchElementException e) {
             logger.error("WebDriver couldn’t locate the element Sign In" + e.getMessage());
@@ -104,7 +104,7 @@ public class StepDefinitions {
     @Then("Customer Login page is displayed")
     public void customerLoginPageIsDisplayed() {
         try {
-            String customerLogin = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
+            String customerLogin = driver.findElement(pageFactory.getInscriptionCustomerLogin()).getText();
             assertEquals("Customer Login", customerLogin);
             logger.info("\"Customer Login\" Page displayed");
         } catch (AssertionError e) {
@@ -114,36 +114,36 @@ public class StepDefinitions {
 
     @When("User fills email: {}")
     public void userFillsEmail(String email) {
-        driver.findElement(registrationPage.getInputRegisteredEmail()).sendKeys(email);
+        driver.findElement(pageFactory.getInputRegisteredEmail()).sendKeys(email);
         logger.info("User fills email of registered user: " + email);
     }
 
     @When("User fills password: {}")
     public void userFillsPassword(String password) {
-        driver.findElement(registrationPage.getInputRegisteredPassword()).sendKeys(password);
+        driver.findElement(pageFactory.getInputRegisteredPassword()).sendKeys(password);
         logger.info("User fills password of registered user: " + password);
     }
 
     @When("User click on Sing In Button")
     public void userClickOnSingInButton() {
-        driver.findElement(registrationPage.getBtnSingIn()).click();
+        driver.findElement(pageFactory.getBtnSingIn()).click();
         logger.info("Click on Sign In Button");
     }
 
     @When("User click on dropdown")
     public void userClickOnDropdown() {
-        driver.findElement(registrationPage.getClickOnDropdown()).click();
+        driver.findElement(pageFactory.getClickOnDropdown()).click();
         logger.info("Click on Dropdown");
     }
 
     @When("User click on My Account option")
     public void userClickOnSignOut() {
-        driver.findElement(registrationPage.getClickOnMyAccountOption()).click();
+        driver.findElement(pageFactory.getClickOnMyAccountOption()).click();
         logger.info("Select My Account option");
     }
     @Then("User is logged in with Contact Information name and email")
     public void userIsLoggedInWithContactInformationName(String expectedName) {
-        String actualName = driver.findElement(registrationPage.getContactInformationName()).getText();
+        String actualName = driver.findElement(pageFactory.getContactInformationName()).getText();
         assertEquals(expectedName, actualName);
         logger.info("User name and email are displayed in Contact information");
     }
@@ -152,8 +152,8 @@ public class StepDefinitions {
         try {
             Duration timeout = ofSeconds(9000);
             WebDriverWait wait = new WebDriverWait(driver, timeout);
-            wait.until(visibilityOfElementLocated(registrationPage.getErrorMessageFrame()));
-            String errorText = driver.findElement(registrationPage.getErrorMessageText()).getText();
+            wait.until(visibilityOfElementLocated(pageFactory.getErrorMessageFrame()));
+            String errorText = driver.findElement(pageFactory.getErrorMessageText()).getText();
             assertEquals("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.", errorText);
             logger.info("Error message that sign-in was incorrect is displayed: \n" + errorText);
         }catch(NoSuchElementException e2) {
@@ -165,7 +165,7 @@ public class StepDefinitions {
     @Then("User is still on {string} page")
     public void userIsStillOnPage(String customerLoginInscription) {
         try {
-            String customerLoginPage = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
+            String customerLoginPage = driver.findElement(pageFactory.getInscriptionCustomerLogin()).getText();
             assertEquals(customerLoginInscription, customerLoginPage);
             logger.info("User is still on Customer Login page");
         } catch (AssertionError e) {

@@ -22,8 +22,8 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class StepDefinitionAPI {
-    private static final Logger logger = LogManager.getLogger(StepDefinitionAPI.class);
+public class StepDefinitionsAPI {
+    private static final Logger logger = LogManager.getLogger(StepDefinitionsAPI.class);
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
     public static String baseUrl = (String) config.get("baseUrl");
     GenerateFakeTestData fakerData = new GenerateFakeTestData();

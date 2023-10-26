@@ -73,7 +73,7 @@ public class StepDefinitionsBNM {
         }
 
         String formattedTotalPaidAmount = String.format("%.2f lei", totalPaidAmount);
-        System.out.println("Total paid amount for all dates: " + formattedTotalPaidAmount);
+        logger.info("Total paid amount for all dates: " + formattedTotalPaidAmount);
     }
 
 }

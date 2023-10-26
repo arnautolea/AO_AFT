@@ -1,7 +1,7 @@
 Feature: BNM practice
 
-  @BNM
-  Scenario: Retrieve EURO value for specific dates from bnm.md
+  @BNM @API @Smoke
+  Scenario: Calculating Total Paid Amount in lei with some EURO Salary
 
     Given I have a CSV file containing dates "src/test/resources/BNMdates.csv"
     When I retrieve the XML response for each date
