@@ -1,10 +1,18 @@
 # AO_AFT
-Automation Testing framework for transition to automation testing; 
+Automation Testing framework for transition to automation testing;
+
 system under test UI: https://magento.softwaretestingboard.com
+
 system under test API:https://thinking-tester-contact-list.herokuapp.com
+
 system under test XML response: https://bnm.md/en/official_exchange_rates?get_xml=1
+
 Java, Maven, Cucumber, Selenium WebDriver, Restassured;
+
 log4j.properties, config.yaml;
+
 javafaker; 
+
 Singleton, POJO;
+
 Hooks, Helper, features, StepDefinition, TestRunner, PageFactory, Constructors, Scenario Context;
