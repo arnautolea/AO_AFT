@@ -47,13 +47,15 @@ public class StepDefinitionsBNM {
 
             if (response.getStatusCode() == 200) {
                 String xmlContent = response.getBody().asString();
-
+                try {
                 // Parse the XML content and extract EUR value
                 double euroValue = XmlParser.parseEuroValueFromXML(xmlContent);
                 //Store euroValue in Map
                 euroValuesMap.put(date, euroValue);
-
                 System.out.println("For Date: " + date + " EUR Value is: " + euroValue);
+                } catch (Exception e) {
+                    System.out.println("Error parsing XML for Date: " + date + " - " + e.getMessage());
+                }
             } else {
                 // Handle the case where the request did not return a successful status code
                 System.out.println("Request for Date: " + date + " failed with status code: " + response.getStatusCode());

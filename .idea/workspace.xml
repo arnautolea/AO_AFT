@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="commit" />
+    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="refactored + BNM">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,15 +94,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check how much you gain till now" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Calculating Total Paid Amount in lei with some EURO Salary" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" />
       <option name="GLUE" value="org.myatf.definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AO_AFT" />
-      <option name="NAME_FILTER" value="^Check how much you gain till now$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check how much you gain till now$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check how much you gain till now" />
+      <option name="NAME_FILTER" value="^Calculating Total Paid Amount in lei with some EURO Salary$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Calculating Total Paid Amount in lei with some EURO Salary$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Calculating Total Paid Amount in lei with some EURO Salary" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -107,15 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Sending a POST request with JSON data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check how much you gain till now" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" />
       <option name="GLUE" value="org.myatf.definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AO_AFT" />
-      <option name="NAME_FILTER" value="^Sending a POST request with JSON data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Sending a POST request with JSON data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Sending a POST request with JSON data" />
+      <option name="NAME_FILTER" value="^Check how much you gain till now$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check how much you gain till now$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check how much you gain till now" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -165,10 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Calculating Total Paid Amount in lei with some EURO Salary" />
         <item itemvalue="Cucumber Java.Scenario: Check how much you gain till now" />
         <item itemvalue="Cucumber Java.Scenario: Validate login with registered user" />
         <item itemvalue="Cucumber Java.Feature: uiLogin" />
-        <item itemvalue="Cucumber Java.Scenario: Sending a POST request with JSON data" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698316222286</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactored + BNM">
+      <created>1698316433120</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698316433120</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,9 +287,9 @@
     <MESSAGE value="final version for now" />
     <MESSAGE value="final version for now + Post" />
     <MESSAGE value="+ Post on ThinkingTester" />
-    <MESSAGE value="refactored + BNM" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="refactored + BNM" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored + BNM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
