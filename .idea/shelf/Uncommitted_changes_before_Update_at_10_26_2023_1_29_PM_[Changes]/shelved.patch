@@ -1,0 +1,470 @@
+Index: src/test/resources/features/apiRegistration.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Feature: Register and login functionality\r\n\r\n  Background: reset the test context\r\n    Given test context is reset\r\n\r\n  @RegistrationAPI @API @Smoke\r\n  Scenario Outline: Check Registration flow with API POST get Status Code 302\r\n\r\n    Given Valid endpoint with payload to create user <firstName> <lastName> <password>\r\n    When Request is sent to the server\r\n    Then The response status code should be 302\r\n\r\n    Examples:\r\n      | firstName   | lastName    | password   |\r\n      | Unknown     | Neuvillette | Qwerty123! |\r\n      | Wriothesley | Lord        | 123!!QWE   |\r\n\r\n\r\n  @LoginAPI @API @Smoke\r\n  Scenario: Check login flow with API POST get Status Code 302\r\n\r\n    Given Valid endpoint with payload to log in user corey.toy@gmail.com csbt11or8a7d!1Qw\r\n    When Request is sent to the server\r\n    Then The response status code should be 302\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/apiRegistration.feature b/src/test/resources/features/apiRegistration.feature
+--- a/src/test/resources/features/apiRegistration.feature	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/src/test/resources/features/apiRegistration.feature	(date 1698315397721)
+@@ -12,7 +12,7 @@
+ 
+     Examples:
+       | firstName   | lastName    | password   |
+-      | Unknown     | Neuvillette | Qwerty123! |
++      | NoName     | Neuvillette | Qwerty123! |
+       | Wriothesley | Lord        | 123!!QWE   |
+ 
+ 
+Index: src/test/java/org/myatf/definitions/StepDefinitionAPI.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/org/myatf/definitions/StepDefinitionAPI.java b/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java
+rename from src/test/java/org/myatf/definitions/StepDefinitionAPI.java
+rename to src/test/java/org/myatf/definitions/StepDefinitionsAPI.java
+--- a/src/test/java/org/myatf/definitions/StepDefinitionAPI.java	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java	(date 1698314983549)
+@@ -22,8 +22,8 @@
+ 
+ import static io.restassured.RestAssured.given;
+ 
+-public class StepDefinitionAPI {
+-    private static final Logger logger = LogManager.getLogger(StepDefinitionAPI.class);
++public class StepDefinitionsAPI {
++    private static final Logger logger = LogManager.getLogger(StepDefinitionsAPI.class);
+     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
+     public static String baseUrl = (String) config.get("baseUrl");
+     GenerateFakeTestData fakerData = new GenerateFakeTestData();
+Index: src/test/resources/features/bnmCalculator.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Feature: BNM practice\r\n\r\n  @BNM\r\n  Scenario: Retrieve EURO value for specific dates from bnm.md\r\n\r\n    Given I have a CSV file containing dates \"src/test/resources/BNMdates.csv\"\r\n    When I retrieve the XML response for each date\r\n    Then I calculate the total paid amount for all dates with a salary of 1.0 EURO\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/bnmCalculator.feature b/src/test/resources/features/bnmCalculator.feature
+--- a/src/test/resources/features/bnmCalculator.feature	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/src/test/resources/features/bnmCalculator.feature	(date 1698315835980)
+@@ -1,7 +1,7 @@
+ Feature: BNM practice
+ 
+-  @BNM
+-  Scenario: Retrieve EURO value for specific dates from bnm.md
++  @BNM @API @Smoke
++  Scenario: Calculating Total Paid Amount in lei with some EURO Salary
+ 
+     Given I have a CSV file containing dates "src/test/resources/BNMdates.csv"
+     When I retrieve the XML response for each date
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"02664473-58c9-4f37-a0e4-d773c5b636b2\" name=\"Changes\" comment=\"+ Post on ThinkingTester\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/csv-plugin.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/DataObjects/Contact.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/enums/Context.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/resources/BNMdates.csv\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/resources/ContactDetails.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/logs/logFile.log\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/config.yaml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/config.yaml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/log4j2.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/log4j2.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/config/WebDriverFactory.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/enums/Browser.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/chromedriver.exe\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/chromedriver.exe\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/apiSearch.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/apiSearch.feature\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/uiLogin.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/uiLogin.feature\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2VkwX2SWNjyX4fJA1HloFaA760V\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/oarnaut/IdeaProjects/AO_AFT/src/test/resources&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\oarnaut\\IdeaProjects\\AO_AFT\\src\\test\\resources\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\oarnaut\\IdeaProjects\\AO_AFT\\src\\test\\resources\" />\r\n      <recent name=\"C:\\Users\\oarnaut\\IdeaProjects\\AO_AFT\\logs\" />\r\n      <recent name=\"C:\\Users\\oarnaut\\IdeaProjects\\AO_AFT\\src\\test\\resources\\csv\" />\r\n      <recent name=\"C:\\Users\\oarnaut\\IdeaProjects\\AO_AFT\\src\\main\\resources\" />\r\n      <recent name=\"C:\\Users\\oarnaut\\IdeaProjects\\AO_AFT\\src\\test\\resources\\logs\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"org.myatf\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunAnythingCache\">\r\n    <option name=\"myCommands\">\r\n      <command value=\"mvn clean\" />\r\n      <command value=\"mvn install\" />\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.TestRunner\">\r\n    <configuration name=\"Feature: uiLogin\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/uiLogin.feature\" />\r\n      <option name=\"GLUE\" value=\"org.myatf.definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"AO_AFT\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Feature: uiLogin\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Check how much you gain till now\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature\" />\r\n      <option name=\"GLUE\" value=\"org.myatf.definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"AO_AFT\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Check how much you gain till now$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check how much you gain till now$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Check how much you gain till now\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Sending a POST request with JSON data\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature\" />\r\n      <option name=\"GLUE\" value=\"org.myatf.definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"AO_AFT\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Sending a POST request with JSON data$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Sending a POST request with JSON data$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Sending a POST request with JSON data\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Validate login with registered user\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/uiLogin.feature\" />\r\n      <option name=\"GLUE\" value=\"org.myatf.definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"AO_AFT\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Validate login with registered user$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate login with registered user$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Validate login with registered user\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestRunner\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AO_AFT\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.myatf.runner.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"org.myatf.runner\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.myatf.runner.TestRunner\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.TestRunner\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Check how much you gain till now\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Validate login with registered user\" />\r\n        <item itemvalue=\"Cucumber Java.Feature: uiLogin\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Sending a POST request with JSON data\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"02664473-58c9-4f37-a0e4-d773c5b636b2\" name=\"Changes\" comment=\"\" />\r\n      <created>1695393424870</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1695393424870</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"my first atf commit\">\r\n      <created>1696512584748</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696512584748</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"my second atf commit\">\r\n      <created>1696601054409</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696601054409</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"my second atf commit\">\r\n      <created>1696601071724</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696601071724</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"added atf test\">\r\n      <created>1696839394157</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696839394157</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"added atf test. final version for now\">\r\n      <created>1696932244872</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696932244872</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"final version for now\">\r\n      <created>1697006781759</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1697006781759</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"final version for now + Post\">\r\n      <created>1697453557853</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1697453557853</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"+ Post on ThinkingTester\">\r\n      <created>1697559148822</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1697559148822</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"my first atf commit\" />\r\n    <MESSAGE value=\"my second atf commit\" />\r\n    <MESSAGE value=\"added atf test\" />\r\n    <MESSAGE value=\"added atf test. final version for now\" />\r\n    <MESSAGE value=\"final version for now\" />\r\n    <MESSAGE value=\"final version for now + Post\" />\r\n    <MESSAGE value=\"+ Post on ThinkingTester\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"+ Post on ThinkingTester\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.ExceptionInInitializerError\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.NullPointerException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"4\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n    <watches-manager>\r\n      <configuration name=\"CucumberJavaRunConfigurationType\">\r\n        <watch expression=\"jsonFileName\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/.idea/workspace.xml	(date 1698315610802)
+@@ -4,36 +4,16 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="+ Post on ThinkingTester">
+-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/DataObjects/Contact.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Context.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/resources/BNMdates.csv" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/resources/ContactDetails.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
++    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="refactored + BNM">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/logs/logFile.log" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yaml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/config/WebDriverFactory.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/ScenarioContext.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Browser.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsUI.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/PageFactory.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/Helper.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -63,20 +43,19 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oarnaut/IdeaProjects/AO_AFT/src/test/resources&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "C:/Users/oarnaut/IdeaProjects/AO_AFT/src/test/resources",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "run.code.analysis.last.selected.profile": "pProject Default",
++    "settings.editor.selected.configurable": "preferences.pluginManager"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\oarnaut\IdeaProjects\AO_AFT\src\test\resources" />
+@@ -268,7 +247,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1697559148822</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="refactored + BNM">
++      <created>1698312500575</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1698312500575</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -290,7 +276,8 @@
+     <MESSAGE value="final version for now" />
+     <MESSAGE value="final version for now + Post" />
+     <MESSAGE value="+ Post on ThinkingTester" />
+-    <option name="LAST_COMMIT_MESSAGE" value="+ Post on ThinkingTester" />
++    <MESSAGE value="refactored + BNM" />
++    <option name="LAST_COMMIT_MESSAGE" value="refactored + BNM" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/test/java/org/myatf/definitions/StepDefinitionsBNM.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.myatf.definitions;\r\n\r\nimport io.cucumber.java.en.Given;\r\nimport io.cucumber.java.en.Then;\r\nimport io.cucumber.java.en.When;\r\nimport io.restassured.RestAssured;\r\nimport io.restassured.response.Response;\r\nimport org.apache.logging.log4j.LogManager;\r\nimport org.apache.logging.log4j.Logger;\r\nimport org.myatf.ConfigurationLoader;\r\nimport org.apache.commons.csv.CSVFormat;\r\nimport org.apache.commons.csv.CSVParser;\r\nimport org.apache.commons.csv.CSVRecord;\r\nimport org.myatf.utils.XmlParser;\r\n\r\nimport java.io.IOException;\r\nimport java.nio.charset.StandardCharsets;\r\nimport java.nio.file.Files;\r\nimport java.nio.file.Paths;\r\nimport java.util.HashMap;\r\nimport java.util.Map;\r\n\r\n\r\npublic class StepDefinitionsBNM {\r\n    private static final Logger logger = LogManager.getLogger(StepDefinitionsBNM.class);\r\n    private static final Map<String, Object> config = ConfigurationLoader.loadConfig();\r\n    public static String baseUrlBNM = (String) config.get(\"baseUrlBNM\");\r\n    private final Map<String, Double> euroValuesMap = new HashMap<>();\r\n    private String csvContent;\r\n\r\n    @Given(\"I have a CSV file containing dates {string}\")\r\n    public void parseCsvFile(String csvFile) throws IOException {\r\n        csvContent = Files.readString(Paths.get(csvFile), StandardCharsets.UTF_8);\r\n        logger.info(\"Read the CSV file into a string\");\r\n    }\r\n\r\n\r\n    @When(\"I retrieve the XML response for each date\")\r\n    public void iRetrieveTheXMLResponseForEachDate() throws Exception {\r\n        CSVParser csvParser = CSVParser.parse(csvContent, CSVFormat.DEFAULT);\r\n\r\n        for (CSVRecord record : csvParser) {\r\n            String date = record.get(0);\r\n            String url = baseUrlBNM + date;\r\n\r\n            Response response = RestAssured.get(url);\r\n\r\n            if (response.getStatusCode() == 200) {\r\n                String xmlContent = response.getBody().asString();\r\n\r\n                // Parse the XML content and extract EUR value\r\n                double euroValue = XmlParser.parseEuroValueFromXML(xmlContent);\r\n                //Store euroValue in Map\r\n                euroValuesMap.put(date, euroValue);\r\n\r\n                System.out.println(\"For Date: \" + date + \" EUR Value is: \" + euroValue);\r\n            } else {\r\n                // Handle the case where the request did not return a successful status code\r\n                System.out.println(\"Request for Date: \" + date + \" failed with status code: \" + response.getStatusCode());\r\n            }\r\n\r\n        }\r\n        logger.info(\"Parse the XML content and extract EUR value for each date from CSV\");\r\n    }\r\n\r\n    @Then(\"I calculate the total paid amount for all dates with a salary of {}\")\r\n    public void iCalculateTheTotalPaidAmountForAllDatesWithASalaryOf(double salaryAmount) {\r\n        double totalPaidAmount = 0.0;\r\n\r\n        for (Map.Entry<String, Double> entry : euroValuesMap.entrySet()) {\r\n            double euroValue = entry.getValue();\r\n            totalPaidAmount += euroValue * salaryAmount;\r\n        }\r\n\r\n        String formattedTotalPaidAmount = String.format(\"%.2f lei\", totalPaidAmount);\r\n        System.out.println(\"Total paid amount for all dates: \" + formattedTotalPaidAmount);\r\n    }\r\n\r\n}\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java b/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java
+--- a/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java	(date 1698314983557)
+@@ -73,7 +73,7 @@
+         }
+ 
+         String formattedTotalPaidAmount = String.format("%.2f lei", totalPaidAmount);
+-        System.out.println("Total paid amount for all dates: " + formattedTotalPaidAmount);
++        logger.info("Total paid amount for all dates: " + formattedTotalPaidAmount);
+     }
+ 
+ }
+Index: src/test/java/org/myatf/pages/RegistrationPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/org/myatf/pages/RegistrationPage.java b/src/test/java/org/myatf/pages/PageFactory.java
+rename from src/test/java/org/myatf/pages/RegistrationPage.java
+rename to src/test/java/org/myatf/pages/PageFactory.java
+--- a/src/test/java/org/myatf/pages/RegistrationPage.java	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/src/test/java/org/myatf/pages/PageFactory.java	(date 1698316056184)
+@@ -1,26 +1,26 @@
+ package org.myatf.pages;
+ 
+ import org.openqa.selenium.*;
+-public class RegistrationPage {
++public class PageFactory {
+ 
+-    private By clickCreateAnAccount = By.linkText("Create an Account");
+-    private By inputFirstName = By.xpath("//input[@id='firstname']");
+-    private By inputLastName = By.xpath("//input[@id='lastname']");
+-    private By inputEmail = By.xpath("//input[@id='email_address']");
+-    private By inputPassword = By.xpath("//input[@id='password']");
+-    private By inputConfirmPassword = By.xpath("//input[@id='password-confirmation']");
+-    private By btnCreateAnAccount = By.xpath("//*[@id=\"form-validate\"]/div/div[1]/button/span");
+-    private By inscriptionMyAccount = By.xpath("//span[contains(text(),'My Account')]");
+-    private By clickOnSignIn = By.xpath("//header/div[1]/div[1]/ul[1]/li[2]/a[1]");
+-    private By inscriptionCustomerLogin = By.xpath("//span[contains(text(),'Customer Login')]");
+-    private By inputRegisteredEmail = By.xpath("//input[@id='email']");
+-    private By inputRegisteredPassword = By.cssSelector("input#pass");
+-    private By btnSingIn = By.xpath("//*[@id=\"send2\"]/span");
+-    private By clickOnDropdown = By.cssSelector("li.customer-welcome > span > button");
+-    private By clickOnMyAccountOption = By.xpath("//header/div[1]/div/ul/li[2]/div/ul/li[1]/a");
+-    private By contactInformationName = By.xpath("//body[1]/div[2]/main[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/p[1]");
+-    private By errorMessageFrame = By.xpath("//body/div[2]/main[1]/div[2]/div[2]/div[1]");
+-    private By errorMessageText = By.xpath("//div[contains(text(),'The account sign-in was incorrect or your account ')]");
++    private final By clickCreateAnAccount = By.linkText("Create an Account");
++    private final By inputFirstName = By.xpath("//input[@id='firstname']");
++    private final By inputLastName = By.xpath("//input[@id='lastname']");
++    private final By inputEmail = By.xpath("//input[@id='email_address']");
++    private final By inputPassword = By.xpath("//input[@id='password']");
++    private final By inputConfirmPassword = By.xpath("//input[@id='password-confirmation']");
++    private final By btnCreateAnAccount = By.xpath("//*[@id=\"form-validate\"]/div/div[1]/button/span");
++    private final By inscriptionMyAccount = By.xpath("//span[contains(text(),'My Account')]");
++    private final By clickOnSignIn = By.xpath("//header/div[1]/div[1]/ul[1]/li[2]/a[1]");
++    private final By inscriptionCustomerLogin = By.xpath("//span[contains(text(),'Customer Login')]");
++    private final By inputRegisteredEmail = By.xpath("//input[@id='email']");
++    private final By inputRegisteredPassword = By.cssSelector("input#pass");
++    private final By btnSingIn = By.xpath("//*[@id=\"send2\"]/span");
++    private final By clickOnDropdown = By.cssSelector("li.customer-welcome > span > button");
++    private final By clickOnMyAccountOption = By.xpath("//header/div[1]/div/ul/li[2]/div/ul/li[1]/a");
++    private final By contactInformationName = By.xpath("//body[1]/div[2]/main[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/p[1]");
++    private final By errorMessageFrame = By.xpath("//body/div[2]/main[1]/div[2]/div[2]/div[1]");
++    private final By errorMessageText = By.xpath("//div[contains(text(),'The account sign-in was incorrect or your account ')]");
+     public By getClickCreateAnAccount() { return clickCreateAnAccount; }
+     public By getInputFirstName() {
+         return inputFirstName;
+Index: src/test/java/org/myatf/runner/TestRunner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.myatf.runner;\r\n\r\nimport io.cucumber.junit.Cucumber;\r\nimport io.cucumber.junit.CucumberOptions;\r\nimport org.junit.runner.RunWith;\r\n\r\n@RunWith(Cucumber.class)\r\n@CucumberOptions(\r\n        features = \"src/test/resources/features\",\r\n        //path of step definition file\r\n        glue = \"org.myatf.definitions\",\r\n        plugin = {\"pretty\",\r\n                \"json:target/cucumber-reports/report.json\",\r\n                \"html:target/cucumber-reports/report.html\",\r\n        },\r\n        tags = (\"@BNM\")\r\n)\r\npublic class TestRunner {\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/org/myatf/runner/TestRunner.java b/src/test/java/org/myatf/runner/TestRunner.java
+--- a/src/test/java/org/myatf/runner/TestRunner.java	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/src/test/java/org/myatf/runner/TestRunner.java	(date 1698314348587)
+@@ -13,7 +13,7 @@
+                 "json:target/cucumber-reports/report.json",
+                 "html:target/cucumber-reports/report.html",
+         },
+-        tags = ("@BNM")
++        tags = ("@Smoke")
+ )
+ public class TestRunner {
+ }
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>AO_AFT</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-compiler-plugin</artifactId>\r\n                <configuration>\r\n                    <source>11</source>\r\n                    <target>11</target>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n    <name>AO_AFT</name>\r\n    <!-- FIXME change it to the project's website -->\r\n    <url>http://www.example.com</url>\r\n\r\n    <properties>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n        <maven.compiler.source>1.7</maven.compiler.source>\r\n        <maven.compiler.target>1.7</maven.compiler.target>\r\n        <maven.compiler.source.version>11</maven.compiler.source.version>\r\n        <maven.compiler.target.version>11</maven.compiler.target.version>\r\n        <webdrivermanager.version>5.2.1</webdrivermanager.version>\r\n        <cucumber.version>7.14.0</cucumber.version>\r\n\r\n    </properties>\r\n\r\n    <dependencies>\r\n\r\n        <dependency>\r\n            <groupId>junit</groupId>\r\n            <artifactId>junit</artifactId>\r\n            <version>4.13.2</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.junit.jupiter</groupId>\r\n            <artifactId>junit-jupiter</artifactId>\r\n            <version>5.9.3</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>io.cucumber</groupId>\r\n            <artifactId>cucumber-junit</artifactId>\r\n            <version>7.14.0</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>io.cucumber</groupId>\r\n            <artifactId>cucumber-java</artifactId>\r\n            <version>7.14.0</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.seleniumhq.selenium</groupId>\r\n            <artifactId>selenium-http-jdk-client</artifactId>\r\n            <version>4.13.0</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.seleniumhq.selenium</groupId>\r\n            <artifactId>selenium-java</artifactId>\r\n            <version>4.12.1</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>com.github.javafaker</groupId>\r\n            <artifactId>javafaker</artifactId>\r\n            <version>1.0.2</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.apache.logging.log4j</groupId>\r\n            <artifactId>log4j-core</artifactId>\r\n            <version>2.20.0</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.apache.logging.log4j</groupId>\r\n            <artifactId>log4j-api</artifactId>\r\n            <version>2.20.0</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.apache.logging.log4j</groupId>\r\n            <artifactId>log4j-slf4j-impl</artifactId>\r\n            <version>2.21.0</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.yaml</groupId>\r\n            <artifactId>snakeyaml</artifactId>\r\n            <version>2.2</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>io.rest-assured</groupId>\r\n            <artifactId>rest-assured</artifactId>\r\n            <version>5.3.2</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>io.cucumber</groupId>\r\n            <artifactId>cucumber-picocontainer</artifactId>\r\n            <version>7.14.0</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.jsoup</groupId>\r\n            <artifactId>jsoup</artifactId>\r\n            <version>1.16.1</version>\r\n        </dependency>\r\n\r\n         <dependency>\r\n            <groupId>com.fasterxml.jackson.core</groupId>\r\n            <artifactId>jackson-databind</artifactId>\r\n            <version>2.15.3</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.apache.commons</groupId>\r\n            <artifactId>commons-csv</artifactId>\r\n            <version>1.10.0</version>\r\n        </dependency>\r\n\r\n\r\n    </dependencies>\r\n\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/pom.xml	(date 1698314983567)
+@@ -126,7 +126,7 @@
+             <version>1.16.1</version>
+         </dependency>
+ 
+-         <dependency>
++        <dependency>
+             <groupId>com.fasterxml.jackson.core</groupId>
+             <artifactId>jackson-databind</artifactId>
+             <version>2.15.3</version>
+@@ -138,7 +138,6 @@
+             <version>1.10.0</version>
+         </dependency>
+ 
+-
+     </dependencies>
+ 
+ </project>
+Index: src/test/java/org/myatf/definitions/StepDefinitions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/org/myatf/definitions/StepDefinitions.java b/src/test/java/org/myatf/definitions/StepDefinitionsUI.java
+rename from src/test/java/org/myatf/definitions/StepDefinitions.java
+rename to src/test/java/org/myatf/definitions/StepDefinitionsUI.java
+--- a/src/test/java/org/myatf/definitions/StepDefinitions.java	(revision 124fc25c6b40de3c386cea95c0608f085ad17802)
++++ b/src/test/java/org/myatf/definitions/StepDefinitionsUI.java	(date 1698314983563)
+@@ -3,7 +3,7 @@
+ import org.myatf.ConfigurationLoader;
+ import org.myatf.utils.GenerateFakeTestData;
+ import org.myatf.utils.Helper;
+-import org.myatf.pages.RegistrationPage;
++import org.myatf.pages.PageFactory;
+ import io.cucumber.java.en.Given;
+ import io.cucumber.java.en.Then;
+ import io.cucumber.java.en.When;
+@@ -19,11 +19,11 @@
+ import static org.junit.Assert.*;
+ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
+ 
+-public class StepDefinitions {
++public class StepDefinitionsUI {
+ 
+     private final WebDriver driver = Helper.getDriver();
+-    final RegistrationPage registrationPage = new RegistrationPage();
+-    private static final Logger logger = LogManager.getLogger(StepDefinitions.class);
++    final PageFactory pageFactory = new PageFactory();
++    private static final Logger logger = LogManager.getLogger(StepDefinitionsUI.class);
+     GenerateFakeTestData fakerData = new GenerateFakeTestData();
+     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
+     public static String baseUrl = (String) config.get("baseUrl");
+@@ -40,7 +40,7 @@
+ 
+     @When("User click on Create An Account link")
+     public void userClicksOnCreateAnAccountLink() {
+-        driver.findElement(registrationPage.getClickCreateAnAccount()).click();
++        driver.findElement(pageFactory.getClickCreateAnAccount()).click();
+         logger.info("Click on Create An Account");
+     }
+ 
+@@ -48,7 +48,7 @@
+     public void userFillsFirstNameFirstName() {
+         fakerData.generateRandomFirstName();
+         String firstName = fakerData.getFirstName();
+-        driver.findElement(registrationPage.getInputFirstName()).sendKeys(firstName);
++        driver.findElement(pageFactory.getInputFirstName()).sendKeys(firstName);
+         logger.info("First Name completed: " + firstName);
+     }
+ 
+@@ -56,7 +56,7 @@
+     public void userFillsLastName() {
+         fakerData.generateRandomLastName();
+         String lastName = fakerData.getLastName();
+-        driver.findElement(registrationPage.getInputLastName()).sendKeys(lastName);
++        driver.findElement(pageFactory.getInputLastName()).sendKeys(lastName);
+         logger.info("Last Name completed: " + lastName);
+ 
+     }
+@@ -65,7 +65,7 @@
+     public void userFillsEmail() {
+         fakerData.generateRandomEmail();
+         String email = fakerData.getEmail();
+-        driver.findElement(registrationPage.getInputEmail()).sendKeys(email);
++        driver.findElement(pageFactory.getInputEmail()).sendKeys(email);
+         logger.info("Email address: " + email);
+     }
+ 
+@@ -73,20 +73,20 @@
+     public void userFillsPasswordAndConfirmationPassword() {
+         fakerData.generateRandomPassword();
+         String password = fakerData.getPassword();
+-        driver.findElement(registrationPage.getInputPassword()).sendKeys(password);
+-        driver.findElement(registrationPage.getInputConfirmPassword()).sendKeys(password);
++        driver.findElement(pageFactory.getInputPassword()).sendKeys(password);
++        driver.findElement(pageFactory.getInputConfirmPassword()).sendKeys(password);
+         logger.info("Password and confirmation password: " + password);
+     }
+ 
+     @When("User clicks on Create an Account Button")
+     public void userClicksOnCreateAnAccount() {
+-        driver.findElement(registrationPage.getBtnCreateAnAccount()).click();
++        driver.findElement(pageFactory.getBtnCreateAnAccount()).click();
+         logger.info("Click on Create an Account Button");
+     }
+ 
+     @Then("User redirected on Account Page, 'My Account' inscription is displayed on the screen")
+     public void inscriptionMyAccount() {
+-        String myAccount = driver.findElement(registrationPage.getInscriptionMyAccount()).getText();
++        String myAccount = driver.findElement(pageFactory.getInscriptionMyAccount()).getText();
+         assertEquals("My Account", myAccount);
+         logger.info("\"My Account\" Page displayed\n");
+     }
+@@ -94,7 +94,7 @@
+     @When("User click on Sign In")
+     public void userClickOnSignIn() {
+         try {
+-            driver.findElement(registrationPage.getClickOnSignIn()).click();
++            driver.findElement(pageFactory.getClickOnSignIn()).click();
+             logger.info("Click on Sign In");
+         } catch (NoSuchElementException e) {
+             logger.error("WebDriver couldn’t locate the element Sign In" + e.getMessage());
+@@ -104,7 +104,7 @@
+     @Then("Customer Login page is displayed")
+     public void customerLoginPageIsDisplayed() {
+         try {
+-            String customerLogin = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
++            String customerLogin = driver.findElement(pageFactory.getInscriptionCustomerLogin()).getText();
+             assertEquals("Customer Login", customerLogin);
+             logger.info("\"Customer Login\" Page displayed");
+         } catch (AssertionError e) {
+@@ -114,36 +114,36 @@
+ 
+     @When("User fills email: {}")
+     public void userFillsEmail(String email) {
+-        driver.findElement(registrationPage.getInputRegisteredEmail()).sendKeys(email);
++        driver.findElement(pageFactory.getInputRegisteredEmail()).sendKeys(email);
+         logger.info("User fills email of registered user: " + email);
+     }
+ 
+     @When("User fills password: {}")
+     public void userFillsPassword(String password) {
+-        driver.findElement(registrationPage.getInputRegisteredPassword()).sendKeys(password);
++        driver.findElement(pageFactory.getInputRegisteredPassword()).sendKeys(password);
+         logger.info("User fills password of registered user: " + password);
+     }
+ 
+     @When("User click on Sing In Button")
+     public void userClickOnSingInButton() {
+-        driver.findElement(registrationPage.getBtnSingIn()).click();
++        driver.findElement(pageFactory.getBtnSingIn()).click();
+         logger.info("Click on Sign In Button");
+     }
+ 
+     @When("User click on dropdown")
+     public void userClickOnDropdown() {
+-        driver.findElement(registrationPage.getClickOnDropdown()).click();
++        driver.findElement(pageFactory.getClickOnDropdown()).click();
+         logger.info("Click on Dropdown");
+     }
+ 
+     @When("User click on My Account option")
+     public void userClickOnSignOut() {
+-        driver.findElement(registrationPage.getClickOnMyAccountOption()).click();
++        driver.findElement(pageFactory.getClickOnMyAccountOption()).click();
+         logger.info("Select My Account option");
+     }
+     @Then("User is logged in with Contact Information name and email")
+     public void userIsLoggedInWithContactInformationName(String expectedName) {
+-        String actualName = driver.findElement(registrationPage.getContactInformationName()).getText();
++        String actualName = driver.findElement(pageFactory.getContactInformationName()).getText();
+         assertEquals(expectedName, actualName);
+         logger.info("User name and email are displayed in Contact information");
+     }
+@@ -152,8 +152,8 @@
+         try {
+             Duration timeout = ofSeconds(9000);
+             WebDriverWait wait = new WebDriverWait(driver, timeout);
+-            wait.until(visibilityOfElementLocated(registrationPage.getErrorMessageFrame()));
+-            String errorText = driver.findElement(registrationPage.getErrorMessageText()).getText();
++            wait.until(visibilityOfElementLocated(pageFactory.getErrorMessageFrame()));
++            String errorText = driver.findElement(pageFactory.getErrorMessageText()).getText();
+             assertEquals("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.", errorText);
+             logger.info("Error message that sign-in was incorrect is displayed: \n" + errorText);
+         }catch(NoSuchElementException e2) {
+@@ -165,7 +165,7 @@
+     @Then("User is still on {string} page")
+     public void userIsStillOnPage(String customerLoginInscription) {
+         try {
+-            String customerLoginPage = driver.findElement(registrationPage.getInscriptionCustomerLogin()).getText();
++            String customerLoginPage = driver.findElement(pageFactory.getInscriptionCustomerLogin()).getText();
+             assertEquals(customerLoginInscription, customerLoginPage);
+             logger.info("User is still on Customer Login page");
+         } catch (AssertionError e) {
