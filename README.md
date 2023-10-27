@@ -15,4 +15,4 @@ javafaker;
 
 Singleton, POJO;
 
-Hooks, Helper, features, StepDefinition, TestRunner, PageFactory, Constructors, Scenario Context;
+Hooks, Helper, features, StepDefinition, TestRunner with reporting, PageFactory, Constructors, Scenario Context;
