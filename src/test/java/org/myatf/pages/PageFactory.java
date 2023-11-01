@@ -1,7 +1,13 @@
 package org.myatf.pages;
 
 import org.openqa.selenium.*;
+
 public class PageFactory {
+    private final WebDriver driver;
+
+    public PageFactory(WebDriver driver) {
+        this.driver = driver;
+    }
 
     private final By clickCreateAnAccount = By.linkText("Create an Account");
     private final By inputFirstName = By.xpath("//input[@id='firstname']");
@@ -18,39 +24,79 @@ public class PageFactory {
     private final By btnSingIn = By.xpath("//*[@id=\"send2\"]/span");
     private final By clickOnDropdown = By.cssSelector("li.customer-welcome > span > button");
     private final By clickOnMyAccountOption = By.xpath("//header/div[1]/div/ul/li[2]/div/ul/li[1]/a");
-    private final By contactInformationName = By.xpath("//body[1]/div[2]/main[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/p[1]");
-    private final By errorMessageFrame = By.xpath("//body/div[2]/main[1]/div[2]/div[2]/div[1]");
+    private final By contactInformationName = By.xpath("//*[@id=\"maincontent\"]/div[2]/div[1]/div[3]/div[2]/div/div[1]/p");
+    private final By errorMessageFrame = By.xpath("//body/div[2]/main[1]/div[2]/div[2]/div[1]/div[1]");
     private final By errorMessageText = By.xpath("//div[contains(text(),'The account sign-in was incorrect or your account ')]");
-    public By getClickCreateAnAccount() { return clickCreateAnAccount; }
-    public By getInputFirstName() {
-        return inputFirstName;
+
+    public void getClickCreateAnAccount() {
+        driver.findElement(clickCreateAnAccount).click();
     }
-    public By getInputLastName() {
-        return inputLastName;
+
+    public void getInputFirstName(String firstName) {
+        driver.findElement(inputFirstName).sendKeys(firstName);
     }
-    public By getInputEmail() {
-        return inputEmail;
+
+    public void getInputLastName(String lastName) {
+        driver.findElement(inputLastName).sendKeys(lastName);
     }
-    public By getInputPassword() {
-        return inputPassword;
+
+    public void getInputEmail(String email) {
+        driver.findElement(inputEmail).sendKeys(email);
     }
-    public By getInputConfirmPassword() {
-        return inputConfirmPassword;
+
+    public void getInputPassword(String password) {
+        driver.findElement(inputPassword).sendKeys(password);
     }
-    public By getInscriptionMyAccount() { return inscriptionMyAccount; }
-    public By getBtnCreateAnAccount() { return btnCreateAnAccount;}
-    public By getClickOnSignIn() {return clickOnSignIn;}
-    public By getInscriptionCustomerLogin() { return inscriptionCustomerLogin; }
-    public By getInputRegisteredEmail() {
-        return inputRegisteredEmail;
+
+    public void getInputConfirmPassword(String password) {
+        driver.findElement(inputConfirmPassword).sendKeys(password);
     }
-    public By getInputRegisteredPassword() {
-        return inputRegisteredPassword;
+
+    public String getInscriptionMyAccount() {
+        return driver.findElement(inscriptionMyAccount).getText();
     }
-    public By getBtnSingIn() {return btnSingIn;}
-    public By getClickOnDropdown() {return clickOnDropdown;}
-    public By getClickOnMyAccountOption() { return clickOnMyAccountOption; }
-    public By getContactInformationName() { return contactInformationName; }
-    public By getErrorMessageFrame() {return errorMessageFrame;}
-    public By getErrorMessageText() {return errorMessageText;}
+
+    public void getBtnCreateAnAccount() {
+        driver.findElement(btnCreateAnAccount).click();
+    }
+
+    public void getClickOnSignIn() {
+        driver.findElement(clickOnSignIn).click();
+    }
+
+    public String getInscriptionCustomerLogin() {
+        return driver.findElement(inscriptionCustomerLogin).getText();
+    }
+
+    public void getInputRegisteredEmail(String email) {
+        driver.findElement(inputRegisteredEmail).sendKeys(email);
+    }
+
+    public void getInputRegisteredPassword(String password) {
+        driver.findElement(inputRegisteredPassword).sendKeys(password);
+    }
+
+    public void getBtnSingIn() {
+        driver.findElement(btnSingIn).click();
+    }
+
+    public void getClickOnDropdown() {
+        driver.findElement(clickOnDropdown).click();
+    }
+
+    public void getClickOnMyAccountOption() {
+        driver.findElement(clickOnMyAccountOption).click();
+    }
+
+    public String getContactInformationName() {
+        return driver.findElement(contactInformationName).getText();
+    }
+
+    public By getErrorMessageFrame() {
+        return errorMessageFrame;
+    }
+
+    public String getErrorMessageText() {
+        return driver.findElement(errorMessageText).getText();
+    }
 }

@@ -16,6 +16,7 @@ import org.junit.Assert;
 import org.myatf.ConfigurationLoader;
 import org.myatf.enums.Context;
 import org.myatf.utils.GenerateFakeTestData;
+import org.myatf.utils.ScenarioContext;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -51,7 +52,7 @@ public class StepDefinitionsAPI {
         logger.info("Get request to search bar.\nEndpoint:" + endpoint + "\nStatus code: " + statusCode);
     }
 
-    @Then("The response status code should be {int}")
+    @Then("The response status code is {int}")
     public void verifyStatusCode(int expectedStatusCode) {
         Object actualStatusCodeObj = ScenarioContext.INSTANCE.getContext(Context.STATUS_CODE);
         if (actualStatusCodeObj instanceof Integer) {

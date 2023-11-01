@@ -9,12 +9,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.Map;
 
-public class Helper {
+public class WebDriverFactory {
 
     private static WebDriver driver;
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
     public static String driverPath = (String) config.get("driverPath");
-    private static final Logger logger = LogManager.getLogger(Helper.class);
+    private static final Logger logger = LogManager.getLogger(WebDriverFactory.class);
 
 // Initialize the WebDriver
     public static void setUpDriver() {

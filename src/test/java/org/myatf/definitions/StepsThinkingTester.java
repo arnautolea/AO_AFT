@@ -15,6 +15,7 @@ import org.myatf.ConfigurationLoader;
 import org.myatf.DataObjects.Contact;
 import org.myatf.enums.Context;
 import org.myatf.utils.GenerateFakeTestData;
+import org.myatf.utils.ScenarioContext;
 
 import java.io.InputStream;
 import java.util.HashMap;
@@ -27,15 +28,17 @@ public class StepsThinkingTester {
     GenerateFakeTestData fakerData = new GenerateFakeTestData();
     Response response;
     public HashMap<String, String> formData = new HashMap<>();
-    private Contact contact;
 
+    // Define valid_endpoint_with_payload step
     @Given("Valid endpoint with payload to add user {} {} {}")
     public void valid_endpoint_with_payload(String firstName, String lastName, String password) {
+        // Set the base URL and path for the REST API
         RestAssured.baseURI = baseUrlAPI;
         RestAssured.basePath = ("/users");
+        // Generate a random email
         fakerData.generateRandomEmail();
         String email = fakerData.getEmail();
-
+// Store user data in formData map
         formData.put("firstName", firstName);
         formData.put("lastName", lastName);
         formData.put("email", email);
@@ -52,6 +55,7 @@ public class StepsThinkingTester {
                 .body(formData)
                 .post();
         int statusCode = response.getStatusCode();
+        // Get and set the status code in the ScenarioContext
         ScenarioContext.INSTANCE.setContext(Context.STATUS_CODE, statusCode);
         logger.info("Send post request. Get status code: " + statusCode);
     }
@@ -82,7 +86,7 @@ public class StepsThinkingTester {
 // Read the JSON data from the file and convert it to a Contact object using Jackson.
             ObjectMapper objectMapper = new ObjectMapper();
             InputStream inputStream = ClassLoader.getSystemResourceAsStream(jsonFileName);
-            contact = objectMapper.readValue(inputStream, Contact.class);
+            Contact contact = objectMapper.readValue(inputStream, Contact.class);
 
             response = RestAssured.given()
                     .contentType(ContentType.JSON)

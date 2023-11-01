@@ -5,7 +5,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.myatf.utils.Helper;
+import org.myatf.utils.WebDriverFactory;
 
 public class Hooks {
     private static final Logger logger = LogManager.getLogger(Hooks.class);
@@ -13,7 +13,7 @@ public class Hooks {
 
     @Before("@UI")
     public static void setUp(Scenario scenario) {
-        Helper.setUpDriver();
+        WebDriverFactory.setUpDriver();
         currentScenarioName = scenario.getName();
         logger.info("\nStarting UI test " + currentScenarioName);
 
@@ -27,7 +27,7 @@ public class Hooks {
     }
     @After("@UI")
     public static void afterScenario() {
-       Helper.tearDown();
+       WebDriverFactory.tearDown();
     }
 
 }

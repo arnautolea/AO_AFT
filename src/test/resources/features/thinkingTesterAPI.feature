@@ -10,7 +10,7 @@ Feature: Add User functionality, post/get contact list
 
     Given Valid endpoint with payload to add user Some Name Qwerty123!
     When Post request is sent to the server
-    Then The response status code should be 201
+    Then The response status code is 201
 
 
   @PostContactDetails @API @Smoke
@@ -25,4 +25,4 @@ Feature: Add User functionality, post/get contact list
 
     Given the API endpoint is "/contacts/652ea007fde4e500139b9c67"
     When Get Contact List details
-    Then The response status code should be 200
+    Then The response status code is 200

@@ -1,4 +1,4 @@
-package org.myatf.definitions;
+package org.myatf.utils;
 
 import org.myatf.enums.Context;
 

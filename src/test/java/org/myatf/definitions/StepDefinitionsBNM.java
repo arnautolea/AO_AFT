@@ -58,7 +58,7 @@ public class StepDefinitionsBNM {
                 }
             } else {
                 // Handle the case where the request did not return a successful status code
-                System.out.println("Request for Date: " + date + " failed with status code: " + response.getStatusCode());
+                logger.info("Request for Date: " + date + " failed with status code: " + response.getStatusCode());
             }
 
         }

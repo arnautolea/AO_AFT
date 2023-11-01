@@ -20,7 +20,7 @@ public class ConfigurationLoader {
         String driverPath = (String) config.get("driverPath");
         String baseUrl = (String) config.get("baseUrl");
 
-        // Use the configuration values in your test code
+        // Use the configuration values in test code
         System.out.println("Driver Path Chrome: " + driverPath);
         System.out.println("Base URL: " + baseUrl);
     }

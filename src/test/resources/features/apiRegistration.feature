@@ -8,7 +8,7 @@ Feature: Register and login functionality
 
     Given Valid endpoint with payload to create user <firstName> <lastName> <password>
     When Request is sent to the server
-    Then The response status code should be 302
+    Then The response status code is 302
 
     Examples:
       | firstName   | lastName    | password   |
@@ -21,4 +21,4 @@ Feature: Register and login functionality
 
     Given Valid endpoint with payload to log in user corey.toy@gmail.com csbt11or8a7d!1Qw
     When Request is sent to the server
-    Then The response status code should be 302
+    Then The response status code is 302
