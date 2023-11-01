@@ -14,4 +14,4 @@ Feature: User Registration Flow
     And User fills password and confirmation password
     When User clicks on Create an Account Button
     Then User redirected on Account Page, 'My Account' inscription is displayed on the screen
-    Then User is logged in with Contact Information
+    And User is logged in with Contact Information

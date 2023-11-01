@@ -27,7 +27,7 @@ public class HomeworkOlga {
         Integer[] arr = new Integer[list.size()];
         // Convert ArrayList to Array
         arr = list.toArray(arr);
-        // Applay method product to Array and return result
+        // Apply method product to Array and return result
         System.out.println("Product is: " + product(arr));
         input.close();
     }

@@ -21,7 +21,7 @@ Feature: User Login Flow
     When User click on Sing In Button
     And User click on dropdown
     And User click on My Account option
-    Then User is logged in with Contact Information firstName "Matha" lastName "Davis" email "corey.toy@gmail.com"
+    Then User is logged in with Contact Information First Name: "Matha" Last Name: "Davis" Email: "corey.toy@gmail.com"
 
 
 

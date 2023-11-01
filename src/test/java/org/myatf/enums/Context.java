@@ -5,6 +5,4 @@ public enum Context {
     FIRST_NAME,
     LAST_NAME,
     EMAIL
-
-
 }

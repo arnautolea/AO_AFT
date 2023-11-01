@@ -159,8 +159,8 @@ public class StepDefinitionsUI {
         logger.info("Select My Account option");
     }
 
-    @Then("^User is logged in with Contact Information(?: firstName \"(.+?)\")?(?: lastName \"(.+?)\")?(?: email \"(.+?)\")?$")
-    public void userIsLoggedInWithContactInformationName(String firstName, String lastName, String email) {
+    @Then("^User is logged in with Contact Information(?: First Name: \"(.+?)\")?(?: Last Name: \"(.+?)\")?(?: Email: \"(.+?)\")?$")
+    public void userIsLoggedInWithContactInformation(String firstName, String lastName, String email) {
 
         if (firstName == null && lastName == null && email == null) {
             //retrieve data from the context
