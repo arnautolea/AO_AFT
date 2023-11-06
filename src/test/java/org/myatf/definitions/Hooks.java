@@ -5,24 +5,35 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.myatf.utils.ScenarioContext;
 import org.myatf.utils.WebDriverFactory;
+import org.openqa.selenium.WebDriver;
+
 
 public class Hooks {
     private static final Logger logger = LogManager.getLogger(Hooks.class);
     private static String currentScenarioName;
+     @Before
+    public static void beforeScenario(Scenario scenario) {
+        currentScenarioName = scenario.getName();
+        ScenarioContext.getInstance().clearContext();
+        logger.info("Logger initialized for scenario: " + scenario.getName());
+
+    }
 
     @Before("@UI")
     public static void setUp(Scenario scenario) {
-        WebDriverFactory.setUpDriver();
+        WebDriverFactory.getDriver();
         currentScenarioName = scenario.getName();
-        logger.info("\nStarting UI test " + currentScenarioName);
+        ScenarioContext.getInstance().clearContext();
+        logger.info(System.lineSeparator() + "Starting UI test " + currentScenarioName);
 
     }
 
     @Before("@API")
     public static void setUpAPI(Scenario scenario) {
         currentScenarioName = scenario.getName();
-        logger.info("\nStarting API test " + currentScenarioName);
+        logger.info(System.lineSeparator() + "Starting API test " + currentScenarioName);
 
     }
     @After("@UI")

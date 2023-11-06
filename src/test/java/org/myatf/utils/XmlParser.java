@@ -7,8 +7,6 @@ import javax.xml.parsers.*;
 import java.io.StringReader;
 
 public class XmlParser {
-    // Other methods and fields in the XmlParser class
-
     public static double parseEuroValueFromXML(String xmlContent) throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();

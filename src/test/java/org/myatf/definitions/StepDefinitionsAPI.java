@@ -14,7 +14,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.junit.Assert;
 import org.myatf.ConfigurationLoader;
-import org.myatf.enums.Context;
+import org.myatf.enums.Keys;
 import org.myatf.utils.GenerateFakeTestData;
 import org.myatf.utils.ScenarioContext;
 
@@ -33,11 +33,6 @@ public class StepDefinitionsAPI {
 
     ObjectMapper objectMapper = new ObjectMapper();
 
-    @Given("test context is reset")
-    public void testContextIsReset() {
-        ScenarioContext.INSTANCE.clearContext();
-    }
-
     @Given("Get main URL")
     public void getBaseURL() {
         RestAssured.baseURI = baseUrl;
@@ -48,13 +43,13 @@ public class StepDefinitionsAPI {
     public void sendGetRequest(String endpoint) {
         Response response = RestAssured.when().get(endpoint);
         int statusCode = response.getStatusCode();
-        ScenarioContext.INSTANCE.setContext(Context.STATUS_CODE, statusCode);
+        ScenarioContext.getInstance().saveValueToContext(Keys.STATUS_CODE, statusCode);
         logger.info("Get request to search bar.\nEndpoint:" + endpoint + "\nStatus code: " + statusCode);
     }
 
     @Then("The response status code is {int}")
     public void verifyStatusCode(int expectedStatusCode) {
-        Object actualStatusCodeObj = ScenarioContext.INSTANCE.getContext(Context.STATUS_CODE);
+        Object actualStatusCodeObj = ScenarioContext.getInstance().getValueFromContext(Keys.STATUS_CODE);
         if (actualStatusCodeObj instanceof Integer) {
             int actualStatusCode = (int) actualStatusCodeObj; // Cast the actual status code to int
             Assert.assertEquals(expectedStatusCode, actualStatusCode);
@@ -64,7 +59,7 @@ public class StepDefinitionsAPI {
         }
     }
 
-    @Given("Valid endpoint with payload to create user {} {} {}")
+    @Given("Valid endpoint with payload to create user {word} {word} {word}")
     public void setupEndpointAndPostData(String firstName, String lastName, String password) {
         RestAssured.baseURI = baseUrl;
         Response response = RestAssured.get("/customer/account/create/");
@@ -79,6 +74,12 @@ public class StepDefinitionsAPI {
 // Extract the value of the "value" attribute
         assert inputElement != null;
         String formKey = inputElement.attr("value");
+
+
+
+
+
+
 
         formData.put("form_key", formKey);
         formData.put("firstname", firstName);
@@ -107,13 +108,13 @@ public class StepDefinitionsAPI {
                 .response();
 
         int statusCode = response.getStatusCode();
-        ScenarioContext.INSTANCE.setContext(Context.STATUS_CODE, statusCode);
+        ScenarioContext.getInstance().saveValueToContext(Keys.STATUS_CODE, statusCode);
         logger.info("Send post request. Get status code: " + statusCode);
         String contentType = response.getContentType();
         System.out.println("Content Type: " + contentType);
     }
 
-    @Given("Valid endpoint with payload to log in user {} {}")
+    @Given("Valid endpoint with payload to log in user {word} {word}")
     public void setupEndpointAndPostData(String email, String password) {
         RestAssured.baseURI = baseUrl;
         Response response = RestAssured.get("/customer/account/loginPost/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dC8%2C/");

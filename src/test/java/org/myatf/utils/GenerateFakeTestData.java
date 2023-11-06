@@ -8,7 +8,6 @@ public class GenerateFakeTestData {
     private String firstName;
     private String lastName;
     private String password;
-    private String formKey;
     Faker fakerObject = new Faker();
 
     public String getEmail() {
@@ -57,19 +56,6 @@ public class GenerateFakeTestData {
 
     public void generateRandomPassword() {
         setPassword(fakerObject.internet().password(10, 16, true, true));
-    }
-
-
-    public String getFormKey() {
-        return formKey;
-    }
-
-    public void setFormKey(String formKey) {
-        this.formKey = formKey;
-    }
-
-    public void generateRandomFormKey(){
-        setFormKey(fakerObject.internet().password(16,16,true));
     }
 
 }

@@ -13,7 +13,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.myatf.ConfigurationLoader;
 import org.myatf.DataObjects.Contact;
-import org.myatf.enums.Context;
+import org.myatf.enums.Keys;
 import org.myatf.utils.GenerateFakeTestData;
 import org.myatf.utils.ScenarioContext;
 
@@ -30,8 +30,9 @@ public class StepsThinkingTester {
     public HashMap<String, String> formData = new HashMap<>();
 
     // Define valid_endpoint_with_payload step
-    @Given("Valid endpoint with payload to add user {} {} {}")
+    @Given("Valid endpoint with payload to add user {word} {word} {word}")
     public void valid_endpoint_with_payload(String firstName, String lastName, String password) {
+        //add data table!!!!!!!!!!!!!!!!
         // Set the base URL and path for the REST API
         RestAssured.baseURI = baseUrlAPI;
         RestAssured.basePath = ("/users");
@@ -56,7 +57,7 @@ public class StepsThinkingTester {
                 .post();
         int statusCode = response.getStatusCode();
         // Get and set the status code in the ScenarioContext
-        ScenarioContext.INSTANCE.setContext(Context.STATUS_CODE, statusCode);
+        ScenarioContext.getInstance().saveValueToContext(Keys.STATUS_CODE, statusCode);
         logger.info("Send post request. Get status code: " + statusCode);
     }
 
@@ -114,7 +115,7 @@ public class StepsThinkingTester {
                 .get();
 
         int statusCode = response.getStatusCode();
-        ScenarioContext.INSTANCE.setContext(Context.STATUS_CODE, statusCode);
+        ScenarioContext.getInstance().saveValueToContext(Keys.STATUS_CODE, statusCode);
         String responseString = response.getBody().asString();
 
         try {

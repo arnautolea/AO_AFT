@@ -54,7 +54,7 @@ public class StepDefinitionsBNM {
                 euroValuesMap.put(date, euroValue);
                 System.out.println("For Date: " + date + " EUR Value is: " + euroValue);
                 } catch (Exception e) {
-                    System.out.println("Error parsing XML for Date: " + date + " - " + e.getMessage());
+                    logger.error("Error parsing XML for Date: " + date + " - " + e.getMessage());
                 }
             } else {
                 // Handle the case where the request did not return a successful status code

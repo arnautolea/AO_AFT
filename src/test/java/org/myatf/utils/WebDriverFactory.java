@@ -3,6 +3,7 @@ package org.myatf.utils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.myatf.ConfigurationLoader;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,41 +11,44 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.Map;
 
 public class WebDriverFactory {
-
-    private static WebDriver driver;
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
-    public static String driverPath = (String) config.get("driverPath");
+    private static final String driverPath = (String) config.get("driverPath");
     private static final Logger logger = LogManager.getLogger(WebDriverFactory.class);
+    private static WebDriver driver;
 
-// Initialize the WebDriver
-    public static void setUpDriver() {
-        if (driver == null) {
-            System.setProperty("webdriver.chrome.driver", driverPath);
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("start-maximized");
-            driver = new ChromeDriver(options);
-            logger.info("Driver has been initialized.");
-        } else {
-            logger.info("Driver is already initialized.");
-        }
+    // Private constructor to prevent external instantiation
+    private WebDriverFactory() {
+        System.setProperty("webdriver.chrome.driver", driverPath);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("start-maximized");
+        options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+        driver = new ChromeDriver(options);
+        logger.info("Driver has been initialized.");
     }
 
-    // Get the WebDriver instance
+    // Initialize the driver using a static block
+    // lazy initialization pattern. The WebDriver is not created until it's actually requested by calling getDriver
+    static {
+        new WebDriverFactory();
+    }
+
+    // Get the driver instance
     public static WebDriver getDriver() {
         if (driver == null) {
-            throw new IllegalStateException("WebDriver has not been initialized. Call setUpDriver() first.");
+            // If the driver is null, create a new instance
+            new WebDriverFactory();
         }
         return driver;
     }
 
-    // Close and Quit the WebDriver after each test
+    // Close and Quit the WebDriver
     public static void tearDown() {
         if (driver != null) {
             driver.close();
             driver.quit();
-            driver = null; // Reset the driver instance
+            driver = null;
             logger.info("WebDriver has been quit and reset.");
         }
     }
-
 }
+

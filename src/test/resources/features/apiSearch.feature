@@ -1,18 +1,17 @@
+@API @Smoke
 Feature: Search functionality
 
-  Background: reset the test context
-    Given test context is reset
-
-  @Search @API @Smoke
-  Scenario: Check get valid search endpoint result
-
+  Background: Get on main page
     Given Get main URL
+
+  @Search
+  Scenario: Get valid search endpoint status code
+
     When GET request to "/catalogsearch/result/?q=Tops"
     Then The response status code is 200
 
-  @SearchNegative @API @Smoke
-  Scenario: Check get invalid search endpoint result
+  @SearchNegative
+  Scenario: Get invalid search endpoint status code
 
-    Given Get main URL
     When GET request to "/catalogsearch/result123/?q=Tops"
     Then The response status code is 404

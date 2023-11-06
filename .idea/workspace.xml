@@ -4,12 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="refactored with Homework">
+    <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="change of PageFactory from By to WebElement usage&#10;split UI stepDefinitions by feature files&#10;add of BasePage&#10;Context update, call for Keys instead of Strings">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefRegisterUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/RegistrationFormData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BNMdatesNegative.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_2023_1_29_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_2023_1_29_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myatf/HomeworkOlga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myatf/HomeworkOlga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myatf/Logs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Keys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/PageFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/GenerateFakeTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/GenerateFakeTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uiRegistration.feature" afterDir="false" />
     </list>
@@ -43,6 +69,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -76,12 +103,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="HomeworkDorina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.myatf.HomeworkDorina" />
+    <configuration name="Scenario: Calculating Total Paid Amount in lei with some EURO Salary" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" />
+      <option name="GLUE" value="org.myatf.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AO_AFT" />
+      <option name="NAME_FILTER" value="^Calculating Total Paid Amount in lei with some EURO Salary$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Calculating Total Paid Amount in lei with some EURO Salary$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Calculating Total Paid Amount in lei with some EURO Salary" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myatf.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,10 +201,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Calculating Total Paid Amount in lei with some EURO Salary" />
         <item itemvalue="Cucumber Java.Scenario: Registration of a new User" />
         <item itemvalue="Cucumber Java.Scenario: Check that user is not able to login with not registered credentials" />
         <item itemvalue="Cucumber Java.Scenario: Validate login with registered user" />
-        <item itemvalue="Application.HomeworkDorina" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698842206523</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="some minor updates">
+      <created>1698856565464</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698856565464</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +347,9 @@
     <MESSAGE value="commit" />
     <MESSAGE value="refactored + BNM" />
     <MESSAGE value="refactored with Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored with Homework" />
+    <MESSAGE value="some minor updates" />
+    <MESSAGE value="change of PageFactory from By to WebElement usage&#10;split UI stepDefinitions by feature files&#10;add of BasePage&#10;Context update, call for Keys instead of Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="change of PageFactory from By to WebElement usage&#10;split UI stepDefinitions by feature files&#10;add of BasePage&#10;Context update, call for Keys instead of Strings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
