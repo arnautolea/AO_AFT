@@ -1,11 +1,14 @@
 @API
-Feature: Register and login functionality
+Feature: Register and sign in functionality
+
+  Background: Get on main page
+    Given Get main URL
 
   @RegistrationAPI
   Scenario Outline: Check Registration flow with API POST get Status Code 302
 
-    Given Valid endpoint with payload to create user <firstName> <lastName> <password>
-    When Request is sent to the server
+    When Get endpoint and create payload to "create" user with firstName: "<firstName>" lastName: "<lastName>" password: "<password>"
+    And POST payload
     Then The response status code is 302
 
     Examples:
@@ -17,6 +20,6 @@ Feature: Register and login functionality
   @LoginAPI
   Scenario: Check login flow with API POST get Status Code 302
 
-    Given Valid endpoint with payload to log in user corey.toy@gmail.com csbt11or8a7d!1Qw
-    When Request is sent to the server
+    When Get endpoint and create payload to "signIn" user with password: "csbt11or8a7d!1Qw" email: "corey.toy@gmail.com"
+    And POST payload
     Then The response status code is 302

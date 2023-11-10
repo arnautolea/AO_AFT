@@ -11,7 +11,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.junit.Assert;
 import org.myatf.ConfigurationLoader;
 import org.myatf.enums.Keys;
@@ -36,7 +35,7 @@ public class StepDefinitionsAPI {
     @Given("Get main URL")
     public void getBaseURL() {
         RestAssured.baseURI = baseUrl;
-        logger.info("Get main url " + baseUrl);
+        logger.info("Get main url: " + baseUrl);
     }
 
     @When("GET request to {string}")
@@ -59,55 +58,7 @@ public class StepDefinitionsAPI {
         }
     }
 
-    @Given("Valid endpoint with payload to create user {word} {word} {word}")
-    public void setupEndpointAndPostData(String firstName, String lastName, String password) {
-        RestAssured.baseURI = baseUrl;
-        Response response = RestAssured.get("/customer/account/create/");
-        fakerData.generateRandomEmail();
-        String email = fakerData.getEmail();
-
-// Parse the HTML response
-        String htmlResponse = response.getBody().asString();
-        Document document = Jsoup.parse(htmlResponse);
-// Find the <input> element with the name attribute equal to "form_key"
-        Element inputElement = document.select("input[name=form_key]").first();
-// Extract the value of the "value" attribute
-        assert inputElement != null;
-        String formKey = inputElement.attr("value");
-
-        formData.put("form_key", formKey);
-        formData.put("firstname", firstName);
-        formData.put("lastname", lastName);
-        formData.put("email", email);
-        formData.put("password", password);
-        formData.put("password_confirmation", password);
-        logger.info("Post endpoint with payload to create user with email: " + email);
-        System.out.println(formData);
-
-    }
-
-    @Given("Valid endpoint with payload to log in user {word} {word}")
-    public void setupEndpointAndPostData(String email, String password) {
-        RestAssured.baseURI = baseUrl;
-        Response response = RestAssured.get("/customer/account/loginPost/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dC8%2C/");
-
-// Parse the HTML response
-        String htmlResponse = response.getBody().asString();
-        Document document = Jsoup.parse(htmlResponse);
-// Find the <input> element with the name attribute equal to "form_key"
-        Element inputElement = document.select("input[name=form_key]").first();
-// Extract the value of the "value" attribute
-        assert inputElement != null;
-        String formKey = inputElement.attr("value");
-
-        formData.put("form_key", formKey);
-        formData.put("email", email);
-        formData.put("password", password);
-        logger.info("Post endpoint with payload to login using email: " + email + "and password: " + password);
-        System.out.println(formData);
-    }
-
-    @When("Request is sent to the server")
+    @When("POST payload")
     public void requestIsSendToTheServer() throws JsonProcessingException {
 
         String payload = objectMapper.writeValueAsString(formData);
@@ -125,10 +76,45 @@ public class StepDefinitionsAPI {
         int statusCode = response.getStatusCode();
         ScenarioContext.getInstance().saveValueToContext(Keys.STATUS_CODE, statusCode);
         logger.info("Send post request. Get status code: " + statusCode);
-        String contentType = response.getContentType();
-        System.out.println("Content Type: " + contentType);
+    }
+
+    @Given("^Get endpoint and create payload to \"(create|signIn)\" user with(?: firstName: \"(.+?)\")?(?: lastName: \"(.+?)\")?(?: password: \"(.+?)\")?(?: email: \"(.+?)\")?$")
+    public void setupEndpointAndPostData(String action, String firstName, String lastName, String password, String email) {
+        String endpoint = getEndpoint(action);
+        Response response = RestAssured.get(endpoint);
+        // Parse the HTML response
+        Document document = Jsoup.parse(response.getBody().asString());
+        // Extract the form key
+        String formKey = document.select("input[name=form_key]").attr("value");
+        // Add form key to the form data
+        formData.put("form_key", formKey);
+
+        if ("create".equals(action)) {
+            // For user creation, generate and use a random email
+            fakerData.generateRandomEmail();
+            String generatedEmail = fakerData.getEmail();
+            formData.put("firstname", firstName);
+            formData.put("lastname", lastName);
+            formData.put("email", generatedEmail);
+            formData.put("password", password);
+            formData.put("password-confirmation", password);
+            logger.info("Post endpoint with payload to create user with email: " + generatedEmail);
+        } else if ("signIn".equals(action)) {
+            // For user login, use the provided email and password
+            formData.put("email", email);
+            formData.put("password", password);
+            logger.info("Post endpoint with payload to login using email: " + email + " and password: " + password);
+        }
+
+        System.out.println(formData);
+    }
+
+    private String getEndpoint(String action) {
+        //Ternary Operator short way of writing an if-else statement. condition ? trueExpression : falseExpression
+        return "/customer/account/" + (action.equals("create") ? "create" : "login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/");
     }
 }
+
 
 
 
