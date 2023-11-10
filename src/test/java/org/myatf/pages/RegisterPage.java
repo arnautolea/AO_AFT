@@ -21,15 +21,9 @@ public class RegisterPage extends BasePage {
     public WebElement inputPassword;
     @FindBy(xpath = "//input[@id='password-confirmation']")
     public WebElement inputConfirmPassword;
-    @FindBy(linkText = "Create an Account")
-    public WebElement clickCreateAnAccount;
     @FindBy(xpath = "//*[@id='form-validate']/div/div[1]/button/span")
     public WebElement btnCreateAnAccount;
-    @FindBy(xpath = "//header/div[1]/div[1]/ul[1]/li[2]/a[1]")
-    public WebElement clickOnSignIn;
-    @FindBy(xpath = "//span[contains(text(),'My Account')]")
-    public WebElement inscriptionMyAccount;
-    @FindBy(xpath = "//*[@id='maincontent']/div[2]/div[1]/div[3]/div[2]/div/div[1]/p")
-    public WebElement contactInformationName;
+
+
 
 }

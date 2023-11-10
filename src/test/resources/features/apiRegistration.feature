@@ -1,4 +1,4 @@
-@API @Smoke
+@API
 Feature: Register and login functionality
 
   @RegistrationAPI

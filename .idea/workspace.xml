@@ -5,33 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="change of PageFactory from By to WebElement usage&#10;split UI stepDefinitions by feature files&#10;add of BasePage&#10;Context update, call for Keys instead of Strings">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefRegisterUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/RegistrationFormData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/BNMdatesNegative.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_2023_1_29_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_2023_1_29_PM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/AccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myatf/Logs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myatf/HomeworkOlga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myatf/HomeworkOlga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/DataObjects/Contact.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefRegisterUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefRegisterUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsUI.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Keys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/PageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/enums/Keys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/GenerateFakeTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/GenerateFakeTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/BNMdatesNegative.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
@@ -322,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698856565464</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="change of PageFactory from By to WebElement usage&#10;split UI stepDefinitions by feature files&#10;add of BasePage&#10;Context update, call for Keys instead of Strings">
+      <created>1699288329417</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699288329417</updated>
+    </task>
+    <task id="LOCAL-00017" summary="change of PageFactory from By to WebElement usage&#10;split UI stepDefinitions by feature files&#10;add of BasePage&#10;Context update, call for Keys instead of Strings">
+      <created>1699288463630</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699288463630</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

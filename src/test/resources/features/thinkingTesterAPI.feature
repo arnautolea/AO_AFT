@@ -1,4 +1,4 @@
-@API @Smoke
+@API
 Feature: Add User functionality, post/get contact list
 
   Background: reset the test context and login
@@ -8,7 +8,10 @@ Feature: Add User functionality, post/get contact list
   @PostAddUser
   Scenario: Check Add User flow with API POST
 
-    Given Valid endpoint with payload to add user Some Name Qwerty123!
+    Given the API endpoint is "/users"
+    And add user details:
+      | firstName | lastName | password   |
+      | Tom       | Kenny    | Qwerty123! |
     When Post request is sent to the server
     Then The response status code is 201
 

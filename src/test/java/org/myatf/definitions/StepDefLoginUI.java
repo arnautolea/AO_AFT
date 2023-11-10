@@ -1,33 +1,30 @@
 package org.myatf.definitions;
 
-import org.awaitility.Awaitility;
-import org.myatf.pages.LoginPage;
-import org.myatf.utils.WebDriverFactory;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.awaitility.Awaitility;
+import org.myatf.pages.AccountPage;
+import org.myatf.pages.HomePage;
+import org.myatf.pages.LoginPage;
+import org.myatf.utils.WebDriverFactory;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-import java.time.Duration;
-
-
-import static java.time.Duration.ofSeconds;
 import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.junit.Assert.*;
-import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
+import static org.junit.Assert.assertEquals;
 
 public class StepDefLoginUI {
 
     private final LoginPage loginPage;
-    private final WebDriver driver = WebDriverFactory.getDriver();
+    private final HomePage homePage;
 
     public StepDefLoginUI() {
         WebDriver driver = WebDriverFactory.getDriver();
         loginPage = new LoginPage(driver);
-
+        homePage = new HomePage(driver);
     }
 
     private static final Logger logger = LogManager.getLogger(StepDefLoginUI.class);
@@ -64,13 +61,13 @@ public class StepDefLoginUI {
 
     @When("User click on dropdown")
     public void userClickOnDropdown() {
-        loginPage.click(loginPage.clickOnDropdown);
+        loginPage.click(homePage.clickOnDropdown);
         logger.info("Click on Dropdown");
     }
 
     @When("User click on My Account option")
     public void userClickOnMyAccount() {
-        loginPage.click(loginPage.clickOnMyAccountOption);
+        loginPage.click(homePage.clickOnMyAccountOption);
         logger.info("Select My Account option");
     }
 
@@ -79,7 +76,7 @@ public class StepDefLoginUI {
         // Use Awaitility to wait for the error message element to be visible
         try {
             Awaitility.await()
-                    .atMost(10, SECONDS)  // Set a maximum waiting time (e.g., 10 seconds)
+                    .atMost(10, SECONDS)  // Set a maximum waiting time
                     .until(() -> {
                         // Check if the error message element is displayed
                         WebElement errorMessageElement = loginPage.errorMessageFrame;
@@ -97,7 +94,7 @@ public class StepDefLoginUI {
     }
 
     @Then("User is still on {string} page")
-    public void userIsStillOnPage(String customerLoginInscription) throws AssertionError {
+    public void userIsStillOnLoginPage(String customerLoginInscription) throws AssertionError {
         // Verify if the user is still on the specified page
         String customerLoginPage = loginPage.returnText(loginPage.inscriptionCustomerLogin);
         assertEquals(customerLoginInscription, customerLoginPage);

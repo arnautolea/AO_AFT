@@ -1,6 +1,6 @@
 Feature: BNM practice
 
-  @BNM @API @Smoke
+  @BNM @API
   Scenario: Calculating Total Paid Amount in lei with some EURO Salary
 
     Given I have a CSV file containing dates "src/test/resources/BNMdates.csv"

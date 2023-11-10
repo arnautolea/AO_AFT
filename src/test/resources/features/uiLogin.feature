@@ -1,4 +1,4 @@
-@UI @Smoke
+@UI
 Feature: User Login Flow
 
   Background: Use get on login page

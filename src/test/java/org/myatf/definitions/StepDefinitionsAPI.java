@@ -75,12 +75,6 @@ public class StepDefinitionsAPI {
         assert inputElement != null;
         String formKey = inputElement.attr("value");
 
-
-
-
-
-
-
         formData.put("form_key", formKey);
         formData.put("firstname", firstName);
         formData.put("lastname", lastName);
@@ -90,6 +84,27 @@ public class StepDefinitionsAPI {
         logger.info("Post endpoint with payload to create user with email: " + email);
         System.out.println(formData);
 
+    }
+
+    @Given("Valid endpoint with payload to log in user {word} {word}")
+    public void setupEndpointAndPostData(String email, String password) {
+        RestAssured.baseURI = baseUrl;
+        Response response = RestAssured.get("/customer/account/loginPost/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dC8%2C/");
+
+// Parse the HTML response
+        String htmlResponse = response.getBody().asString();
+        Document document = Jsoup.parse(htmlResponse);
+// Find the <input> element with the name attribute equal to "form_key"
+        Element inputElement = document.select("input[name=form_key]").first();
+// Extract the value of the "value" attribute
+        assert inputElement != null;
+        String formKey = inputElement.attr("value");
+
+        formData.put("form_key", formKey);
+        formData.put("email", email);
+        formData.put("password", password);
+        logger.info("Post endpoint with payload to login using email: " + email + "and password: " + password);
+        System.out.println(formData);
     }
 
     @When("Request is sent to the server")
@@ -112,27 +127,6 @@ public class StepDefinitionsAPI {
         logger.info("Send post request. Get status code: " + statusCode);
         String contentType = response.getContentType();
         System.out.println("Content Type: " + contentType);
-    }
-
-    @Given("Valid endpoint with payload to log in user {word} {word}")
-    public void setupEndpointAndPostData(String email, String password) {
-        RestAssured.baseURI = baseUrl;
-        Response response = RestAssured.get("/customer/account/loginPost/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dC8%2C/");
-
-// Parse the HTML response
-        String htmlResponse = response.getBody().asString();
-        Document document = Jsoup.parse(htmlResponse);
-// Find the <input> element with the name attribute equal to "form_key"
-        Element inputElement = document.select("input[name=form_key]").first();
-// Extract the value of the "value" attribute
-        assert inputElement != null;
-        String formKey = inputElement.attr("value");
-
-        formData.put("form_key", formKey);
-        formData.put("email", email);
-        formData.put("password", password);
-        logger.info("Post endpoint with payload to login using email: " + email + "and password: " + password);
-        System.out.println(formData);
     }
 }
 

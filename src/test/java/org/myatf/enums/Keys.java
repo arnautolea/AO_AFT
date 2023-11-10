@@ -4,5 +4,6 @@ public enum Keys {
     STATUS_CODE,
     FIRST_NAME,
     LAST_NAME,
-    EMAIL
+    EMAIL,
+    USERDATA
 }

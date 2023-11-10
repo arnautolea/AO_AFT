@@ -1,6 +1,7 @@
 package org.myatf.definitions;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,13 +13,14 @@ import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.myatf.ConfigurationLoader;
-import org.myatf.DataObjects.Contact;
 import org.myatf.enums.Keys;
 import org.myatf.utils.GenerateFakeTestData;
 import org.myatf.utils.ScenarioContext;
 
 import java.io.InputStream;
+
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class StepsThinkingTester {
@@ -29,31 +31,34 @@ public class StepsThinkingTester {
     Response response;
     public HashMap<String, String> formData = new HashMap<>();
 
-    // Define valid_endpoint_with_payload step
-    @Given("Valid endpoint with payload to add user {word} {word} {word}")
-    public void valid_endpoint_with_payload(String firstName, String lastName, String password) {
-        //add data table!!!!!!!!!!!!!!!!
-        // Set the base URL and path for the REST API
-        RestAssured.baseURI = baseUrlAPI;
-        RestAssured.basePath = ("/users");
+    @When("add user details:")
+    public void add_user_details(DataTable details) {
+        // Initialize the userData map
+        Map<String, String> userData = new HashMap<>();
+
         // Generate a random email
         fakerData.generateRandomEmail();
         String email = fakerData.getEmail();
-// Store user data in formData map
-        formData.put("firstName", firstName);
-        formData.put("lastName", lastName);
-        formData.put("email", email);
-        formData.put("password", password);
+        List<Map<String, String>> data = details.asMaps(String.class, String.class);
 
-        logger.info("Post endpoint with payload to create user with email: " + email);
-        System.out.println(formData);
+        // Add the email to the userData map
+        userData.put("email", email);
+        userData.putAll(data.get(0)); // Merge the data from the DataTable into userData
+
+        // Save userData in the scenario context
+        ScenarioContext.getInstance().saveValueToContext(Keys.USERDATA, userData);
+
+        logger.info("UserDetails: " + userData);
     }
 
     @When("Post request is sent to the server")
     public void postRequestIsSendToTheServer() {
+        // Retrieve userData from the scenario context
+        Object userData = ScenarioContext.getInstance().getValueFromContext(Keys.USERDATA);
+
         response = RestAssured.given()
                 .contentType(ContentType.JSON)
-                .body(formData)
+                .body(userData)
                 .post();
         int statusCode = response.getStatusCode();
         // Get and set the status code in the ScenarioContext
@@ -81,23 +86,16 @@ public class StepsThinkingTester {
     }
 
     @When("I send a POST request with the following JSON data and Authorization header: {string}")
-    public void i_send_a_post_request_with_the_following_json_data_and_authorization_header(String jsonFileName) {
+    public void i_send_a_post_request_with_the_following_json_data_and_authorization_header(String jsonFileName){
         String tokenCookie = response.getCookie("token");
-        try {
-// Read the JSON data from the file and convert it to a Contact object using Jackson.
-            ObjectMapper objectMapper = new ObjectMapper();
             InputStream inputStream = ClassLoader.getSystemResourceAsStream(jsonFileName);
-            Contact contact = objectMapper.readValue(inputStream, Contact.class);
 
             response = RestAssured.given()
                     .contentType(ContentType.JSON)
                     .header("Authorization", "Bearer " + tokenCookie)
-                    .body(contact)
+                    .body(inputStream)
                     .post();
             logger.info("Posted Contact details successfully");
-        } catch (Exception e) {
-            logger.error("Contact is not created " + e.getMessage());
-        }
     }
 
     @Then("the response status code should be {int}")

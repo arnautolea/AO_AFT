@@ -10,28 +10,25 @@ import org.myatf.utils.WebDriverFactory;
 
 public class Hooks {
     private static final Logger logger = LogManager.getLogger(Hooks.class);
-    private static String currentScenarioName;
+    private static String scenarioName;
      @Before
     public static void beforeScenario(Scenario scenario) {
-        currentScenarioName = scenario.getName();
+        scenarioName = scenario.getName();
         ScenarioContext.getInstance().clearContext();
-        logger.info("Logger initialized for scenario: " + scenario.getName());
-
-    }
+     }
 
     @Before("@UI")
-    public static void setUp(Scenario scenario) {
+    public static void setUpUI(Scenario scenario) {
         WebDriverFactory.getDriver();
-        currentScenarioName = scenario.getName();
-        ScenarioContext.getInstance().clearContext();
-        logger.info(System.lineSeparator() + "Starting UI test " + currentScenarioName);
+        scenarioName = scenario.getName();
+        logger.info(System.lineSeparator() + "Starting UI test " + scenarioName);
 
     }
 
     @Before("@API")
     public static void setUpAPI(Scenario scenario) {
-        currentScenarioName = scenario.getName();
-        logger.info(System.lineSeparator() + "Starting API test " + currentScenarioName);
+        scenarioName = scenario.getName();
+        logger.info(System.lineSeparator() + "Starting API test " + scenarioName);
 
     }
     @After("@UI")

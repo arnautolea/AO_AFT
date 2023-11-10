@@ -1,4 +1,4 @@
-@API @Smoke
+@API
 Feature: Search functionality
 
   Background: Get on main page

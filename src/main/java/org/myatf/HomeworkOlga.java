@@ -35,10 +35,10 @@ public class HomeworkOlga {
     public static int product(Integer... numbers) {
         if (numbers == null || numbers.length == 0) {
             // Handle the case when no numbers are provided
-            return 0; // You can choose a different default value if needed
+            return 0;
         }
-
-        int result = 1; // Initialize the result to 1
+    // Initialize the result to 1
+        int result = 1;
 
         for (Integer num : numbers) {
             if (num != null) {

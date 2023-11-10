@@ -1,6 +1,6 @@
 Feature: User Registration Flow
 
-  @Registration @UI @Smoke
+  @Registration @UI
   Scenario: Registration of a new User
 
     Given User is on the Home page
