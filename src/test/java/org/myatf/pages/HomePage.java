@@ -22,6 +22,4 @@ public class HomePage extends BasePage{
 
     @FindBy(xpath = "//header/div[1]/div/ul/li[2]/div/ul/li[1]/a")
     public WebElement clickOnMyAccountOption;
-
-
 }

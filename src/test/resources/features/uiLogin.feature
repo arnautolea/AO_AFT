@@ -13,7 +13,7 @@ Feature: User Login Flow
     And User fills email: some@gmail.com
     When User click on Sing In Button
     Then Error message that sign-in was incorrect is displayed
-    And User is still on "Customer Login" page
+    And Customer Login page is displayed
 
   @Login
   Scenario: Validate login with registered user

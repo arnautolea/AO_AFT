@@ -5,7 +5,6 @@ import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.awaitility.Awaitility;
-import org.myatf.pages.AccountPage;
 import org.myatf.pages.HomePage;
 import org.myatf.pages.LoginPage;
 import org.myatf.utils.WebDriverFactory;
@@ -43,7 +42,6 @@ public class StepDefLoginUI {
     @When("User fills email: {word}")
     public void userFillsEmail(String email) {
         loginPage.enterText(loginPage.inputRegisteredEmail, email);
-
         logger.info("User fills email of registered user: " + email);
     }
 
@@ -73,7 +71,7 @@ public class StepDefLoginUI {
 
     @Then("Error message that sign-in was incorrect is displayed")
     public void ErrorMessageThatSignInWasIncorrectIsDisplayed() throws NoSuchElementException, AssertionError {
-        // Use Awaitility to wait for the error message element to be visible
+        // Wait for the error message element to be visible
         try {
             Awaitility.await()
                     .atMost(10, SECONDS)  // Set a maximum waiting time
@@ -91,14 +89,6 @@ public class StepDefLoginUI {
             logger.error("Assertion failed: " + e.getMessage());
             throw e; // Rethrow the exception to fail the step
         }
-    }
-
-    @Then("User is still on {string} page")
-    public void userIsStillOnLoginPage(String customerLoginInscription) throws AssertionError {
-        // Verify if the user is still on the specified page
-        String customerLoginPage = loginPage.returnText(loginPage.inscriptionCustomerLogin);
-        assertEquals(customerLoginInscription, customerLoginPage);
-        logger.info("User is still on Customer Login page");
     }
 }
 

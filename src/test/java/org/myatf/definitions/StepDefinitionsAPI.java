@@ -26,6 +26,8 @@ public class StepDefinitionsAPI {
     private static final Logger logger = LogManager.getLogger(StepDefinitionsAPI.class);
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
     public static String baseUrl = (String) config.get("baseUrl");
+    public static String magentoCreateUserEndpoint = (String) config.get("magentoCreateUser");
+    public static String magentoSignInEndpoint = (String) config.get("MagentoSignIn");
     GenerateFakeTestData fakerData = new GenerateFakeTestData();
     Response response;
     public HashMap<String, String> formData = new HashMap<>();
@@ -111,7 +113,7 @@ public class StepDefinitionsAPI {
 
     private String getEndpoint(String action) {
         //Ternary Operator short way of writing an if-else statement. condition ? trueExpression : falseExpression
-        return "/customer/account/" + (action.equals("create") ? "create" : "login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/");
+        return magentoCreateUserEndpoint + (action.equals("create") ? "create" : magentoSignInEndpoint);
     }
 }
 

@@ -2,3 +2,5 @@ driverPath: ./src/test/resources/chromedriver.exe/
 baseUrl: https://magento.softwaretestingboard.com
 baseUrlAPI: https://thinking-tester-contact-list.herokuapp.com
 baseUrlBNM: https://bnm.md/en/official_exchange_rates?get_xml=1&date=
+MagentoCreateUser: /customer/account/
+MagentoSignIn: login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
