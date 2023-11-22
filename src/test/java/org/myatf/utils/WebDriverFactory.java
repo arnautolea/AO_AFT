@@ -47,7 +47,6 @@ public class WebDriverFactory {
             driver.close();
             driver.quit();
             driver = null;
-            logger.info("WebDriver has been quit and reset.");
         }
     }
 }

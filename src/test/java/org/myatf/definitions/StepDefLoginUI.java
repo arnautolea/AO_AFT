@@ -70,20 +70,11 @@ public class StepDefLoginUI {
     }
 
     @Then("Error message that sign-in was incorrect is displayed")
-    public void ErrorMessageThatSignInWasIncorrectIsDisplayed() throws NoSuchElementException, AssertionError {
-        // Wait for the error message element to be visible
-        try {
-            Awaitility.await()
-                    .atMost(10, SECONDS)  // Set a maximum waiting time
-                    .until(() -> {
-                        // Check if the error message element is displayed
-                        WebElement errorMessageElement = loginPage.errorMessageFrame;
-                        return errorMessageElement.isDisplayed();
-                    });
-            // Once the condition is met (error message is displayed)
+    public void ErrorMessageThatSignInWasIncorrectIsDisplayed() throws AssertionError {
+            try {
             String errorText = loginPage.returnText(loginPage.errorMessageText);
             assertEquals("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.", errorText);
-            logger.info("Error message that sign-in was incorrect is displayed: \n" + errorText);
+            logger.info("Error message that sign-in was incorrect is displayed");
         } catch (AssertionError e) {
             // Log the error message if the assertion fails
             logger.error("Assertion failed: " + e.getMessage());

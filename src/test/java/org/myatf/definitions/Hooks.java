@@ -35,6 +35,7 @@ public class Hooks {
     @After("@UI")
     public static void afterScenario() {
         WebDriverFactory.tearDown();
+        logger.info("WebDriver has been quit and reset.");
     }
 
 }
