@@ -11,8 +11,4 @@ Java, Maven, Cucumber, Selenium WebDriver, Restassured;
 
 log4j2.properties, config.yaml;
 
-javafaker; 
-
-Singleton, POJO;
-
-Hooks, Helper, features, StepDefinition, TestRunner with reporting, PageFactory, Constructors, Scenario Context;
+Hooks, features, StepDefinition, TestRunner with reporting, BasePage, WebDriverFactory, Constructors, Scenario Context, Singleton;
