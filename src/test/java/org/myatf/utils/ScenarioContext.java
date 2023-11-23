@@ -4,13 +4,15 @@ import org.myatf.enums.Keys;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class ScenarioContext {
     private static ScenarioContext instance;
+    //declaration of a generic collection
     private final Map<Keys, Object> scenarioContext;
-
+    //ConcurrentHashMap avoid potential concurrency issues.
     public ScenarioContext() {
-        scenarioContext = new HashMap<>();
+        scenarioContext = new ConcurrentHashMap<>();
     }
     public static ScenarioContext getInstance() {
         if (instance == null) {

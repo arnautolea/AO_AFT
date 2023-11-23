@@ -19,8 +19,6 @@ public class LoginPage extends BasePage{
     public WebElement btnSignIn;
     @FindBy(xpath = "//div[contains(text(),'The account sign-in was incorrect or your account ')]")
     public WebElement errorMessageText;
-    @FindBy(xpath = "//body/div[2]/main[1]/div[2]/div[2]/div[1]/div[1]")
-    public WebElement errorMessageFrame;
     @FindBy(xpath = "//span[contains(text(),'Customer Login')]")
     public WebElement inscriptionCustomerLogin;
 

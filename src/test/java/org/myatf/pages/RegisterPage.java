@@ -23,7 +23,4 @@ public class RegisterPage extends BasePage {
     public WebElement inputConfirmPassword;
     @FindBy(xpath = "//*[@id='form-validate']/div/div[1]/button/span")
     public WebElement btnCreateAnAccount;
-
-
-
 }

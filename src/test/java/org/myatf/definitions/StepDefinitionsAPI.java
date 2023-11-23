@@ -49,7 +49,7 @@ public class StepDefinitionsAPI {
     }
 
     @Then("The response status code is {int}")
-    public void verifyStatusCode(int expectedStatusCode) {
+    public void verifyStatusCode(int expectedStatusCode) throws ClassCastException{
         Object actualStatusCodeObj = ScenarioContext.getInstance().getValueFromContext(Keys.STATUS_CODE);
         if (actualStatusCodeObj instanceof Integer) {
             int actualStatusCode = (int) actualStatusCodeObj; // Cast the actual status code to int
@@ -60,27 +60,7 @@ public class StepDefinitionsAPI {
         }
     }
 
-    @When("POST payload")
-    public void requestIsSendToTheServer() throws JsonProcessingException {
-
-        String payload = objectMapper.writeValueAsString(formData);
-        System.out.println(payload);
-
-        response = given()
-                .contentType("text/html; charset=UTF-8")
-                .body(payload)
-                .when()
-                .post()
-                .then()
-                .extract()
-                .response();
-
-        int statusCode = response.getStatusCode();
-        ScenarioContext.getInstance().saveValueToContext(Keys.STATUS_CODE, statusCode);
-        logger.info("Send post request. Get status code: " + statusCode);
-    }
-
-    @Given("^Get endpoint and create payload to \"(create|signIn)\" user with(?: firstName: \"(.+?)\")?(?: lastName: \"(.+?)\")?(?: password: \"(.+?)\")?(?: email: \"(.+?)\")?$")
+    @When("^Get endpoint and create payload to \"(create|signIn)\" user with(?: firstName: \"(.+?)\")?(?: lastName: \"(.+?)\")?(?: password: \"(.+?)\")?(?: email: \"(.+?)\")?$")
     public void setupEndpointAndPostData(String action, String firstName, String lastName, String password, String email) {
         String endpoint = getEndpoint(action);
         Response response = RestAssured.get(endpoint);
@@ -107,8 +87,25 @@ public class StepDefinitionsAPI {
             formData.put("password", password);
             logger.info("Post endpoint with payload to login using email: " + email + " and password: " + password);
         }
+    }
 
-        System.out.println(formData);
+    @When("POST payload")
+    public void requestIsSendToTheServer() throws JsonProcessingException {
+
+        String payload = objectMapper.writeValueAsString(formData);
+
+        response = given()
+                .contentType("text/html; charset=UTF-8")
+                .body(payload)
+                .when()
+                .post()
+                .then()
+                .extract()
+                .response();
+
+        int statusCode = response.getStatusCode();
+        ScenarioContext.getInstance().saveValueToContext(Keys.STATUS_CODE, statusCode);
+        logger.info("Send post request. Get status code: " + statusCode);
     }
 
     private String getEndpoint(String action) {

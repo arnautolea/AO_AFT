@@ -6,11 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="update on API tests, same method for 2 steps. cucumber optional params">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsBNM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/BNMdates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/BNMdates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ContactDetails.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ContactDetails.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/oarnaut/IdeaProjects/AO_AFT/src/test/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oarnaut/IdeaProjects/AO_AFT/src/test/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\oarnaut\IdeaProjects\AO_AFT\src\test\resources" />

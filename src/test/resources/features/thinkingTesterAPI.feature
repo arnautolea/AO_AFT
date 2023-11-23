@@ -20,7 +20,7 @@ Feature: Add User functionality, post/get contact list
   Scenario: Sending a POST request with JSON data
 
     Given the API endpoint is "/contacts"
-    When I send a POST request with the following JSON data and Authorization header: "ContactDetails.json"
+    When Send a POST request with the following JSON data and Authorization header: "ContactDetails.json"
     Then the response status code should be 201
 
   @GetContactList

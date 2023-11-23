@@ -28,15 +28,15 @@ public class StepDefinitionsBNM {
     private final Map<String, Double> euroValuesMap = new HashMap<>();
     private String csvContent;
 
-    @Given("I have a CSV file containing dates {string}")
+    @Given("CSV file containing dates {string}")
     public void parseCsvFile(String csvFile) throws IOException {
         csvContent = Files.readString(Paths.get(csvFile), StandardCharsets.UTF_8);
         logger.info("Read the CSV file into a string");
     }
 
 
-    @When("I retrieve the XML response for each date")
-    public void iRetrieveTheXMLResponseForEachDate() throws Exception {
+    @When("Retrieve the XML response for each date")
+    public void RetrieveTheXMLResponseForEachDate() throws Exception {
         CSVParser csvParser = CSVParser.parse(csvContent, CSVFormat.DEFAULT);
 
         for (CSVRecord record : csvParser) {
@@ -52,7 +52,6 @@ public class StepDefinitionsBNM {
                 double euroValue = XmlParser.parseEuroValueFromXML(xmlContent);
                 //Store euroValue in Map
                 euroValuesMap.put(date, euroValue);
-                System.out.println("For Date: " + date + " EUR Value is: " + euroValue);
                 } catch (Exception e) {
                     logger.error("Error parsing XML for Date: " + date + " - " + e.getMessage());
                 }
@@ -65,8 +64,8 @@ public class StepDefinitionsBNM {
         logger.info("Parse the XML content and extract EUR value for each date from CSV");
     }
 
-    @Then("I calculate the total paid amount for all dates with a salary of {}")
-    public void iCalculateTheTotalPaidAmountForAllDatesWithASalaryOf(double salaryAmount) {
+    @Then("Calculate the total paid amount for all dates with a salary of {}")
+    public void CalculateTheTotalPaidAmountForAllDatesWithASalaryOf(double salaryAmount) {
         double totalPaidAmount = 0.0;
 
         for (Map.Entry<String, Double> entry : euroValuesMap.entrySet()) {

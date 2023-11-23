@@ -32,7 +32,7 @@ public class StepsThinkingTester {
     public HashMap<String, String> formData = new HashMap<>();
 
     @When("add user details:")
-    public void add_user_details(DataTable details) {
+    public void addUserDetails(DataTable details) {
         // Initialize the userData map
         Map<String, String> userData = new HashMap<>();
 
@@ -85,8 +85,8 @@ public class StepsThinkingTester {
         logger.info("Login and Get Contacts endpoint");
     }
 
-    @When("I send a POST request with the following JSON data and Authorization header: {string}")
-    public void i_send_a_post_request_with_the_following_json_data_and_authorization_header(String jsonFileName){
+    @When("Send a POST request with the following JSON data and Authorization header: {string}")
+    public void SendAPostRequestWithJsonAndAuthorizationHeader(String jsonFileName){
         String tokenCookie = response.getCookie("token");
             InputStream inputStream = ClassLoader.getSystemResourceAsStream(jsonFileName);
 
@@ -101,12 +101,12 @@ public class StepsThinkingTester {
     @Then("the response status code should be {int}")
     public void theResponseStatusCodeShouldBe(int expectedStatusCode) {
         int actualStatusCode = response.getStatusCode();
-        assert actualStatusCode == expectedStatusCode : "Expected status code: " + expectedStatusCode + ", but got: " + actualStatusCode;
+        assert actualStatusCode == expectedStatusCode : "Expected status code: " + expectedStatusCode + ", actual: " + actualStatusCode;
         logger.info("Status code expected: " + expectedStatusCode + " Status code actual: " + actualStatusCode);
     }
 
     @When("Get Contact List details")
-    public void get_contact_list_details() {
+    public void getContactListDetails() {
         String tokenCookie = response.getCookie("token");
         response = RestAssured.given()
                 .header("Authorization", "Bearer " + tokenCookie)
