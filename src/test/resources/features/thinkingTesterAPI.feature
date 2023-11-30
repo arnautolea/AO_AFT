@@ -1,11 +1,11 @@
 @API
 Feature: Add User functionality, post/get contact list
 
-  Background: reset the test context and login
+  Background: login with existing user
     And User is logged in
 
 
-  @PostAddUser
+  @PostAddUser @Run
   Scenario: Check Add User flow with API POST
 
     Given the API endpoint is "/users"

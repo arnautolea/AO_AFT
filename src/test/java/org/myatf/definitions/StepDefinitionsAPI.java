@@ -31,13 +31,12 @@ public class StepDefinitionsAPI {
     GenerateFakeTestData fakerData = new GenerateFakeTestData();
     Response response;
     public HashMap<String, String> formData = new HashMap<>();
-
     ObjectMapper objectMapper = new ObjectMapper();
 
     @Given("Get main URL")
     public void getBaseURL() {
         RestAssured.baseURI = baseUrl;
-        logger.info("Get main url: " + baseUrl);
+        logger.info("Get main url");
     }
 
     @When("GET request to {string}")
@@ -60,7 +59,7 @@ public class StepDefinitionsAPI {
         }
     }
 
-    @When("^Get endpoint and create payload to \"(create|signIn)\" user with(?: firstName: \"(.+?)\")?(?: lastName: \"(.+?)\")?(?: password: \"(.+?)\")?(?: email: \"(.+?)\")?$")
+    @When("^\"(create|signIn)\" user with(?: firstName: \"(.+?)\")?(?: lastName: \"(.+?)\")?(?: password: \"(.+?)\")?(?: email: \"(.+?)\")?$")
     public void setupEndpointAndPostData(String action, String firstName, String lastName, String password, String email) {
         String endpoint = getEndpoint(action);
         Response response = RestAssured.get(endpoint);
@@ -89,7 +88,7 @@ public class StepDefinitionsAPI {
         }
     }
 
-    @When("POST payload")
+    @When("Send a POST request")
     public void requestIsSendToTheServer() throws JsonProcessingException {
 
         String payload = objectMapper.writeValueAsString(formData);

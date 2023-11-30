@@ -18,7 +18,7 @@ import org.openqa.selenium.NoSuchElementException;
 
 import java.util.*;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class StepDefRegisterUI {
 
@@ -29,7 +29,7 @@ public class StepDefRegisterUI {
     private final AccountPage accountPage;
 
     public StepDefRegisterUI() {
-        // Initialize the WebDriver and the RegisterPage in the constructor
+        // Initialize the WebDriver and the Pages in the constructor
         driver = WebDriverFactory.getDriver();
         registerPage = new RegisterPage(driver);
         homePage = new HomePage(driver);
@@ -82,8 +82,10 @@ public class StepDefRegisterUI {
             registerPage.click(homePage.clickOnSignIn);
             logger.info("Click on Sign In");
     }
-    @Then("^User is logged in with Contact Information(?: First Name: \"(.+?)\")?(?: Last Name: \"(.+?)\")?(?: Email: \"(.+?)\")?$")
+    @Then("^User logged with Contact Info(?: First Name: \"(.+?)\")?(?: Last Name: \"(.+?)\")?(?: Email: \"(.+?)\")?$")
     public void userIsLoggedInWithContactInformation(String firstName, String lastName, String email) {
+
+        String actualData = registerPage.returnText(accountPage.contactInformationName);
 
         if (firstName == null && lastName == null && email == null) {
             //retrieve data from the context
@@ -92,25 +94,22 @@ public class StepDefRegisterUI {
             Object expectedEmail = ScenarioContext.getInstance().getValueFromContext(Keys.EMAIL);
 
             String expectedNameEmail = expectedFirstName + " " + expectedLastName + "\n" + expectedEmail;
-            AssertData(expectedNameEmail);
+            assertContactInformation(expectedNameEmail, actualData);
 
         } else {
             String expectedNameEmail = firstName + " " + lastName + "\n" + email;
-            AssertData(expectedNameEmail);
+            assertContactInformation(expectedNameEmail, actualData);
         }
     }
 
-    public void AssertData(String expectedNameEmail) {
+    public void assertContactInformation(String expectedNameEmail, String actualData) throws AssertionError {
         try {
-
-            String actualData = registerPage.returnText(accountPage.contactInformationName);
-
             if (actualData != null) {
                 assertEquals(expectedNameEmail, actualData);
-                logger.info("User name and email are displayed in Contact information. \nExpected:\n" + expectedNameEmail + "\nActual: \n" + actualData);
+                logger.info("Contact Info:\nExpected: " + expectedNameEmail + "\nActual: " + actualData);
             }
         } catch (NoSuchElementException e) {
-            logger.error("Contact Information name and email element not found.");
+            logger.error("Contact Information name and email element not found or are not expected ones.");
         }
     }
 

@@ -2,7 +2,6 @@ package org.myatf.utils;
 
 import org.myatf.enums.Keys;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

@@ -43,11 +43,10 @@ public class StepsThinkingTester {
 
         // Add the email to the userData map
         userData.put("email", email);
-        userData.putAll(data.get(0)); // Merge the data from the DataTable into userData
-
+        // Merge the data from the DataTable into userData
+        userData.putAll(data.get(0));
         // Save userData in the scenario context
         ScenarioContext.getInstance().saveValueToContext(Keys.USERDATA, userData);
-
         logger.info("UserDetails: " + userData);
     }
 

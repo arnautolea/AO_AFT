@@ -6,6 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="02664473-58c9-4f37-a0e4-d773c5b636b2" name="Changes" comment="update on stepDefs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myatf/SoloLearnEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myatf/SoloLearnEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefLoginUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefRegisterUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefRegisterUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepDefinitionsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/definitions/StepsThinkingTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/ScenarioContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myatf/utils/XmlParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiRegistration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/thinkingTesterAPI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +55,12 @@
     &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oarnaut/IdeaProjects/AO_AFT/src/test/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oarnaut/demo&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -110,15 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check that user is not able to login with not registered credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Calculating Total Paid Amount in lei with some EURO Salary" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/uiLogin.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/bnmCalculator.feature" />
       <option name="GLUE" value="org.myatf.definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AO_AFT" />
-      <option name="NAME_FILTER" value="^Check that user is not able to login with not registered credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check that user is not able to login with not registered credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check that user is not able to login with not registered credentials" />
+      <option name="NAME_FILTER" value="^Calculating Total Paid Amount in lei with some EURO Salary$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Calculating Total Paid Amount in lei with some EURO Salary$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Calculating Total Paid Amount in lei with some EURO Salary" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,10 +162,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Application.HomeworkDima" />
+        <item itemvalue="Cucumber Java.Scenario: Calculating Total Paid Amount in lei with some EURO Salary" />
         <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.HomeworkDima" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Cucumber Java.Scenario: Check that user is not able to login with not registered credentials" />
       </list>
     </recent_temporary>
   </component>

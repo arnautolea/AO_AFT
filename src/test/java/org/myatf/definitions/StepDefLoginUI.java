@@ -1,6 +1,5 @@
 package org.myatf.definitions;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
@@ -29,7 +28,7 @@ public class StepDefLoginUI {
     public void customerLoginPageIsDisplayed() {
         String customerLogin = loginPage.returnText(loginPage.inscriptionCustomerLogin);
         if (!"Customer Login".equals(customerLogin)) {
-            logger.info("No Customer Login message");
+            logger.error("No Customer Login message");
             throw new AssertionError("No Customer Login message");
         } else {
             logger.info("\"Customer Login\" Page displayed");

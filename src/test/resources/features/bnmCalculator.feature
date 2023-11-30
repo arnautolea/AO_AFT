@@ -5,5 +5,5 @@ Feature: BNM practice
 
     Given CSV file containing dates "src/test/resources/BNMdates.csv"
     When Retrieve the XML response for each date
-    Then Calculate the total paid amount for all dates with a salary of 2000.00 EURO
+    Then Calculate the total paid amount for all dates with a salary of 1500.00 EURO
 
