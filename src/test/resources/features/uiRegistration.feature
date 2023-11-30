@@ -8,4 +8,4 @@ Feature: User Registration Flow
     And user fill the registration form with valid data
     When User clicks on Create an Account Button
     Then User redirected on Account Page, 'My Account' inscription is displayed on the screen
-    And User is logged in with Contact Information
+    And User logged with Contact Info
