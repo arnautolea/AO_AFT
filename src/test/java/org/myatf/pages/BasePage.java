@@ -34,7 +34,6 @@ public class BasePage {
                             }
                         });
             } catch (Throwable e) {
-                logger.error("Error during click: " + e.getMessage());
                 throw new NoSuchElementException("Error during click", e);
             }
         } else {
@@ -57,7 +56,6 @@ public class BasePage {
                             }
                         });
             } catch (Throwable e) {
-                logger.error("Error during text input: " + e.getMessage());
                 throw new NoSuchElementException("Error during text input", e);
             }
         }
