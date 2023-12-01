@@ -25,7 +25,7 @@ public class StepDefinitionsBNM {
     private static final Logger logger = LogManager.getLogger(StepDefinitionsBNM.class);
     private static final Map<String, Object> config = ConfigurationLoader.loadConfig();
     public static String baseUrlBNM = (String) config.get("baseUrlBNM");
-    private final Map<String, Double> euroValuesMap = new HashMap<>();
+    private final Map<String, Double> ValuesMap = new HashMap<>();
     private String csvContent;
 
     @Given("CSV file containing dates {string}")
@@ -34,9 +34,8 @@ public class StepDefinitionsBNM {
         logger.info("Read the CSV file into a string");
     }
 
-
-    @When("Retrieve the XML response for each date")
-    public void RetrieveTheXMLResponseForEachDate() throws Exception {
+    @When("Retrieve the XML response for each date with currency name {string}")
+    public void RetrieveTheXMLResponseForEachDate(String name) throws Exception {
         CSVParser csvParser = CSVParser.parse(csvContent, CSVFormat.DEFAULT);
 
         for (CSVRecord record : csvParser) {
@@ -48,27 +47,30 @@ public class StepDefinitionsBNM {
             if (response.getStatusCode() == 200) {
                 String xmlContent = response.getBody().asString();
                 try {
-                // Parse the XML content and extract EUR value
-                double euroValue = XmlParser.parseEuroValueFromXML(xmlContent);
+                // Parse the XML content and extract value
+                double value = XmlParser.getValueFromXML(xmlContent, name);
                 //Store euroValue in Map
-                euroValuesMap.put(date, euroValue);
+                ValuesMap.put(date, value);
                 } catch (Exception e) {
-                    logger.error("Error parsing XML for Date: " + date + " - " + e.getMessage());
-                }
+                        logger.error("Error parsing XML for Date: " + date + " - " + e.getMessage());
+                        logger.error("XML Content for Date: " + date + " - " + xmlContent);
+
+
+                    }
             } else {
                 // Handle the case where the request did not return a successful status code
                 logger.info("Request for Date: " + date + " failed with status code: " + response.getStatusCode());
             }
 
         }
-        logger.info("Parse the XML content and extract EUR value for each date from CSV");
+        logger.info("Parse the XML content and extract value for each date from CSV");
     }
 
     @Then("Calculate the total paid amount for all dates with a salary of {}")
     public void CalculateTheTotalPaidAmountForAllDatesWithASalaryOf(double salaryAmount) {
         double totalPaidAmount = 0.0;
 
-        for (Map.Entry<String, Double> entry : euroValuesMap.entrySet()) {
+        for (Map.Entry<String, Double> entry : ValuesMap.entrySet()) {
             double euroValue = entry.getValue();
             totalPaidAmount += euroValue * salaryAmount;
         }
